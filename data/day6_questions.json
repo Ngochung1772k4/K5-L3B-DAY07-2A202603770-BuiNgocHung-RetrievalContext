@@ -1,0 +1,494 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "causal_context",
+    "question": "How do sociologists explain why people make different personal choices in similar social settings?",
+    "expected_answer": "They examine cultural patterns and social forces that put pressure on people toward some choices rather than others.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 15,
+        "evidence": "Cultural patterns and social forces put pressure on people to select one choice over another."
+      }
+    ],
+    "required_evidences": [
+      "Cultural patterns and social forces put pressure on people to select one choice over another."
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "When SNAP participation differs by state, what kinds of factors do sociologists compare to explain the differences?",
+    "expected_answer": "They compare state economies, including unemployment rates, food and energy costs, and other factors.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 17,
+        "evidence": "Sociologists study the economies in each state"
+      }
+    ],
+    "required_evidences": [
+      "Sociologists study the economies in each state"
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "case_rephrase",
+    "question": "After Ashley and her partner moved from a city to a small town, what new discrimination did Ashley report?",
+    "expected_answer": "She experienced direct discrimination based on sexual orientation; landlords would not rent to them and finding work was difficult.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 18,
+        "evidence": "Ashley found herself experiencing direct discrimination because of her sexual orientation."
+      },
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 18,
+        "evidence": "Landlords would not rent to them."
+      }
+    ],
+    "required_evidences": [
+      "Ashley found herself experiencing direct discrimination because of her sexual orientation.",
+      "Landlords would not rent to them."
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 1, what did Karl Marx say drives social change?",
+    "expected_answer": "Struggles between social classes over the means of production.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 20,
+        "evidence": "He believed that societies grew and changed as a result of the struggles of different social classes over the means of production."
+      }
+    ],
+    "required_evidences": [
+      "He believed that societies grew and changed as a result of the struggles of different social classes over the means of production."
+    ],
+    "filter": {
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "How did Durkheim explain the different suicide statistics he found in Catholic and Protestant communities?",
+    "expected_answer": "He attributed the differences to socioreligious forces rather than individual or psychological causes.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 21,
+        "evidence": "He attributed the differences to socioreligious forces rather than to individual or psychological causes."
+      }
+    ],
+    "required_evidences": [
+      "He attributed the differences to socioreligious forces rather than to individual or psychological causes."
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is public sociology intended to do about social problems?",
+    "expected_answer": "Bring sociological discussion to public forums, increase understanding of underlying social factors, and help find solutions.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 22,
+        "evidence": "The goals of public sociology are to increase understanding of the social factors that underlie social problems and assist in finding solutions."
+      }
+    ],
+    "required_evidences": [
+      "The goals of public sociology are to increase understanding of the social factors that underlie social problems and assist in finding solutions."
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "definition",
+    "question": "According to structural functionalism, how are society's parts related to people's needs?",
+    "expected_answer": "Society has interrelated parts that work to meet individuals' biological and social needs.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 23,
+        "evidence": "sees society as a structure with interrelated parts designed to meet the biological and social needs of the individuals in that society."
+      }
+    ],
+    "required_evidences": [
+      "sees society as a structure with interrelated parts designed to meet the biological and social needs of the individuals in that society."
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "comparison",
+    "question": "At what scale and around what kind of activity does symbolic interactionism focus?",
+    "expected_answer": "It is a micro-level perspective focused on one-to-one interactions and communications.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 23,
+        "evidence": "Symbolic Interactionism Micro One-to-one interactions and communications"
+      }
+    ],
+    "required_evidences": [
+      "Symbolic Interactionism Micro One-to-one interactions and communications"
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 1, what positive social effect did Georg Simmel think conflict could have?",
+    "expected_answer": "Conflict can help integrate and stabilize society.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 25,
+        "evidence": "believed that conflict can help integrate and stabilize a society."
+      }
+    ],
+    "required_evidences": [
+      "believed that conflict can help integrate and stabilize a society."
+    ],
+    "filter": {
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "In symbolic interactionism, where do the meanings people assign to things come from, and how are those meanings applied?",
+    "expected_answer": "Meanings arise through interaction with other people and society, then are interpreted in specific circumstances.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 26,
+        "evidence": "the ascribed meaning of things comes from our interactions with others and society; the meanings of things are interpreted by a person when dealing with things in specific circumstances"
+      }
+    ],
+    "required_evidences": [
+      "the ascribed meaning of things comes from our interactions with others and society; the meanings of things are interpreted by a person when dealing with things in specific circumstances"
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "application",
+    "question": "Name one data-analysis skill sociology can prepare a graduate to use in the workplace.",
+    "expected_answer": "Collecting, reading, and analyzing statistical information from polls or surveys.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 28,
+        "evidence": "the ability to collect, read, and analyze statistical information from polls or surveys"
+      }
+    ],
+    "required_evidences": [
+      "the ability to collect, read, and analyze statistical information from polls or surveys"
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which four research methods does Chapter 2 distinguish?",
+    "expected_answer": "Surveys, field research, experiments, and secondary data analysis.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 38,
+        "evidence": "Differentiate between four kinds of research methods: surveys, field research, experiments, and secondary data analysis"
+      }
+    ],
+    "required_evidences": [
+      "Differentiate between four kinds of research methods: surveys, field research, experiments, and secondary data analysis"
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "purpose",
+    "question": "What does the scientific method help ensure when studying a social problem?",
+    "expected_answer": "Objectivity and consistency, supporting accuracy, reliability, and validity.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 40,
+        "evidence": "The scientific method provides a systematic, organized series of steps that help ensure objectivity and consistency in exploring a social problem."
+      }
+    ],
+    "required_evidences": [
+      "The scientific method provides a systematic, organized series of steps that help ensure objectivity and consistency in exploring a social problem."
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "method_tradeoff",
+    "question": "What can a survey reveal especially well, and what does it capture less well?",
+    "expected_answer": "It is useful for people's reported feelings and thoughts but less effective at capturing how people actually behave in social situations.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 43,
+        "evidence": "While surveys are not great at capturing the ways people really behave in social situations, they are a great method for discovering how people feel and think"
+      }
+    ],
+    "required_evidences": [
+      "While surveys are not great at capturing the ways people really behave in social situations, they are a great method for discovering how people feel and think"
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "definition",
+    "question": "What is a case study in sociological research?",
+    "expected_answer": "An in-depth analysis of one event, situation, or individual.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 49,
+        "evidence": "A case study is an in-depth analysis of a single event, situation, or individual."
+      }
+    ],
+    "required_evidences": [
+      "A case study is an in-depth analysis of a single event, situation, or individual."
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "type": "application",
+    "question": "What did the research by Kenneth and Mamie Clark show about school segregation, and how did the Court use that finding?",
+    "expected_answer": "It showed segregation harmed young Black schoolchildren, and the Court found that harm unconstitutional.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 27,
+        "evidence": "Their research showed that segregation was harmful to young black schoolchildren, and the Court found that harm to be unconstitutional."
+      }
+    ],
+    "required_evidences": [
+      "Their research showed that segregation was harmful to young black schoolchildren, and the Court found that harm to be unconstitutional."
+    ],
+    "filter": {
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 2's affordable-housing example, which variable is independent and which is dependent?",
+    "expected_answer": "Affordable housing availability is the independent variable; homelessness rate is the dependent variable.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 41,
+        "evidence": "Typically, the independent variable causes the dependent variable to change in some way.\n\nHypothesis IndependentVariable DependentVariable The greater the availability of affordable housing, the lower the homeless rate.\n\nAffordable Housing Homeless Rate"
+      }
+    ],
+    "required_evidences": [
+      "Typically, the independent variable causes the dependent variable to change in some way.\n\nHypothesis IndependentVariable DependentVariable The greater the availability of affordable housing, the lower the homeless rate.\n\nAffordable Housing Homeless Rate"
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "type": "condition",
+    "question": "In Chapter 2, what is the Hawthorne effect, and what causes it?",
+    "expected_answer": "People change their behavior because they know they are being observed as part of a study.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 42,
+        "evidence": "where people change their behavior because they know they are being watched as part of a study."
+      }
+    ],
+    "required_evidences": [
+      "where people change their behavior because they know they are being watched as part of a study."
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 2, what distinguishes field research from a lab experiment or survey?",
+    "expected_answer": "It gathers primary data in a natural environment without conducting a lab experiment or survey.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 44,
+        "evidence": "Field research refers to gathering primary data from a natural environment without doing a lab experiment or a survey."
+      }
+    ],
+    "required_evidences": [
+      "Field research refers to gathering primary data from a natural environment without doing a lab experiment or a survey."
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "type": "comparison",
+    "question": "In a controlled experiment, how does exposure to the independent variable differ between the experimental and control groups?",
+    "expected_answer": "The experimental group is exposed to the independent variable and the control group is not.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 50,
+        "evidence": "The experimental group is exposed to the independent variable(s) and the control group is not."
+      }
+    ],
+    "required_evidences": [
+      "The experimental group is exposed to the independent variable(s) and the control group is not."
+    ]
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "type": "application",
+    "question": "What common feature makes small interest groups such as folk dancers or Mensa members sociologically interesting?",
+    "expected_answer": "They are groups of like-minded people who share an interest or hobby and express part of their identity through group affiliation.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 45,
+        "evidence": "Some sociologists study small groups of people who share an identity in one aspect of their lives.\n\nAlmost everyone belongs to a group of like-minded people who share an interest or hobby."
+      }
+    ],
+    "required_evidences": [
+      "Some sociologists study small groups of people who share an identity in one aspect of their lives.\n\nAlmost everyone belongs to a group of like-minded people who share an interest or hobby."
+    ]
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter 2, which three forms of field research are introduced on this page?",
+    "expected_answer": "Participant observation, ethnography, and the case study.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 46,
+        "evidence": "Here, we will look at three types of field research: participant observation, ethnography, and the case study."
+      }
+    ],
+    "required_evidences": [
+      "Here, we will look at three types of field research: participant observation, ethnography, and the case study."
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q23",
+    "split": "test",
+    "type": "tradeoff",
+    "question": "In Chapter 2, what is the main advantage of covert participant observation?",
+    "expected_answer": "It can give a researcher access to a group's authentic, natural behavior.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 47,
+        "evidence": "main advantage of covert participant observation is that it allows the researcher access to authentic, natural behaviors"
+      }
+    ],
+    "required_evidences": [
+      "main advantage of covert participant observation is that it allows the researcher access to authentic, natural behaviors"
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "type": "definition",
+    "question": "What does institutional ethnography focus on?",
+    "expected_answer": "Everyday concrete social relationships, as an extension of ethnographic research principles.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 48,
+        "evidence": "Institutional ethnography is an extension of basic ethnographic research principles that focuses intentionally on everyday concrete social relationships."
+      }
+    ],
+    "required_evidences": [
+      "Institutional ethnography is an extension of basic ethnographic research principles that focuses intentionally on everyday concrete social relationships."
+    ]
+  },
+  {
+    "id": "q25",
+    "split": "test",
+    "type": "benefit",
+    "question": "Why might sociologists analyze information that is already available?",
+    "expected_answer": "It saves time and money and can add depth to a study.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 51,
+        "evidence": "Using available information not only saves time and money but can also add depth to a study."
+      }
+    ],
+    "required_evidences": [
+      "Using available information not only saves time and money but can also add depth to a study."
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "q26",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter 1, how do sociologists define a society?",
+    "expected_answer": "A group of people who live in a defined geographic area, interact with one another, and share a common culture.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 14,
+        "evidence": "A group of people who live in a defined geographic area, who interact with one another, and who share a common culture is what sociologists call a society."
+      }
+    ],
+    "required_evidences": [
+      "A group of people who live in a defined geographic area, who interact with one another, and who share a common culture is what sociologists call a society."
+    ],
+    "filter": {
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "q27",
+    "split": "test",
+    "type": "direct",
+    "question": "Who first coined the term 'sociology' in 1780, and who reinvented it in 1838?",
+    "expected_answer": "French essayist Emmanuel-Joseph Sieyès first coined the term in 1780, and Auguste Comte reinvented it in 1838.",
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 19,
+        "evidence": "The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al.\n\n1999).\n\nIn 1838, the term was reinvented by Auguste Comte (1798–1857)."
+      }
+    ],
+    "required_evidences": [
+      "The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al.\n\n1999).\n\nIn 1838, the term was reinvented by Auguste Comte (1798–1857)."
+    ]
+  }
+]

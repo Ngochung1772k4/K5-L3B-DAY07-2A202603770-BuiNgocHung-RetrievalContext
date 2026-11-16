@@ -1,0 +1,242 @@
+[
+  {
+    "query_id": "adv_t_tab_01",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_tab_02",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_tab_03",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_tab_04",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_tab_05",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_tab_06",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_img_01",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "abstain",
+    "score": 0,
+    "notes": "Abstained because Figure 18.7 (p.411) was not prioritized by exact figure label."
+  },
+  {
+    "query_id": "adv_t_img_02",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_img_03",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_img_04",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_img_05",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "score": 0,
+    "notes": "VLM summary on Figure 18.4 (p.406) had approximate/shifted BCE dates for Asia and New Guinea."
+  },
+  {
+    "query_id": "adv_t_cht_01",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_cht_02",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_cht_03",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_cht_04",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "score": 0,
+    "notes": "VLM summary on Figure 18.15 (p.422) swapped 2010 Under 18 (22.0%) and 65+ (9.0%) values."
+  },
+  {
+    "query_id": "adv_t_cht_05",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_mhop_01",
+    "category": "multihop",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_mhop_02",
+    "category": "multihop",
+    "answerable": true,
+    "status": "answered",
+    "score": 0,
+    "notes": "Second page p.420 (Figure 18.13) truncated by sequential page packing; misread Transportation bar."
+  },
+  {
+    "query_id": "adv_t_mhop_03",
+    "category": "multihop",
+    "answerable": true,
+    "status": "answered",
+    "score": 0,
+    "notes": "Second page p.387 (Table 17.1) truncated by sequential page packing; answered only p.385."
+  },
+  {
+    "query_id": "adv_t_mhop_04",
+    "category": "multihop",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_txt_01",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_txt_02",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_txt_03",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_t_txt_04",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_u_test_01",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_u_test_02",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_u_test_03",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_u_test_04",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  },
+  {
+    "query_id": "adv_u_test_05",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "answered",
+    "score": 0,
+    "notes": "False answer on Figure 16.10 (equated 37% worse academic performance with dropout rate)."
+  },
+  {
+    "query_id": "adv_u_test_06",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "score": 1,
+    "notes": "Verified correct against original PDF/crop and gold evidence."
+  }
+]

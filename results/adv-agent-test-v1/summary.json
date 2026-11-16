@@ -1,0 +1,41 @@
+{
+  "split": "test_v1",
+  "total_cases": 30,
+  "passed_cases": 24,
+  "accuracy": 0.8,
+  "meets_90_percent_bar": false,
+  "by_category": {
+    "table": {
+      "total": 6,
+      "passed": 6,
+      "accuracy": 1.0
+    },
+    "image_diagram": {
+      "total": 5,
+      "passed": 3,
+      "accuracy": 0.6
+    },
+    "chart": {
+      "total": 5,
+      "passed": 4,
+      "accuracy": 0.8
+    },
+    "multihop": {
+      "total": 4,
+      "passed": 2,
+      "accuracy": 0.5
+    },
+    "text": {
+      "total": 4,
+      "passed": 4,
+      "accuracy": 1.0
+    },
+    "unanswerable": {
+      "total": 6,
+      "passed": 5,
+      "accuracy": 0.8333
+    }
+  },
+  "avg_elapsed_ms": 84073.76,
+  "errors": 0
+}

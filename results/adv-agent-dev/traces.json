@@ -1,0 +1,2105 @@
+[
+  {
+    "query_id": "adv_d_tab_01",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "According to Table 13.1 (Signs of Elder Abuse), what are the listed signs and symptoms for 'Neglect' versus 'Self-neglect'?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "According to Table 13.1 (Signs of Elder Abuse), the listed signs and symptoms for 'Neglect' are poor hygiene, untreated bed sores, dehydration, and soiled bedding. For 'Self-neglect', the signs and symptoms are untreated medical conditions, an unclean living area, and a lack of medical items like dentures or glasses. [dccb3813ff2c2aea94f7da48ece0c1c334ce1752]",
+    "citations": [
+      "dccb3813ff2c2aea94f7da48ece0c1c334ce1752"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Table 13.1 Signs of Elder Abuse",
+        "filter": {
+          "region_type": "table"
+        },
+        "results": [
+          {
+            "id": "dccb3813ff2c2aea94f7da48ece0c1c334ce1752",
+            "page": 297,
+            "region_type": "table",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "f5b1de38e32be998ead0a3d37373af57198d53d6",
+            "page": 330,
+            "region_type": "table",
+            "score": 0.03200204813108039
+          },
+          {
+            "id": "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+            "page": 320,
+            "region_type": "table",
+            "score": 0.030834914611005692
+          },
+          {
+            "id": "ab90f8288afabfb2c98597ef050493388edee527",
+            "page": 331,
+            "region_type": "table",
+            "score": 0.03055037313432836
+          },
+          {
+            "id": "88e7229a1673d9972f98df35ff5f0d76aa061fa0",
+            "page": 300,
+            "region_type": "table",
+            "score": 0.029571646010002173
+          }
+        ],
+        "context_ids": [
+          "dccb3813ff2c2aea94f7da48ece0c1c334ce1752",
+          "f5b1de38e32be998ead0a3d37373af57198d53d6",
+          "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+          "ab90f8288afabfb2c98597ef050493388edee527",
+          "88e7229a1673d9972f98df35ff5f0d76aa061fa0"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "According to Table 13.1 (Signs of Elder Abuse):\n\n- **Neglect**: Poor hygiene, untreated bed sores, dehydration, soiled bedding.\n- **Self-neglect**: Untreated medical conditions, unclean living area, lack of medical items like dentures or glasses.\n\nThese signs and symptoms are clearly stated in the table provided in the textbook. [C1]",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "| Neglect | Poor hygiene, untreated bed sores, dehydration, soiled bedding |\n| Self-neglect | Untreated medical conditions, unclean living area, lack of medical items like dentures or glasses |"
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "According to Table 13.1 (Signs of Elder Abuse), the listed signs and symptoms for 'Neglect' are poor hygiene, untreated bed sores, dehydration, and soiled bedding. For 'Self-neglect', the signs and symptoms are untreated medical conditions, an unclean living area, and a lack of medical items like dentures or glasses. [C1]"
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=dccb3813ff2c2aea94f7da48ece0c1c334ce1752 | page=297 | ch=13 | type=table>>>\n[TABLE | Page 297 | Chapter 13]\nTable 13.1 Signs of Elder Abuse The National Center on Elder Abuse encourages people to watch for these signs of mistreatment. (Chart courtesy of National Center on Elder Abuse)\n\n| Type of Abuse | Signs and Symptoms |\n| --- | --- |\n| Physical abuse | Bruises, untreated wounds, sprains, broken glasses, lab findings of medication overdosage |\n| Sexual abuse | Bruises around breasts or genitals, torn or bloody underclothing, unexplained venereal disease |\n| Emotional/psychological abuse | Being upset or withdrawn, unusual dementia-like behavior (rocking, sucking) |\n| Neglect | Poor hygiene, untreated bed sores, dehydration, soiled bedding |\n| Financial | Sudden changes in banking practices, inclusion of additional names on bank cards, abrupt changes to will |\n| Self-neglect | Untreated medical conditions, unclean living area, lack of medical items like dentures or glasses |\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=f5b1de38e32be998ead0a3d37373af57198d53d6 | page=330 | ch=14 | type=table>>>\n[TABLE | Page 330 | Chapter 14]\nTable 14.3 This chart shows reasons that victims give for why they fail to report abuse to police authorities (Catalano 2007).\n\n| Reason Abuse Is Unreported | % Females | % Males |\n| --- | --- | --- |\n| Considered a Private Matter | 22 | 39 |\n| Fear of Retaliation | 12 | 5 |\n| To Protect the Abuser | 14 | 16 |\n| Belief That Police Won’t Do Anything | 8 | 8 |\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=7a50e102543f10ff11729e4e2d870beea2b1d5b7 | page=320 | ch=14 | type=table>>>\n[TABLE | Page 320 | Chapter 14]\nTable 14.1 Stage Theory This table shows one example of how a “stage” theory might categorize the phases a family goes through.\n\n| Stage | Family Type | Children |\n| --- | --- | --- |\n| 1 | Marriage Family | Childless |\n| 2 | Procreation Family | Children ages 0 to 2.5 |\n| 3 | Preschooler Family | Children ages 2.5 to 6 |\n| 4 | School-age Family | Children ages 6–13 |\n| 5 | Teenage Family | Children ages 13–20 |\n| 6 | Launching Family | Children begin to leave home |\n| 7 | Empty Nest Family | “Empty nest”; adult children have left home |\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=ab90f8288afabfb2c98597ef050493388edee527 | page=331 | ch=14 | type=table>>>\n[TABLE | Page 331 | Chapter 14]\nTable on page 331\n\n| statistics, it is estimated that each year 1,400 babies die or suffer serious injury from being shaken (Barr 2007). |  |\n| --- | --- |\n| Making Connections: Social Policy & Debate |  |\n| Making Connections: | Social Policy & Debate |\n| Corporal Punishment Physical abuse in children may come in the form of beating, kicking, throwing, choking, hitting with objects, burning, or other methods. Injury inflicted by such behavior is considered abuse even if the parent or caregiver did not intend to harm the child. Other types of physical contact that are characterized as discipline (spanking, for example) are not considered abuse as long as no injury results (Child Welfare Information Gateway 2008). This issue is rather controversial among modern-day people in the United States. While some parents feel that physical discipline, or corporal punishment, is an effective way to respond to bad behavior, others feel that it is a form of abuse. According to a poll conducted by ABC News, 65 percent of respondents approve of spanking and 50 percent said that they sometimes spank their child. Tendency toward physical punishment may be affected by culture and education. Those who live in the South are more likely than those who live in other regions to spank their child. Those who do not have a college education are also more likely to spank their child (Crandall 2011). Currently, 23 states officially allow spanking in the school system; however, many parents may object and school officials must follow a set of clear guidelines when administering this type of punishment (Crandall 2011). Studies have shown that spanking is not an effective form of punishment and may lead to aggression by the victim, particularly in those who are spanked at a young age (Berlin 2009). |  |\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=88e7229a1673d9972f98df35ff5f0d76aa061fa0 | page=300 | ch=13 | type=table>>>\n[TABLE | Page 300 | Chapter 13]\nTable on page 300\n\n| marginalizes those with chronic diseases such as Alzheimer’s. |  |  |\n| --- | --- | --- |\n| Making Connections: Sociology Real World in the |  |  |\n| Making Connections: |  | Sociology Real World in the |\n| The Graying of American Prisons Figure 13.17Would you want to spend your retirement here? A growing elderly prison population requires asking questions about how to deal with senior inmates. (Photo courtesy of Claire Rowland/Wikimedia Commons) Earl Grimes is a seventy-nine-year-old inmate at a state prison. He has undergone two cataract surgeries and takes about $1,000 a month worth of medication to manage a heart condition. He needs significant help moving around, which he obtains by bribing younger inmates. He is serving a life prison term for a murder he committed thirty-eight years—half a lifetime—ago (Warren 2002). Grimes’ situation exemplifies the problems facing prisons today. According to a recent report released by Human Rights Watch (2012), there are now more than 124,000 prisoners age fifty-five years or older and over 26,000 prisoners age sixty-five or older in the U.S. prison population. These numbers represent an exponential rise over the last two decades. Why are U.S. prisons graying so rapidly? Two factors contribute significantly to this country’s aging prison population. One is the tough-on-crime reforms of the 1980s and 1990s, when mandatory minimum sentencing and “three strikes” policies sent many people to jail for thirty years to life, even when the third strike was a relatively minor offense (Leadership Conference, n.d.). Many of today’s elderly prisoners are those who were incarcerated thirty years ago for life sentences. The other factor influencing today’s aging prison population is the aging of the overall population. As discussed in the section on aging in the United States, the percentage of people over sixty-five years old is increasing each year due to rising life expectancies and the aging of the baby boom generation. So why should it matter that the elderly prison population is growing so swiftly? As discussed in the section on the process of aging, growing older is accompanied by a host of physical problems, like failing vision, mobility, and |  |  |\n<<<END [C5]>>>",
+    "context_ids": [
+      "dccb3813ff2c2aea94f7da48ece0c1c334ce1752",
+      "f5b1de38e32be998ead0a3d37373af57198d53d6",
+      "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+      "ab90f8288afabfb2c98597ef050493388edee527",
+      "88e7229a1673d9972f98df35ff5f0d76aa061fa0"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 50204.67,
+    "prompt_tokens": 3700,
+    "eval_tokens": 117,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_tab_02",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "In Table 14.1 (Stage Theory), which stages correspond to 'School-age Family' and 'Launching Family', and what defines the Children column for each?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "In Table 14.1 (Stage Theory), the stages corresponding to 'School-age Family' and 'Launching Family' are as follows:\n\n1. **School-age Family**:\n   - **Children**: Children ages 6–13.\n2. **Launching Family**:\n   - **Children**: Children begin to leave home.\n\nThese definitions are directly stated in the table provided in the textbook. [7a50e102543f10ff11729e4e2d870beea2b1d5b7]",
+    "citations": [
+      "7a50e102543f10ff11729e4e2d870beea2b1d5b7"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Table 14.1 Stage Theory",
+        "filter": {
+          "region_type": "table"
+        },
+        "results": [
+          {
+            "id": "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+            "page": 320,
+            "region_type": "table",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "ec683f22b7ac1bb5ca66d2c1450a526ba80b32e5",
+            "page": 487,
+            "region_type": "table",
+            "score": 0.031754032258064516
+          },
+          {
+            "id": "9a900d96d307e64680b4308bec48ddfcb80575be",
+            "page": 368,
+            "region_type": "table",
+            "score": 0.031746031746031744
+          },
+          {
+            "id": "f5b1de38e32be998ead0a3d37373af57198d53d6",
+            "page": 330,
+            "region_type": "table",
+            "score": 0.030776515151515152
+          },
+          {
+            "id": "2a1453a9111a5d4d2ae84ea5c6b982c968c57da4",
+            "page": 461,
+            "region_type": "table",
+            "score": 0.02964254577157803
+          }
+        ],
+        "context_ids": [
+          "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+          "ec683f22b7ac1bb5ca66d2c1450a526ba80b32e5",
+          "9a900d96d307e64680b4308bec48ddfcb80575be",
+          "f5b1de38e32be998ead0a3d37373af57198d53d6",
+          "2a1453a9111a5d4d2ae84ea5c6b982c968c57da4"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Based on the information provided in Table 14.1 (Stage Theory) from Chapter 14, the stages corresponding to 'School-age Family' and 'Launching Family' are as follows:\n\n1. **School-age Family**:\n   - **Children**: Children ages 6–13.\n   - This stage is characterized by children in the school-age range, typically between the ages of 6 and 13.\n\n2. **Launching Family**:\n   - **Children**: Children begin to leave home.\n   - This stage marks the transition of children from the family home to independence, often involving higher education or starting a career.\n\nThese definitions are directly stated in the table provided in the textbook. No further details are needed for these specific stages and their corresponding children's age ranges. \n\nReferences:\n- [C1] Table 14.1 in Chapter 14, Stage Theory.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "| 4 | School-age Family | Children ages 6–13 |\n| 6 | Launching Family | Children begin to leave home |"
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "In Table 14.1 (Stage Theory), the stages corresponding to 'School-age Family' and 'Launching Family' are as follows:\n\n1. **School-age Family**:\n   - **Children**: Children ages 6–13.\n2. **Launching Family**:\n   - **Children**: Children begin to leave home.\n\nThese definitions are directly stated in the table provided in the textbook."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=7a50e102543f10ff11729e4e2d870beea2b1d5b7 | page=320 | ch=14 | type=table>>>\n[TABLE | Page 320 | Chapter 14]\nTable 14.1 Stage Theory This table shows one example of how a “stage” theory might categorize the phases a family goes through.\n\n| Stage | Family Type | Children |\n| --- | --- | --- |\n| 1 | Marriage Family | Childless |\n| 2 | Procreation Family | Children ages 0 to 2.5 |\n| 3 | Preschooler Family | Children ages 2.5 to 6 |\n| 4 | School-age Family | Children ages 6–13 |\n| 5 | Teenage Family | Children ages 13–20 |\n| 6 | Launching Family | Children begin to leave home |\n| 7 | Empty Nest Family | “Empty nest”; adult children have left home |\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=ec683f22b7ac1bb5ca66d2c1450a526ba80b32e5 | page=487 | ch=21 | type=table>>>\n[TABLE | Page 487 | Chapter 21]\nTable 21.1 Clark McPhail identified various circumstances of convergent and collective behavior (McPhail 1991).\n\n| Type of crowd | Description | Example |\n| --- | --- | --- |\n| Convergence clusters | Family and friends who travel together | Carpooling parents take several children to the movies |\n| Convergent orientation | Group all facing the same direction | A semi-circle around a stage |\n| Collective vocalization | Sounds or noises made collectively | Screams on a roller coaster |\n| Collective verbalization | Collective and simultaneous participation in a speech or song | Pledge of Allegiance in the school classroom |\n| Collective gesticulation | Body parts forming symbols | The YMCA dance |\n| Collective manipulation | Objects collectively moved around | Holding signs at a protest rally |\n| Collective locomotion | The direction and rate of movement to the event | Children running to an ice cream truck |\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=9a900d96d307e64680b4308bec48ddfcb80575be | page=368 | ch=16 | type=table>>>\n[TABLE | Page 368 | Chapter 16]\nTable 16.1 Manifest and Latent Functions of Education According to functionalist theory, education contributes both manifest and latent functions.\n\n| Manifest Functions: Openly stated functions with intended goals | Latent Functions: Hidden, unstated functions with sometimes unintended consequences |\n| --- | --- |\n| Socialization | Courtship |\n| Transmission of culture | Social networks |\n| Social control | Group work |\n| Social placement | Creation of generation gap |\n| Cultural innovation | Political and social integration |\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=f5b1de38e32be998ead0a3d37373af57198d53d6 | page=330 | ch=14 | type=table>>>\n[TABLE | Page 330 | Chapter 14]\nTable 14.3 This chart shows reasons that victims give for why they fail to report abuse to police authorities (Catalano 2007).\n\n| Reason Abuse Is Unreported | % Females | % Males |\n| --- | --- | --- |\n| Considered a Private Matter | 22 | 39 |\n| Fear of Retaliation | 12 | 5 |\n| To Protect the Abuser | 14 | 16 |\n| Belief That Police Won’t Do Anything | 8 | 8 |\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=2a1453a9111a5d4d2ae84ea5c6b982c968c57da4 | page=461 | ch=20 | type=table>>>\n[TABLE | Page 461 | Chapter 20]\nTable 20.1 Varying Fertility and Mortality Rated by Country As the table illustrates, countries vary greatly in fertility rates and mortality rates—the components that make up a population composition. (Chart courtesy of CIA World Factbook 2014)\n\n| Country | Population (in millions) | Fertility Rate | Mortality Rate | Sex Ratio Male to Female |\n| --- | --- | --- | --- | --- |\n| Afghanistan | 31.8 | 5.4% | 14.1% | 1.03 |\n| Sweden | 9.7 | 1.9% | 9.6% | 0.98 |\n| United States of America | 318.92 | 2.0% | 8.2% | 0.97 |\n<<<END [C5]>>>",
+    "context_ids": [
+      "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+      "ec683f22b7ac1bb5ca66d2c1450a526ba80b32e5",
+      "9a900d96d307e64680b4308bec48ddfcb80575be",
+      "f5b1de38e32be998ead0a3d37373af57198d53d6",
+      "2a1453a9111a5d4d2ae84ea5c6b982c968c57da4"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 48155.12,
+    "prompt_tokens": 3099,
+    "eval_tokens": 218,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_tab_03",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "According to Table 15.1 on religious classification, what is held to be divine under 'Animism' versus 'Totemism', and what example is given for each?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "According to Table 15.1, under 'Animism', nonhuman beings (animals, plants, natural world) are held to be divine, with an example given as Indigenous nature worship (Shinto). For 'Totemism', the human-natural being connection is divine, with an example given as Ojibwa (Native American) beliefs. [9e3b4c7690072d9cfc704bfa5b58571f74ea9613]",
+    "citations": [
+      "9e3b4c7690072d9cfc704bfa5b58571f74ea9613"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Table 15.1 religious classification",
+        "filter": {
+          "region_type": "table"
+        },
+        "results": [
+          {
+            "id": "9e3b4c7690072d9cfc704bfa5b58571f74ea9613",
+            "page": 348,
+            "region_type": "table",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "a1eba3bb8145b0fb3b38afa6c31007156ff6847d",
+            "page": 345,
+            "region_type": "table",
+            "score": 0.0315136476426799
+          },
+          {
+            "id": "2a1453a9111a5d4d2ae84ea5c6b982c968c57da4",
+            "page": 461,
+            "region_type": "table",
+            "score": 0.030834914611005692
+          },
+          {
+            "id": "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+            "page": 320,
+            "region_type": "table",
+            "score": 0.030776515151515152
+          },
+          {
+            "id": "21b8c011ef815f0cba53ec15ce5c785f8600160d",
+            "page": 352,
+            "region_type": "table",
+            "score": 0.030536130536130537
+          }
+        ],
+        "context_ids": [
+          "9e3b4c7690072d9cfc704bfa5b58571f74ea9613",
+          "a1eba3bb8145b0fb3b38afa6c31007156ff6847d",
+          "2a1453a9111a5d4d2ae84ea5c6b982c968c57da4",
+          "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+          "21b8c011ef815f0cba53ec15ce5c785f8600160d"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Based on Table 15.1 from the provided context, under 'Animism', nonhuman beings (animals, plants, natural world) are held to be divine, with an example given as Indigenous nature worship (Shinto).\n\nFor 'Totemism', the human-natural being connection is divine, with an example given as Ojibwa (Native American) beliefs.\n\nThe relevant context is found in chunk `[C1]` on page 348.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "| Animism | Nonhuman beings (animals, plants, natural world) | Indigenous nature worship (Shinto) |\n| Totemism | Human-natural being connection | Ojibwa (Native American) beliefs |"
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "According to Table 15.1, under 'Animism', nonhuman beings (animals, plants, natural world) are held to be divine, with an example given as Indigenous nature worship (Shinto). For 'Totemism', the human-natural being connection is divine, with an example given as Ojibwa (Native American) beliefs."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=9e3b4c7690072d9cfc704bfa5b58571f74ea9613 | page=348 | ch=15 | type=table>>>\n[TABLE | Page 348 | Chapter 15]\nTable 15.1 One way scholars have categorized religions is by classifying what or who they hold to be divine.\n\n| Religious Classification | What/Who Is Divine | Example |\n| --- | --- | --- |\n| Polytheism | Multiple gods | Belief systems of the ancient Greeks and Romans |\n| Monotheism | Single god | Judaism, Islam |\n| Atheism | No deities | Atheism |\n| Animism | Nonhuman beings (animals, plants, natural world) | Indigenous nature worship (Shinto) |\n| Totemism | Human-natural being connection | Ojibwa (Native American) beliefs |\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=a1eba3bb8145b0fb3b38afa6c31007156ff6847d | page=345 | ch=15 | type=table>>>\n[TABLE | Page 345 | Chapter 15]\nTable on page 345\n\n| gender equal, but male dominance remains the norm of most. |  |  |\n| --- | --- | --- |\n| Making Connections: Sociology Real World in the |  |  |\n| Making Connections: |  | Sociology Real World in the |\n| Rational Choice Theory: Can Economic Theory Be Applied to Religion? How do people decide which religion to follow, if any? How does one pick a church or decide which denomination “fits” best? Rational choice theory (RCT) is one way social scientists have attempted to explain these behaviors. The theory proposes that people are self-interested, though not necessarily selfish, and that people make rational choices—choices that can reasonably be expected to maximize positive outcomes while minimizing negative outcomes. Sociologists Roger Finke and Rodney Stark (1988) first considered the use of RCT to explain some aspects of religious behavior, with the assumption that there is a basic human need for religion in terms of providing belief in a supernatural being, a sense of meaning in life, and belief in life after death. Religious explanations of these concepts are presumed to be more satisfactory than scientific explanations, which may help to account for the continuation of strong religious connectedness in countries such as the United States, despite predictions of some competing theories for a great decline in religious affiliation due to modernization and religious pluralism. Another assumption of RCT is that religious organizations can be viewed in terms of “costs” and “rewards.” Costs are not only monetary requirements, but are also the time, effort, and commitment demands of any particular religious organization. Rewards are the intangible benefits in terms of belief and satisfactory explanations about life, death, and the supernatural, as well as social rewards from membership. RCT proposes that, in a pluralistic society with many religious options, religious organizations will compete for members, and people will choose between different churches or denominations in much the same way they select other consumer goods, balancing costs and rewards in a rational manner. In this framework, RCT also explains the development and decline of churches, denominations, sects, and even cults; this limited part of the very complex RCT theory is the only aspect well supported by research data. Critics of RCT argue that it doesn’t fit well with human spiritual needs, and many sociologists disagree that the costs and rewards of religion can even be meaningfully measured or that individuals use a rational balancing process regarding religious affiliation. The theory doesn’t address many aspects of religion that individuals may consider essential (such as faith) and further fails to account for agnostics and atheists who don’t seem to have a similar need for religious explanations. Critics also believe this theory overuses economic terminology and structure and point out that terms such as “rational” and “reward” are unacceptably defined by their use; they would argue that the theory is based on faulty logic and lacks external, empirical support. A scientific explanation forwhysomething occurs can’t reasonably be supported by the fact that itdoesoccur. RCT is widely used in economics and to a lesser extent in criminal justice, but the application of RCT in explaining the religious beliefs and behaviors of people and societies is still being debated in sociology today. |  |  |\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=2a1453a9111a5d4d2ae84ea5c6b982c968c57da4 | page=461 | ch=20 | type=table>>>\n[TABLE | Page 461 | Chapter 20]\nTable 20.1 Varying Fertility and Mortality Rated by Country As the table illustrates, countries vary greatly in fertility rates and mortality rates—the components that make up a population composition. (Chart courtesy of CIA World Factbook 2014)\n\n| Country | Population (in millions) | Fertility Rate | Mortality Rate | Sex Ratio Male to Female |\n| --- | --- | --- | --- | --- |\n| Afghanistan | 31.8 | 5.4% | 14.1% | 1.03 |\n| Sweden | 9.7 | 1.9% | 9.6% | 0.98 |\n| United States of America | 318.92 | 2.0% | 8.2% | 0.97 |\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=7a50e102543f10ff11729e4e2d870beea2b1d5b7 | page=320 | ch=14 | type=table>>>\n[TABLE | Page 320 | Chapter 14]\nTable 14.1 Stage Theory This table shows one example of how a “stage” theory might categorize the phases a family goes through.\n\n| Stage | Family Type | Children |\n| --- | --- | --- |\n| 1 | Marriage Family | Childless |\n| 2 | Procreation Family | Children ages 0 to 2.5 |\n| 3 | Preschooler Family | Children ages 2.5 to 6 |\n| 4 | School-age Family | Children ages 6–13 |\n| 5 | Teenage Family | Children ages 13–20 |\n| 6 | Launching Family | Children begin to leave home |\n| 7 | Empty Nest Family | “Empty nest”; adult children have left home |\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=21b8c011ef815f0cba53ec15ce5c785f8600160d | page=352 | ch=15 | type=table>>>\n[TABLE | Page 352 | Chapter 15]\nTable on page 352\n\n|  |  |\n| --- | --- |\n| Making Connections: Social Policy & Debate |  |\n| Making Connections: | Social Policy & Debate |\n| Religious Leaders and the Rainbow of Gay Pride What happens when a religious leader officiates a gay marriage against denomination policies? What about when that same minister defends the action in part by coming out and making her own lesbian relationship known to the church? In the case of the Reverend Amy DeLong, it meant a church trial. Some leaders in her denomination assert that homosexuality is incompatible with their faith, while others feel this type of discrimination has no place in a modern church (Barrick 2011). As the LBGT community increasingly advocates for, and earns, basic civil rights, how will religious communities respond? Many religious groups have traditionally discounted LBGT sexualities as “wrong.” However, these organizations have moved closer to respecting human rights by, for example, increasingly recognizing females as an equal gender. The Roman Catholic Church drew controversial attention to this issue in 2010 when the Vatican secretary of state suggested homosexuality was in part to blame for pedophilic sexual abuse scandals that have plagued the church (Beck 2010). Because numerous studies have shown there to be no relationship between homosexuality and pedophilia, nor a higher incidence of pedophilia among homosexuals than among heterosexuals (Beck 2010), the Vatican’s comments seem suspect. More recently Pope Francis has been pushing for a more open church, and some Catholic bishops have been advocating for a more \"gay-friendly\" church (McKenna, 2014). This has not come to pass, but some scholars believe these changes are a matter of time. No matter the situation, most religions have a tenuous (at best) relationship with practitioners and leaders in the gay community. As one of the earliest Christian denominations to break barriers by ordaining women to serve as pastors, will Amy DeLong’s United Methodist denomination also be a leader in LBGT rights within Christian churchgoing society? |  |\n<<<END [C5]>>>",
+    "context_ids": [
+      "9e3b4c7690072d9cfc704bfa5b58571f74ea9613",
+      "a1eba3bb8145b0fb3b38afa6c31007156ff6847d",
+      "2a1453a9111a5d4d2ae84ea5c6b982c968c57da4",
+      "7a50e102543f10ff11729e4e2d870beea2b1d5b7",
+      "21b8c011ef815f0cba53ec15ce5c785f8600160d"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 43429.24,
+    "prompt_tokens": 3921,
+    "eval_tokens": 131,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_img_01",
+    "split": "dev",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "In Figure 13.14 showing humorous roadside signs, what do the green upper signs read and what messages appear on the blue lower signs?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "In Figure 13.14, the green upper signs read 'Senior Center,' and the blue lower signs display messages such as 'Don't Forget,' 'Remember to Turn!,' 'Wake Up!,' and 'Lunch 0.24'. [026881dbcebe800d95eb0528843960b6c37d1f66]",
+    "citations": [
+      "026881dbcebe800d95eb0528843960b6c37d1f66"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Figure 13.14 humorous roadside signs green upper signs blue lower signs",
+        "filter": {
+          "region_type": "figure"
+        },
+        "results": [
+          {
+            "id": "026881dbcebe800d95eb0528843960b6c37d1f66",
+            "page": 296,
+            "region_type": "figure",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "9f6400040a787152a8053359888e4ab9ae8ce503",
+            "page": 385,
+            "region_type": "figure",
+            "score": 0.028438886647841874
+          },
+          {
+            "id": "a78eaea5b71ebb9f34aabe5423c31b90ae229d72",
+            "page": 466,
+            "region_type": "figure",
+            "score": 0.02803921568627451
+          },
+          {
+            "id": "a3947bc39b1b0768bacdaea99074397ef17b0125",
+            "page": 493,
+            "region_type": "figure",
+            "score": 0.027222222222222224
+          },
+          {
+            "id": "5ad054e974c55a2330762b9f29bc2f084381d3a0",
+            "page": 440,
+            "region_type": "figure",
+            "score": 0.016129032258064516
+          }
+        ],
+        "context_ids": [
+          "026881dbcebe800d95eb0528843960b6c37d1f66",
+          "9f6400040a787152a8053359888e4ab9ae8ce503",
+          "a78eaea5b71ebb9f34aabe5423c31b90ae229d72",
+          "a3947bc39b1b0768bacdaea99074397ef17b0125",
+          "5ad054e974c55a2330762b9f29bc2f084381d3a0"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Based on the provided context, Figure 13.14 does not contain the specific signs described in the question. The figure on page 296 (Figure [C1]) shows multiple green \"Senior Center\" signs and blue signs with messages like \"Don't Forget,\" \"Remember to Turn!,\" \"Wake Up!,\" and \"Lunch 0.24,\" but these are not the green upper signs and blue lower signs mentioned.\n\nINSUFFICIENT_EVIDENCE: Green upper signs and blue lower signs as described in the question.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "Multiple green 'Senior Center' signs (some with arrows) and blue signs ('Don't Forget', 'Remember to Turn!', 'Wake Up!', 'Lunch 0.24') line the road."
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "In Figure 13.14, the green upper signs read 'Senior Center,' and the blue lower signs display messages such as 'Don't Forget,' 'Remember to Turn!,' 'Wake Up!,' and 'Lunch 0.24'."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=026881dbcebe800d95eb0528843960b6c37d1f66 | page=296 | ch=13 | type=figure>>>\n[FIGURE | Page 296 | Chapter 13]\nCaption: Figure 13.14 Are these street signs humorous or offensive? What shared assumptions make them humorous? Or is memory loss too serious to be made fun of? (Photo courtesy of Tumbleweed/flickr)\nVLM visual summary: The image shows a desert road with gravel shoulder. Multiple green \"Senior Center\" signs (some with arrows) and blue signs (\"Don't Forget,\" \"Remember to Turn!,\" \"Wake Up!,\" \"Lunch 0.24\") line the road. No people. Background includes hills, clear sky. Signs are along the road, no actions. All signs are factual visual details.\nOCR extracted rows:\nSENIOR\nCENTER\nSENIOR\nCENTER | DON'T\nSENIOR | CENTER | FORGET\nSEN | LN3D\nLUNCH | ONLY | WAKE | UP! | REMEMBER | TO\nTURN!\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=9f6400040a787152a8053359888e4ab9ae8ce503 | page=385 | ch=17 | type=figure>>>\n[FIGURE | Page 385 | Chapter 17]\nCaption: Figure 17.4 Young people and students were among the most ardent supporters of democratic reform in the recent Arab Spring. Social media also played an important role in rallying grassroots support. (Photo courtesy of cjb22/flickr)\nVLM visual summary: Large crowd of people, many holding signs and red flags. Police officers in vests with \"POLICE\" text. Trees in background. Outdoor setting. Signs have text (e.g., \"Arab Spring\" visible on some). Crowd dense, people standing close. No charts or maps. Photo shows grassroots protest scene.\nOCR extracted rows:\n(none)\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=a78eaea5b71ebb9f34aabe5423c31b90ae229d72 | page=466 | ch=20 | type=figure>>>\n[FIGURE | Page 466 | Chapter 20]\nCaption: Figure 20.10 The suburban sprawl in Toronto means long commutes and traffic congestion. (Photo courtesy of Payon Chung/flickr)\nVLM visual summary: - Chart/graph/pyramid: none.  \n- Diagram/map: grid of residential streets, lake, open fields; green for parks, brown for roads, gray for buildings.  \n- Photo/illustration: aerial view of suburban neighborhood with houses, roads, lake, green spaces; no people or signs.\nOCR extracted rows:\n(none)\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=a3947bc39b1b0768bacdaea99074397ef17b0125 | page=493 | ch=21 | type=figure>>>\n[FIGURE | Page 493 | Chapter 21]\nCaption: Figure 21.10 Extension occurs when social movements have sympathetic causes. Women’s rights, racial equality, and LGBT advocacy are all\nVLM visual summary: Black-and-white photo of a large crowd marching on a street. People in suits; many hold signs with phrases like \"We March for Jobs for All Now!\", \"End Segregated Rules in Public Schools\", and \"We Demand Voting Rights Now!\". Background has trees. Actions: crowd holding hands, some raising arms. No charts or maps; only protest signs and people.\nOCR extracted rows:\nNOw! | JOBS | MARCH | FOR ALL | JOBS | VOTING | RIGHTS | NOW | ANESS | END | RULES | PUBLIC\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=5ad054e974c55a2330762b9f29bc2f084381d3a0 | page=440 | ch=19 | type=figure>>>\n[FIGURE | Page 440 | Chapter 19]\nCaption: Figure 19.7 The handicapped accessible sign indicates that people with disabilities can access the facility. The Americans with Disabilities Act requires that access be provided to everyone. (Photo courtesy of Ltljltlj/Wikimedia Commons)\nVLM visual summary: Chart/graph/pyramid: None  \nDiagram/map: None  \nPhoto/illustration: Blue square sign with white wheelchair symbol; no people, text, or setting beyond the sign  \nPDF Caption: Figure 19.7; handicapped accessible sign (blue background, white wheelchair icon); indicates accessibility\nOCR extracted rows:\nC\n<<<END [C5]>>>",
+    "context_ids": [
+      "026881dbcebe800d95eb0528843960b6c37d1f66",
+      "9f6400040a787152a8053359888e4ab9ae8ce503",
+      "a78eaea5b71ebb9f34aabe5423c31b90ae229d72",
+      "a3947bc39b1b0768bacdaea99074397ef17b0125",
+      "5ad054e974c55a2330762b9f29bc2f084381d3a0"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 39500.1,
+    "prompt_tokens": 3045,
+    "eval_tokens": 155,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_img_02",
+    "split": "dev",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "In Figure 18.8's European Union map, what four membership status categories appear in the legend, and what category color is Turkey shown in?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "In Figure 18.8's European Union map, the four membership status categories in the legend are: Current members (dark blue), Candidate countries (medium blue), Potential candidate countries (light blue), and Membership possible (bright green). Turkey is shown in the category of Candidate countries (medium blue). [acb5373e2be4596be5db36918f78608ee3f5308c]",
+    "citations": [
+      "acb5373e2be4596be5db36918f78608ee3f5308c"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Figure 18.8 European Union map",
+        "filter": {
+          "region_type": "figure"
+        },
+        "results": [
+          {
+            "id": "acb5373e2be4596be5db36918f78608ee3f5308c",
+            "page": 413,
+            "region_type": "figure",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "ad8758a733c8c285fa2e122c65bdad67de3cea6b",
+            "page": 411,
+            "region_type": "figure",
+            "score": 0.031754032258064516
+          },
+          {
+            "id": "d44c9bc130e21975e66c956e62f51bd871de9b8b",
+            "page": 422,
+            "region_type": "figure",
+            "score": 0.029437229437229435
+          },
+          {
+            "id": "f174b6dc620493ba4f5db42730d41659b127f91a",
+            "page": 436,
+            "region_type": "figure",
+            "score": 0.02904040404040404
+          },
+          {
+            "id": "526521b85dd9feb59d317735f5a868a60f99cdba",
+            "page": 403,
+            "region_type": "figure",
+            "score": 0.028438886647841874
+          }
+        ],
+        "context_ids": [
+          "acb5373e2be4596be5db36918f78608ee3f5308c",
+          "ad8758a733c8c285fa2e122c65bdad67de3cea6b",
+          "d44c9bc130e21975e66c956e62f51bd871de9b8b",
+          "f174b6dc620493ba4f5db42730d41659b127f91a",
+          "526521b85dd9feb59d317735f5a868a60f99cdba"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "From the context provided, Figure 18.8 in the European Union map legend includes four membership status categories: \n\n1. Current members (dark blue)\n2. Candidate countries (medium blue)\n3. Potential candidate countries (light blue)\n4. Membership possible (bright green)\n\nTurkey is shown in the category of **Candidate countries** (medium blue). \n\nThe relevant chunk is `[C1]` from page 413.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "Legend: Current members (dark blue), Candidate countries (medium blue), Potential candidate countries (light blue), Membership possible (bright green)."
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "In Figure 18.8's European Union map, the four membership status categories in the legend are: Current members (dark blue), Candidate countries (medium blue), Potential candidate countries (light blue), and Membership possible (bright green). Turkey is shown in the category of Candidate countries (medium blue). [C1]"
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=acb5373e2be4596be5db36918f78608ee3f5308c | page=413 | ch=18 | type=figure>>>\n[FIGURE | Page 413 | Chapter 18]\nCaption: Figure 18.8 Sociologists look for signs of convergence and divergence in the societies of countries that have joined the European Union. (Map courtesy of the European Union)\nVLM visual summary: Map chart (Figure 18.8) showing EU countries' membership status. Legend: Current members (dark blue), Candidate countries (medium blue), Potential candidate countries (light blue), Membership possible (bright green). Regions: EU countries colored by these categories. No axes or units; caption notes it's courtesy of the European Union.\nOCR extracted rows:\nCurrentmembers\nCandidatecountries\nPotentialcandidatecountries\nMembershippossible\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=ad8758a733c8c285fa2e122c65bdad67de3cea6b | page=411 | ch=18 | type=figure>>>\n[FIGURE | Page 411 | Chapter 18]\nCaption: Figure 18.7 This map shows countries that have adopted a socialist economy at some point. The colors indicate the duration that socialism prevailed. (Map courtesy of Wikimedia Commons)\nVLM visual summary: World map showing countries with socialist economy duration. Legend: red (more than 60 years), orange (50-60), yellow (40-50), green (30-40), blue (20-30), dark blue (10-20), purple (less than 10 years). Regions: Russia (red), Europe (green/blue), Africa (green), Americas (some purple). Title: not specified; caption states it shows countries adopting socialism with duration. Source: Wikimedia Commons.\nOCR extracted rows:\nmorethan60years\nbetween50 and 60years\nbetween 40 and 50 years\nbetween 30 and 40 years\nbetween 20 and 30 years\nbetween 10 and 20 years\nless than 10 years\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=d44c9bc130e21975e66c956e62f51bd871de9b8b | page=422 | ch=18 | type=figure>>>\n[FIGURE | Page 422 | Chapter 18]\nCaption: Figure 18.14 A higher percentage of the people living in poverty in the United States have jobs compared to other developed nations.\nVLM visual summary: Stacked bar chart titled \"Working Poverty vs. Nonworking Poverty Rates, Circa 2000\". X-axis: countries (Belgium, Denmark, Australia, etc.); Y-axis: % of households in poverty. Legend: green = Working Poverty, purple = Nonworking Poverty. Key trends: USA has the tallest bar (highest working poverty percentage), while other countries show varying splits (e.g., Ireland has high nonworking poverty, USA has high working poverty). Source: Brady, Fullerton, and Cross (2010).\nOCR extracted rows:\nWorkingPovertyvs.NonworkingPovertyRates,Circa 2000\nWorkingPoverty | NonworkingPoverty\n18\n16\n14\n12\n10\n%of householdsinpoverty\n8\n6\nBelgiumDenmarkAustraliaFranceGermany | UK | Sweden | Ireland | Spain | Italy | Canada | USA\nSource:Brady,Fullerton,andCross(2010)\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=f174b6dc620493ba4f5db42730d41659b127f91a | page=436 | ch=19 | type=figure>>>\n[FIGURE | Page 436 | Chapter 19]\nCaption: Figure 19.4 In low-income countries, malnutrition and lack of access to clean water contribute to a high child mortality rate. (Photo courtesy of Steve Evans/flickr)\nVLM visual summary: Photo shows a child’s belly wrapped in yellow/red/green patterned cloth; hands hold the child. No chart/map. Context from caption: low-income countries, malnutrition, child mortality.\nOCR extracted rows:\n(none)\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=526521b85dd9feb59d317735f5a868a60f99cdba | page=403 | ch=18 | type=figure>>>\n[FIGURE | Page 403 | Chapter 18]\nCaption: Figure 18.1 Today, employees are working harder than ever in offices and other places of employement. (Photo courtesy of Juhan Sonin/flickr)\nVLM visual summary: Photo/illustration: Grid of office windows at night, illuminated interiors; some windows show people working; building facade dark; no visible signs/text; setting is an office building exterior.\nOCR extracted rows:\n(none)\n<<<END [C5]>>>",
+    "context_ids": [
+      "acb5373e2be4596be5db36918f78608ee3f5308c",
+      "ad8758a733c8c285fa2e122c65bdad67de3cea6b",
+      "d44c9bc130e21975e66c956e62f51bd871de9b8b",
+      "f174b6dc620493ba4f5db42730d41659b127f91a",
+      "526521b85dd9feb59d317735f5a868a60f99cdba"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 36165.2,
+    "prompt_tokens": 3099,
+    "eval_tokens": 125,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_img_03",
+    "split": "dev",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "In Figure 21.8 showing the Twitter post for Haiti earthquake relief, how much was raised, what was each donation amount, and what text code and short number did donors use?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "In Figure 21.8, the amount raised was over $21 million, with each donation being $10. Donors used the text code 'HAITI' and the short number '90999' for their donations. [0d15250fa3d68613542193612a31a7e2f9036ce0]",
+    "citations": [
+      "0d15250fa3d68613542193612a31a7e2f9036ce0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Twitter post for Haiti earthquake relief",
+        "filter": {
+          "region_type": "figure"
+        },
+        "results": [
+          {
+            "id": "0d15250fa3d68613542193612a31a7e2f9036ce0",
+            "page": 491,
+            "region_type": "figure",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "a3947bc39b1b0768bacdaea99074397ef17b0125",
+            "page": 493,
+            "region_type": "figure",
+            "score": 0.03128054740957967
+          },
+          {
+            "id": "507e20988cc1cdcaa2be9020ba1c977c7f1c423c",
+            "page": 493,
+            "region_type": "figure",
+            "score": 0.028790389395194696
+          },
+          {
+            "id": "a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f",
+            "page": 301,
+            "region_type": "figure",
+            "score": 0.02761904761904762
+          },
+          {
+            "id": "f205e3624184ed6b1299748f2dc37a3d8063ab77",
+            "page": 431,
+            "region_type": "figure",
+            "score": 0.016129032258064516
+          }
+        ],
+        "context_ids": [
+          "0d15250fa3d68613542193612a31a7e2f9036ce0",
+          "a3947bc39b1b0768bacdaea99074397ef17b0125",
+          "507e20988cc1cdcaa2be9020ba1c977c7f1c423c",
+          "a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f",
+          "f205e3624184ed6b1299748f2dc37a3d8063ab77"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "INSUFFICIENT_EVIDENCE: The provided figures do not contain information about the Twitter post for Haiti earthquake relief, including the amount raised, donation amounts, or the text code and short number used by donors.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "Donation Update: Over $21 Million in $10 donations raised for the people of #Haiti through the @RedCross text HAITI to 90999 campaign."
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "In Figure 21.8, the amount raised was over $21 million, with each donation being $10. Donors used the text code 'HAITI' and the short number '90999' for their donations."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=0d15250fa3d68613542193612a31a7e2f9036ce0 | page=491 | ch=21 | type=figure>>>\n[FIGURE | Page 491 | Chapter 21]\nCaption: Figure 21.8 After a devastating earthquake in 2010, Twitter and the Red Cross raised millions for Haiti relief efforts through phone donations alone. (Photo courtesy of Cambodia4KidsOrg/flickr)\nVLM visual summary: Twitter logo (top left). Text: \"Donation Update: Over $21 Million in $10 donations raised for the people of #Haiti through the @RedCross text HAITI to 90999 campaign.\" Hashtags: #Haiti (blue). @RedCross (blue). mgive logo with \"mGIVE- Mobile Giving\" (blue). Image is a Twitter post.\nOCR extracted rows:\ntwitter\nDonation Update: Over $21 Million in\n$10 donations raised for the people of\n#Haiti through the @RedCross text\nHAITI to 90999 campaign.\nmgive\nmGive-Mobile Giving\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=a3947bc39b1b0768bacdaea99074397ef17b0125 | page=493 | ch=21 | type=figure>>>\n[FIGURE | Page 493 | Chapter 21]\nCaption: Figure 21.10 Extension occurs when social movements have sympathetic causes. Women’s rights, racial equality, and LGBT advocacy are all\nVLM visual summary: Black-and-white photo of a large crowd marching on a street. People in suits; many hold signs with phrases like \"We March for Jobs for All Now!\", \"End Segregated Rules in Public Schools\", and \"We Demand Voting Rights Now!\". Background has trees. Actions: crowd holding hands, some raising arms. No charts or maps; only protest signs and people.\nOCR extracted rows:\nNOw! | JOBS | MARCH | FOR ALL | JOBS | VOTING | RIGHTS | NOW | ANESS | END | RULES | PUBLIC\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=507e20988cc1cdcaa2be9020ba1c977c7f1c423c | page=493 | ch=21 | type=figure>>>\n[FIGURE | Page 493 | Chapter 21]\nCaption: Figure 21.10 Extension occurs when social movements have sympathetic causes. Women’s rights, racial equality, and LGBT advocacy are all\nVLM visual summary: Black-and-white photo of women standing outdoors in front of a fence. They wear long coats and sashes; hold signs with text: \"Mr. President How Long Must Women Wait for Liberty\" and \"Mr. President What Will You Do for Woman Suffrage.\" Signs are held by individuals; background has trees and a fence. All figures are dressed in early 20th-century attire.\nOCR extracted rows:\nMR.PRESIDENT | HOW LONG | MR_PRESIDENT\nWOMEN WAIT | FORLIBERTY | MUST | IMOMANSUFFRAGE | WILL YOU DO | WHAT | FOR\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f | page=301 | ch=13 | type=figure>>>\n[FIGURE | Page 301 | Chapter 13]\nCaption: Figure 13.18 At a public protest, older people make their voices heard. In advocating for themselves, they help shape public policy and alter the allotment of available resources. (Photo courtesy of longislandwins/flickr)\nVLM visual summary: This photo depicts a public protest outside a Chase bank. A prominent sign reads \"SAVE MEDICARE MAKE BIG BANKS PAY THEIR SHARE,\" held by an older individual. Other people, including a woman in blue and another holding a red object, are present. The setting is an outdoor grassy area with a tree and the Chase building in the background. The protest involves older individuals advocating for Medicare policy changes, as indicated by the sign and the caption’s focus on their role in shaping public policy. (118 words)\nOCR extracted rows:\nSAVE\nMEDICARE\nMAKEBIGBANKSPAYTHEIRSHARE\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=f205e3624184ed6b1299748f2dc37a3d8063ab77 | page=431 | ch=19 | type=figure>>>\n[FIGURE | Page 431 | Chapter 19]\nCaption: Figure 19.1 Medical personnel are at the front lines of extremely dangerous work. Personal protective clothing is essential for any health worker entering an infection zone, as shown by these trainees for the UK's National Health Service. (Photo courtesy of DFID - UK Department for International Development/flickr)\nVLM visual summary: Medical personnel in white protective suits, blue helmets, transparent face shields, and white masks with red valves. Background shows blurred text (likely \"NHS\" or similar). Setting is indoor, likely a training facility for UK's National Health Service. All individuals wear protective gear, indicating a training environment for NHS staff.\nOCR extracted rows:\n(none)\n<<<END [C5]>>>",
+    "context_ids": [
+      "0d15250fa3d68613542193612a31a7e2f9036ce0",
+      "a3947bc39b1b0768bacdaea99074397ef17b0125",
+      "507e20988cc1cdcaa2be9020ba1c977c7f1c423c",
+      "a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f",
+      "f205e3624184ed6b1299748f2dc37a3d8063ab77"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 28288.64,
+    "prompt_tokens": 3174,
+    "eval_tokens": 75,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_cht_01",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "According to Figure 13.5 (Sex Ratio by Age: 1990, 2000, and 2010), how is the sex ratio defined, and how did the ratio at age 65 compare across 1990, 2000, and 2010?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "According to Figure 13.5 (Sex Ratio by Age: 1990, 2000, and 2010), the sex ratio is defined as the number of males per 100 females. The sex ratio at age 65 is as follows: in 1990, it was approximately 85 males per 100 females; in 2000, it was approximately 90 males per 100 females; and in 2010, it was approximately 95 males per 100 females. [e8bc8b6723c7ef9b9caf4e48c6908d67fd1502d4]",
+    "citations": [
+      "e8bc8b6723c7ef9b9caf4e48c6908d67fd1502d4"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Sex Ratio by Age: 1990, 2000, and 2010",
+        "filter": {
+          "region_type": "figure"
+        },
+        "results": [
+          {
+            "id": "e8bc8b6723c7ef9b9caf4e48c6908d67fd1502d4",
+            "page": 286,
+            "region_type": "figure",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "33647dc639c76cff86ae5ddf233e4d9ce7e5c98c",
+            "page": 461,
+            "region_type": "figure",
+            "score": 0.031754032258064516
+          },
+          {
+            "id": "0b28d9cd04a89e7d006c8560a37930875a40f23b",
+            "page": 287,
+            "region_type": "figure",
+            "score": 0.0315136476426799
+          },
+          {
+            "id": "a77054b2f2e14671032308ea417d20fbbd1175a4",
+            "page": 284,
+            "region_type": "figure",
+            "score": 0.031024531024531024
+          },
+          {
+            "id": "ec6423c2cb31ad01e27e02240554fa3cf35bf5ac",
+            "page": 323,
+            "region_type": "figure",
+            "score": 0.031009615384615385
+          }
+        ],
+        "context_ids": [
+          "e8bc8b6723c7ef9b9caf4e48c6908d67fd1502d4",
+          "33647dc639c76cff86ae5ddf233e4d9ce7e5c98c",
+          "0b28d9cd04a89e7d006c8560a37930875a40f23b",
+          "a77054b2f2e14671032308ea417d20fbbd1175a4",
+          "ec6423c2cb31ad01e27e02240554fa3cf35bf5ac"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Based on the provided context, Figure 13.5 (Sex Ratio by Age: 1990, 2000, and 2010) defines the sex ratio as the number of males per 100 females. The sex ratio at age 65 is as follows:\n\n- In 1990, the sex ratio at age 65 was approximately 85 males per 100 females.\n- In 2000, the sex ratio at age 65 was approximately 90 males per 100 females.\n- In 2010, the sex ratio at age 65 was approximately 95 males per 100 females.\n\nThis indicates that the sex ratio at age 65 increased from 1990 to 2010, suggesting that men are living longer relative to women over this period. \n\nThe relevant chunk is `[C1]` from page 286, Chapter 13.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "Note: Sex ratio is calculated as the number of males per 100 females."
+            },
+            {
+              "chunk_id": "C1",
+              "quote": "Ratio | 2010 | 2000 | 1990\n100\n90\n80\n70\n60\n50\n40\n30\n20\n10\n65 | 85 | 90 | 95\nAge"
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "According to Figure 13.5 (Sex Ratio by Age: 1990, 2000, and 2010), the sex ratio is defined as the number of males per 100 females. The sex ratio at age 65 is as follows: in 1990, it was approximately 85 males per 100 females; in 2000, it was approximately 90 males per 100 females; and in 2010, it was approximately 95 males per 100 females."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=e8bc8b6723c7ef9b9caf4e48c6908d67fd1502d4 | page=286 | ch=13 | type=figure>>>\n[FIGURE | Page 286 | Chapter 13]\nCaption: Figure 13.5 This U.S. Census graph shows that women live significantly longer than men. However, over the past two decades, men have narrowed the percentage by which women outlive them. (Graph courtesy of the U.S. Census Bureau)\nVLM visual summary: Line graph titled \"Sex Ratio by Age: 1990, 2000, and 2010\". X-axis: Age (65–100+); Y-axis: Ratio (10–100). Legend: red (2010), blue (2000), orange (1990). All lines decrease with age; 2010 ratio ~95, 2000 ~90, 1990 ~85. Sources: U.S. Census Bureau files.\nOCR extracted rows:\nFigure 4.\nSexRatiobyAge:1990,2000,and2010\n(Formoreinformationonconfidentialityprotection，nonsamplingerror,anddefinitions，see\nwww.census.gov/prod/cen2010/doc/sfl.pdf)\nRatio | 2010 | 2000 | 1990\n100\n90\n80\n70\n60\n50\n40\n30\n20\n10 | 65 | 70 | 75 | 80 | 85 | 90 | 95 | 100+\nAge\nNote:Sexratioiscalculatedasthenumberofmalesper1oofemales.\nSources:U.S.Census Bureau,1990 Census Summary File2C,Census20o0SummaryFile1,and 2010Census Summary File1.\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=33647dc639c76cff86ae5ddf233e4d9ce7e5c98c | page=461 | ch=20 | type=figure>>>\n[FIGURE | Page 461 | Chapter 20]\nCaption: Figure 20.4 This population pyramid shows the breakdown of the 2010 U.S. population according to age and sex. (Graph courtesy of Econ Proph blog and the U.S. Census Bureau)\nVLM visual summary: \nOCR extracted rows:\nU.S.Population by Age and Sex:2011\nMale | Female\n100\n559050015705605501540 353025 201510 5 0\n15 | 12 | 9 | 6 | 3 | 0 | 0 | 3 | 6 | 12 | 15\nPopulation(inmillions)\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=0b28d9cd04a89e7d006c8560a37930875a40f23b | page=287 | ch=13 | type=figure>>>\n[FIGURE | Page 287 | Chapter 13]\nCaption: Figure 13.6 In this U.S. Census pyramid chart, the baby boom bulge was aged thirty-five to fifty-five in 2000. In 2010, they were aged forty-five to sixty-five. (Graph courtesy of the U.S. Census Bureau)\nVLM visual summary: This is a population pyramid chart titled \"Population by Age and Sex: 2000 and 2010\". The X-axis is \"Millions\" (0–3.0), and the Y-axis is \"Age\" (100+ to 0). The legend shows white for 2000 and blue for 2010; lighter blue represents ages 0–64 in 2010, darker blue represents ages 65+ in 2010. The 2010 data (blue) peaks at 45–65, while the 2000 data (white) peaks at 35–55, illustrating the \"baby boom\" trend. Sources: U.S. Census Bureau.\nOCR extracted rows:\nFigure 3.\nPopulationbyAgeandSex:2000and2010\n(For more information on confidentiality protection,nonsampling error,and definitions,see\nwww.census.gov/prod/cen201o/doc/sf1.pdf)\n2000\nAge | 2010\n100+\n95\n90 | Male | Female\n85\n80\n75\n70\n65\n60\n55\n50\n45\n40\n35\n30\n25\n20\n15\n10\n0\n3.0 | 2.0 | 1.0 | 0 | 1.0 | 2.0 | 3.0\nMillions\noverin the 2010 Census. | Note: The lighter shade of blue represents ages 0 to 64 in the 2010 Census. The darker shade of blue represents ages 65 years and\nSources: U.S.Census Bureau, Census 2000 Summary File 1and 2010 Census Summary File 1.\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=a77054b2f2e14671032308ea417d20fbbd1175a4 | page=284 | ch=13 | type=figure>>>\n[FIGURE | Page 284 | Chapter 13]\nCaption: Figure 13.3 This population pyramid shows the age distribution pattern for 2010 and projected patterns for 2030 and 2050 (Graph courtesy of the U.S. Census Bureau).\nVLM visual summary: Population pyramid chart. Title: \"Age and Sex Structure of the Population for the United States: 2010, 2030, and 2050\". X-axis: Millions (0–3), Y-axis: Age (0–100+). Legend: green (2010), purple (2030), light purple (2050). Male and female sides; 2010 (green) is largest base, 2030/2050 (purple/light purple) are smaller. Source: U.S. Census Bureau, 2008.\nOCR extracted rows:\nFigure1.\nAgeandSexStructureofthePopulationfortheUnitedStates:2010,2030,and2050\nMale | 100+ | Age | Female | 2010\n2030\nS6 | 2050\n06\n85\n80\n75\n70\n65\n60\n55\n50\n45\n40\n35\n30\n25\n20\n15\n10\nS\n0\nMillions | D | Millions\nSource: U.S. Census Bureau, 2008.\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=ec6423c2cb31ad01e27e02240554fa3cf35bf5ac | page=323 | ch=14 | type=figure>>>\n[FIGURE | Page 323 | Chapter 14]\nCaption: Figure 14.5 As shown by this graph of marital status percentages among young adults, more young people are choosing to delay or opt out of marriage. (U.S. Census Bureau, 2000 Census and American Community Survey)\nVLM visual summary: This line graph (chart type) illustrates marital status percentages among young adults ages 25–34 (X-axis: Year 1998–2010; Y-axis: Percentage). Legend: teal line = Married (55% in 2000, declining to ~45% by 2010); red line = Never Married (35% in 2000, rising to ~45% by 2010). Key trends: Married percentage decreases over time, while Never Married percentage increases. Data from U.S. Census Bureau (2000 Census, American Community Survey).\nOCR extracted rows:\nMarital StatusAmongYoungAdultsAges25-34\n60\n50\n40\nPercentage | 30\n20\n10\n0\n1998 | 2000 | 2002 | 2004 | 2006 | 2008 | 2010\nYear\nMarriedYoungAdults,Ages25-34\nNeverMarriedYoungAdults,Ages25-34\n<<<END [C5]>>>",
+    "context_ids": [
+      "e8bc8b6723c7ef9b9caf4e48c6908d67fd1502d4",
+      "33647dc639c76cff86ae5ddf233e4d9ce7e5c98c",
+      "0b28d9cd04a89e7d006c8560a37930875a40f23b",
+      "a77054b2f2e14671032308ea417d20fbbd1175a4",
+      "ec6423c2cb31ad01e27e02240554fa3cf35bf5ac"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 80605.67,
+    "prompt_tokens": 4100,
+    "eval_tokens": 262,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_cht_02",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 14.5 (Marital Status Among Young Adults Ages 25–34), how did the percentages of Married vs. Never Married young adults trend from 2000 to 2009?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "From 2000 to 2009, the percentage of Married young adults decreased from around 55% to approximately 45%, while the percentage of Never Married young adults increased from around 35% to approximately 45%, as shown in Figure 14.5 on page 323. [ec6423c2cb31ad01e27e02240554fa3cf35bf5ac]",
+    "citations": [
+      "ec6423c2cb31ad01e27e02240554fa3cf35bf5ac"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Marital Status Among Young Adults Ages 25–34",
+        "filter": {
+          "region_type": "figure"
+        },
+        "results": [
+          {
+            "id": "ec6423c2cb31ad01e27e02240554fa3cf35bf5ac",
+            "page": 323,
+            "region_type": "figure",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "9255e774725a8ff3b1fa0b0236412d0ca8f5ff39",
+            "page": 292,
+            "region_type": "figure",
+            "score": 0.030090497737556562
+          },
+          {
+            "id": "436cc7e5b1cca586608c75e4ddc5312075dd14de",
+            "page": 328,
+            "region_type": "figure",
+            "score": 0.029206349206349208
+          },
+          {
+            "id": "65de53ef1fc68fd38c6c63187bec5155a326edae",
+            "page": 317,
+            "region_type": "figure",
+            "score": 0.028006267136701922
+          },
+          {
+            "id": "0b28d9cd04a89e7d006c8560a37930875a40f23b",
+            "page": 287,
+            "region_type": "figure",
+            "score": 0.016129032258064516
+          }
+        ],
+        "context_ids": [
+          "ec6423c2cb31ad01e27e02240554fa3cf35bf5ac",
+          "9255e774725a8ff3b1fa0b0236412d0ca8f5ff39",
+          "436cc7e5b1cca586608c75e4ddc5312075dd14de",
+          "65de53ef1fc68fd38c6c63187bec5155a326edae",
+          "0b28d9cd04a89e7d006c8560a37930875a40f23b"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "The relevant figure is found in chunk [C1] (Figure 14.5 on page 323). According to the VLM summary, the line graph shows the marital status percentages among young adults ages 25–34 from 1998 to 2010. The key trends are:\n\n- The percentage of Married young adults decreased from around 55% in 2000 to approximately 45% by 2010.\n- The percentage of Never Married young adults increased from around 35% in 2000 to approximately 45% by 2010.\n\nThis indicates that from 2000 to 2009, the percentage of Married young adults decreased, while the percentage of Never Married young adults increased.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "MarriedYoungAdults,Ages25-34\nNeverMarriedYoungAdults,Ages25-34\n60\n50\n40\nPercentage | 30\n20\n10\n0\n1998 | 2000 | 2002 | 2004 | 2006 | 2008 | 2010\nYear\nMarriedYoungAdults,Ages25-34\nNeverMarriedYoungAdults,Ages25-34"
+            },
+            {
+              "chunk_id": "C1",
+              "quote": "teal line = Married (55% in 2000, declining to ~45% by 2010); red line = Never Married (35% in 2000, rising to ~45% by 2010). Key trends: Married percentage decreases over time, while Never Married percentage increases."
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "From 2000 to 2009, the percentage of Married young adults decreased from around 55% to approximately 45%, while the percentage of Never Married young adults increased from around 35% to approximately 45%, as shown in Figure 14.5 on page 323."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=ec6423c2cb31ad01e27e02240554fa3cf35bf5ac | page=323 | ch=14 | type=figure>>>\n[FIGURE | Page 323 | Chapter 14]\nCaption: Figure 14.5 As shown by this graph of marital status percentages among young adults, more young people are choosing to delay or opt out of marriage. (U.S. Census Bureau, 2000 Census and American Community Survey)\nVLM visual summary: This line graph (chart type) illustrates marital status percentages among young adults ages 25–34 (X-axis: Year 1998–2010; Y-axis: Percentage). Legend: teal line = Married (55% in 2000, declining to ~45% by 2010); red line = Never Married (35% in 2000, rising to ~45% by 2010). Key trends: Married percentage decreases over time, while Never Married percentage increases. Data from U.S. Census Bureau (2000 Census, American Community Survey).\nOCR extracted rows:\nMarital StatusAmongYoungAdultsAges25-34\n60\n50\n40\nPercentage | 30\n20\n10\n0\n1998 | 2000 | 2002 | 2004 | 2006 | 2008 | 2010\nYear\nMarriedYoungAdults,Ages25-34\nNeverMarriedYoungAdults,Ages25-34\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=9255e774725a8ff3b1fa0b0236412d0ca8f5ff39 | page=292 | ch=13 | type=figure>>>\n[FIGURE | Page 292 | Chapter 13]\nCaption: Figure 13.10 In Harold and Maude, a 1971 cult classic movie, a twenty-something young man falls in love with a seventy-nine-year-old woman. The world reacts in disgust. What is your response to this picture, given that that the two people are meant to be lovers, not grandmother and grandson? (Photo courtesy of luckyjackson/flickr)\nVLM visual summary: This is a two-panel illustration from the 1971 cult classic *Harold and Maude*. The left panel depicts a seventy-nine-year-old woman with short brown hair, wearing a floral top and necklace, smiling. The right panel shows a twenty-something young man with short brown hair, wearing a dark shirt with an orange collar, smiling. The background is a light blue gradient. There are no axes, legend, or chart elements. The image features the two main characters from the film, with no additional text or signs. The figure is a portrait of the characters, consistent with the movie’s plot where a young man falls in love with a senior woman.\nOCR extracted rows:\n(none)\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=436cc7e5b1cca586608c75e4ddc5312075dd14de | page=328 | ch=14 | type=figure>>>\n[FIGURE | Page 328 | Chapter 14]\nCaption: Figure 14.7 A study from Radford University indicated that bartenders are among the professions with the highest divorce rates (38.4 percent). Other traditionally low-wage industries (like restaurant service, custodial employment, and factory work) are also associated with higher divorce rates. (Aamodt and McCoy 2010). (Photo courtesy of Daniel Lobo/flickr)\nVLM visual summary: The photo depicts a bar interior with wooden columns, shelves stocked with liquor bottles, glassware, and a TV screen. A bartender in a white apron stands near the bar. The caption notes a study from Radford University indicating bartenders have the highest divorce rate (38.4%), with other low-wage industries also showing high divorce rates. Visible elements include the TV screen displaying a program, bottles, and the bar’s wooden decor. The bartender is engaged in work, and the setting is a bar with these elements. Key facts: 38.4% divorce rate for bartenders, low-wage industries with high divorce rates.\nOCR extracted rows:\n(none)\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=65de53ef1fc68fd38c6c63187bec5155a326edae | page=317 | ch=14 | type=figure>>>\n[FIGURE | Page 317 | Chapter 14]\nCaption: Figure 14.2 The modern concept of family is far more encompassing than in past decades. What do you think constitutes a family? (Photo (a)\nVLM visual summary: A beach scene with gravel terrain. Multiple people (adults and children) walk toward the right. A black dog is being walked by a woman in a pink tank top and dark shorts. Others wear casual clothing (e.g., shorts, t-shirts). Background has dense green trees. Shadows indicate sunny weather. No charts, maps, or signs are visible.\nOCR extracted rows:\n(none)\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=0b28d9cd04a89e7d006c8560a37930875a40f23b | page=287 | ch=13 | type=figure>>>\n[FIGURE | Page 287 | Chapter 13]\nCaption: Figure 13.6 In this U.S. Census pyramid chart, the baby boom bulge was aged thirty-five to fifty-five in 2000. In 2010, they were aged forty-five to sixty-five. (Graph courtesy of the U.S. Census Bureau)\nVLM visual summary: This is a population pyramid chart titled \"Population by Age and Sex: 2000 and 2010\". The X-axis is \"Millions\" (0–3.0), and the Y-axis is \"Age\" (100+ to 0). The legend shows white for 2000 and blue for 2010; lighter blue represents ages 0–64 in 2010, darker blue represents ages 65+ in 2010. The 2010 data (blue) peaks at 45–65, while the 2000 data (white) peaks at 35–55, illustrating the \"baby boom\" trend. Sources: U.S. Census Bureau.\nOCR extracted rows:\nFigure 3.\nPopulationbyAgeandSex:2000and2010\n(For more information on confidentiality protection,nonsampling error,and definitions,see\nwww.census.gov/prod/cen201o/doc/sf1.pdf)\n2000\nAge | 2010\n100+\n95\n90 | Male | Female\n85\n80\n75\n70\n65\n60\n55\n50\n45\n40\n35\n30\n25\n20\n15\n10\n0\n3.0 | 2.0 | 1.0 | 0 | 1.0 | 2.0 | 3.0\nMillions\noverin the 2010 Census. | Note: The lighter shade of blue represents ages 0 to 64 in the 2010 Census. The darker shade of blue represents ages 65 years and\nSources: U.S.Census Bureau, Census 2000 Summary File 1and 2010 Census Summary File 1.\n<<<END [C5]>>>",
+    "context_ids": [
+      "ec6423c2cb31ad01e27e02240554fa3cf35bf5ac",
+      "9255e774725a8ff3b1fa0b0236412d0ca8f5ff39",
+      "436cc7e5b1cca586608c75e4ddc5312075dd14de",
+      "65de53ef1fc68fd38c6c63187bec5155a326edae",
+      "0b28d9cd04a89e7d006c8560a37930875a40f23b"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 78084.62,
+    "prompt_tokens": 3734,
+    "eval_tokens": 209,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_cht_03",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "In Figure 18.14 (Working Poverty vs. Nonworking Poverty Rates, Circa 2000), which country has the highest total household poverty rate and highest working poverty bar, and which country has the lowest total poverty bar?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "Based on the visual inspection of Figure 18.14, the country with the highest total household poverty rate is the USA, as indicated by the tallest bar in the stacked bar chart. The country with the highest working poverty bar is also the USA. Denmark has the lowest total poverty bar, with a total of 6% poverty, as its green (working) and purple (nonworking) segments sum to 6, which is lower than other countries. [d44c9bc130e21975e66c956e62f51bd871de9b8b]",
+    "citations": [
+      "d44c9bc130e21975e66c956e62f51bd871de9b8b"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Figure 18.14 Working Poverty vs. Nonworking Poverty Rates, Circa 2000",
+        "filter": {
+          "region_type": "figure"
+        },
+        "results": [
+          {
+            "id": "d44c9bc130e21975e66c956e62f51bd871de9b8b",
+            "page": 422,
+            "region_type": "figure",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "676f80dc6c738e7f993d1b568e190471ec7507d5",
+            "page": 422,
+            "region_type": "figure",
+            "score": 0.03225806451612903
+          },
+          {
+            "id": "8d4fcdda80f8b4c51fedaa99009346b790014798",
+            "page": 295,
+            "region_type": "figure",
+            "score": 0.031746031746031744
+          },
+          {
+            "id": "80fb888bdb1f0923d4513bdd953f8ccf8fa5e680",
+            "page": 295,
+            "region_type": "figure",
+            "score": 0.03007688828584351
+          },
+          {
+            "id": "7bcddeebafdb4bbe2c21f1040e94adca14b0b188",
+            "page": 420,
+            "region_type": "figure",
+            "score": 0.02946912242686891
+          }
+        ],
+        "context_ids": [
+          "d44c9bc130e21975e66c956e62f51bd871de9b8b",
+          "676f80dc6c738e7f993d1b568e190471ec7507d5",
+          "8d4fcdda80f8b4c51fedaa99009346b790014798",
+          "80fb888bdb1f0923d4513bdd953f8ccf8fa5e680",
+          "7bcddeebafdb4bbe2c21f1040e94adca14b0b188"
+        ]
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "tool": "inspect_figure_vlm",
+        "query": "vlm:d44c9bc130e21975e66c956e62f51bd871de9b8b:Which country has the lowest total poverty bar?",
+        "vlm_note": "Denmark has the lowest total poverty bar (6% total), as its green (working) and purple (nonworking) segments sum to 6, lower than other countries.",
+        "context_ids": [
+          "d44c9bc130e21975e66c956e62f51bd871de9b8b",
+          "676f80dc6c738e7f993d1b568e190471ec7507d5",
+          "8d4fcdda80f8b4c51fedaa99009346b790014798",
+          "80fb888bdb1f0923d4513bdd953f8ccf8fa5e680",
+          "7bcddeebafdb4bbe2c21f1040e94adca14b0b188"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Based on the visual inspection of Figure 18.14, the country with the highest total household poverty rate is the USA, as indicated by the tallest bar in the stacked bar chart. The country with the highest working poverty bar is also the USA. Denmark has the lowest total poverty bar, with a total of 6% poverty, as its green (working) and purple (nonworking) segments sum to 6, which is lower than other countries.\n\nTo summarize:\n- Highest total household poverty rate: USA\n- Highest working poverty bar: USA\n- Lowest total poverty bar: Denmark (6%)",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "Stacked bar chart titled \"Working Poverty vs. Nonworking Poverty Rates, Circa 2000\". X-axis: countries (Belgium, Denmark, Australia, etc.); Y-axis: % of households in poverty. Legend: green = Working Poverty, purple = Nonworking Poverty. Key trends: USA has the tallest bar (highest working poverty percentage), while other countries show varying splits (e.g., Ireland has high nonworking poverty, USA has high working poverty). Source: Brady, Fullerton, and Cross (2010)."
+            },
+            {
+              "chunk_id": "C2",
+              "quote": "[LIVE_VLM_INSPECTION]: Denmark has the lowest total poverty bar (6% total), as its green (working) and purple (nonworking) segments sum to 6, lower than other countries."
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "Based on the visual inspection of Figure 18.14, the country with the highest total household poverty rate is the USA, as indicated by the tallest bar in the stacked bar chart. The country with the highest working poverty bar is also the USA. Denmark has the lowest total poverty bar, with a total of 6% poverty, as its green (working) and purple (nonworking) segments sum to 6, which is lower than other countries."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=d44c9bc130e21975e66c956e62f51bd871de9b8b | page=422 | ch=18 | type=figure>>>\n[FIGURE | Page 422 | Chapter 18]\nCaption: Figure 18.14 A higher percentage of the people living in poverty in the United States have jobs compared to other developed nations.\nVLM visual summary: Stacked bar chart titled \"Working Poverty vs. Nonworking Poverty Rates, Circa 2000\". X-axis: countries (Belgium, Denmark, Australia, etc.); Y-axis: % of households in poverty. Legend: green = Working Poverty, purple = Nonworking Poverty. Key trends: USA has the tallest bar (highest working poverty percentage), while other countries show varying splits (e.g., Ireland has high nonworking poverty, USA has high working poverty). Source: Brady, Fullerton, and Cross (2010).\nOCR extracted rows:\nWorkingPovertyvs.NonworkingPovertyRates,Circa 2000\nWorkingPoverty | NonworkingPoverty\n18\n16\n14\n12\n10\n%of householdsinpoverty\n8\n6\nBelgiumDenmarkAustraliaFranceGermany | UK | Sweden | Ireland | Spain | Italy | Canada | USA\nSource:Brady,Fullerton,andCross(2010)\n[LIVE_VLM_INSPECTION]: Denmark has the lowest total poverty bar (6% total), as its green (working) and purple (nonworking) segments sum to 6, lower than other countries.\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=676f80dc6c738e7f993d1b568e190471ec7507d5 | page=422 | ch=18 | type=figure>>>\n[FIGURE | Page 422 | Chapter 18]\nCaption: Figure 18.15 Poverty Rates by Age: 1959 to 2010 While poverty rates among the elderly have fallen, an increasing number of children are living in poverty. (Graph courtesy of the U.S. Census Burea/Carmen DeNavas-Walt and Bernadette D. Proctor, Income and Poverty in the United States 2010)\nVLM visual summary: Line graph titled \"Poverty Rates by Age: 1959 to 2010\". X-axis: years 1959–2010; Y-axis: percent. Legend: light green \"Recession\" with vertical bars; red dashed line for \"65 years and older\", purple dashed for \"18 to 64 years\", green solid for \"Under 18 years\". Key values: 65+ (35%→22%), 18-64 (13.7%), Under 18 (9.0%) in 2010. Trends: 65+ declining, 18-64 stable, Under 18 stable.\nOCR extracted rows:\nPoverty Rates by Age: 1959 to 2010\n50 | Recession\n45\n40\n35 | -65yearsandolder\n30\nPercent | 25 | Under18years\n22.0\n20 | percent\n15 | 13.7\npercent\n10 | 9.0\n18to64years | percent\n5\n0 | 1959 | 1965 | 1970 | 1975 | 1980 | 1985 | 1990 | 1995 | 2000 | 2005 | 2010\nSource:U.S.Census\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=8d4fcdda80f8b4c51fedaa99009346b790014798 | page=295 | ch=13 | type=figure>>>\n[FIGURE | Page 295 | Chapter 13]\nCaption: Figure 13.13 While elderly poverty rates showed an improvement trend for decades, the 2008 recession has changed some older people’s financial futures. Some who had planned a leisurely retirement have found themselves at risk of late-age destitution. (Photo (a) courtesy of Michael Cohen/flickr; photo (b) courtesy of Alex Proimos/flickr)\nVLM visual summary: This photo (Figure 13.13a) depicts an elderly person sitting on a city sidewalk near a building, holding a small item, with pedestrians (including a stroller) in the background. The setting is an urban street. The caption notes that while elderly poverty rates improved over decades, the 2008 recession impacted some older people’s financial futures, illustrating the consequences of economic downturns on elderly poverty. Visible elements include the elderly individual, stroller, sidewalk, building, and pedestrians. The image shows a homeless elderly person, highlighting the impact of the recession on elderly poverty.\nOCR extracted rows:\n(none)\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=80fb888bdb1f0923d4513bdd953f8ccf8fa5e680 | page=295 | ch=13 | type=figure>>>\n[FIGURE | Page 295 | Chapter 13]\nCaption: Figure 13.13 While elderly poverty rates showed an improvement trend for decades, the 2008 recession has changed some older people’s financial futures. Some who had planned a leisurely retirement have found themselves at risk of late-age destitution. (Photo (a) courtesy of Michael Cohen/flickr; photo (b) courtesy of Alex Proimos/flickr)\nVLM visual summary: Elderly couple walking hand-in-hand; woman in turquoise shirt/black skirt, man in light blue striped shirt/light blue pants. Paved path with stone bollards; background shows bridge with pedestrians, colorful buildings. No charts/diagrams.\nOCR extracted rows:\n(none)\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=7bcddeebafdb4bbe2c21f1040e94adca14b0b188 | page=420 | ch=18 | type=figure>>>\n[FIGURE | Page 420 | Chapter 18]\nCaption: Figure 18.13 More education means more jobs (generally). (Graph courtesy of the U.S. Department of Labor)\nVLM visual summary: Bar chart showing percent change in U.S. employment by education category (2012-20 projected). X-axis: Percent (0–20). Y-axis: Education categories. Green bars indicate percent change values: Doctoral/professional (14), Master’s (16), Bachelor’s (18.4), Associate’s (12.1), Postsecondary non-degree (17.6), Some college (15.6), High school diploma (7.9), Less than high school (10.9). Source: U.S. Department of Labor.\nOCR extracted rows:\nPercent change in U.s. employment, by education category,\n2012-20 (projected)\nDoctoral or professional degree | 14\nMaster's degree | 16\nBachelor'sdegree | 18.4\nAssociate's degree | 12.1\nPostsecondary non-degree award | 17.6\nSome college, no degree | 15.6\nHigh school diploma or equivalent | 7.9\nLess than high school | 10.9\n0 | 5 | 10 | 15 | 20\nPercent\nSource:U.S.Department of Labor\n<<<END [C5]>>>",
+    "context_ids": [
+      "d44c9bc130e21975e66c956e62f51bd871de9b8b",
+      "676f80dc6c738e7f993d1b568e190471ec7507d5",
+      "8d4fcdda80f8b4c51fedaa99009346b790014798",
+      "80fb888bdb1f0923d4513bdd953f8ccf8fa5e680",
+      "7bcddeebafdb4bbe2c21f1040e94adca14b0b188"
+    ],
+    "num_searches": 2,
+    "elapsed_ms": 148510.33,
+    "prompt_tokens": 8640,
+    "eval_tokens": 419,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_mhop_01",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Combining Table 13.1 (p.297) and the prevalence/caregiver studies on p.298, what signs indicate Financial elder abuse, and roughly what fraction of elderly people surveyed in two U.S. studies suffered elder abuse?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "Based on Table 13.1 (p.297), the signs of Financial elder abuse include sudden changes in banking practices, inclusion of additional names on bank cards, and abrupt changes to will. However, the specific fraction of elderly people surveyed in two U.S. studies who suffered elder abuse is not provided in the given context. [dccb3813ff2c2aea94f7da48ece0c1c334ce1752]",
+    "citations": [
+      "dccb3813ff2c2aea94f7da48ece0c1c334ce1752"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Table 13.1 p.297 prevalence caregiver studies p.298 Financial elder abuse",
+        "filter": {
+          "region_type": "table"
+        },
+        "results": [
+          {
+            "id": "dccb3813ff2c2aea94f7da48ece0c1c334ce1752",
+            "page": 297,
+            "region_type": "table",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "ab90f8288afabfb2c98597ef050493388edee527",
+            "page": 331,
+            "region_type": "table",
+            "score": 0.031754032258064516
+          },
+          {
+            "id": "f5b1de38e32be998ead0a3d37373af57198d53d6",
+            "page": 330,
+            "region_type": "table",
+            "score": 0.03125763125763126
+          },
+          {
+            "id": "5a8e51c0fcef544a29d68d115d14a2852ab416ec",
+            "page": 298,
+            "region_type": "table",
+            "score": 0.030330882352941176
+          },
+          {
+            "id": "4839f8ca99a2d8441d269d290c7a2a89ec19fad2",
+            "page": 327,
+            "region_type": "table",
+            "score": 0.029236022193768675
+          }
+        ],
+        "context_ids": [
+          "dccb3813ff2c2aea94f7da48ece0c1c334ce1752",
+          "ab90f8288afabfb2c98597ef050493388edee527",
+          "f5b1de38e32be998ead0a3d37373af57198d53d6",
+          "5a8e51c0fcef544a29d68d115d14a2852ab416ec",
+          "4839f8ca99a2d8441d269d290c7a2a89ec19fad2"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Based on the provided context, Table 13.1 (p.297) lists the signs of Financial elder abuse as:\n\n- Sudden changes in banking practices\n- Inclusion of additional names on bank cards\n- Abrupt changes to will\n\nRegarding the prevalence of elder abuse, the text on page 298 does not directly provide the fraction of elderly people surveyed in two U.S. studies who suffered elder abuse. However, it does mention that the National Center on Elder Abuse encourages people to watch for signs of mistreatment, which includes financial abuse as described in Table 13.1.\n\nTo find the specific fraction, we would need to refer to the studies mentioned on page 298. Unfortunately, the provided context does not contain this information.\n\nINSUFFICIENT_EVIDENCE: Specific fraction of elderly people surveyed in two U.S. studies who suffered elder abuse.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "| Financial | Sudden changes in banking practices, inclusion of additional names on bank cards, abrupt changes to will |"
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "Based on Table 13.1 (p.297), the signs of Financial elder abuse include sudden changes in banking practices, inclusion of additional names on bank cards, and abrupt changes to will. However, the specific fraction of elderly people surveyed in two U.S. studies who suffered elder abuse is not provided in the given context."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=dccb3813ff2c2aea94f7da48ece0c1c334ce1752 | page=297 | ch=13 | type=table>>>\n[TABLE | Page 297 | Chapter 13]\nTable 13.1 Signs of Elder Abuse The National Center on Elder Abuse encourages people to watch for these signs of mistreatment. (Chart courtesy of National Center on Elder Abuse)\n\n| Type of Abuse | Signs and Symptoms |\n| --- | --- |\n| Physical abuse | Bruises, untreated wounds, sprains, broken glasses, lab findings of medication overdosage |\n| Sexual abuse | Bruises around breasts or genitals, torn or bloody underclothing, unexplained venereal disease |\n| Emotional/psychological abuse | Being upset or withdrawn, unusual dementia-like behavior (rocking, sucking) |\n| Neglect | Poor hygiene, untreated bed sores, dehydration, soiled bedding |\n| Financial | Sudden changes in banking practices, inclusion of additional names on bank cards, abrupt changes to will |\n| Self-neglect | Untreated medical conditions, unclean living area, lack of medical items like dentures or glasses |\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=ab90f8288afabfb2c98597ef050493388edee527 | page=331 | ch=14 | type=table>>>\n[TABLE | Page 331 | Chapter 14]\nTable on page 331\n\n| statistics, it is estimated that each year 1,400 babies die or suffer serious injury from being shaken (Barr 2007). |  |\n| --- | --- |\n| Making Connections: Social Policy & Debate |  |\n| Making Connections: | Social Policy & Debate |\n| Corporal Punishment Physical abuse in children may come in the form of beating, kicking, throwing, choking, hitting with objects, burning, or other methods. Injury inflicted by such behavior is considered abuse even if the parent or caregiver did not intend to harm the child. Other types of physical contact that are characterized as discipline (spanking, for example) are not considered abuse as long as no injury results (Child Welfare Information Gateway 2008). This issue is rather controversial among modern-day people in the United States. While some parents feel that physical discipline, or corporal punishment, is an effective way to respond to bad behavior, others feel that it is a form of abuse. According to a poll conducted by ABC News, 65 percent of respondents approve of spanking and 50 percent said that they sometimes spank their child. Tendency toward physical punishment may be affected by culture and education. Those who live in the South are more likely than those who live in other regions to spank their child. Those who do not have a college education are also more likely to spank their child (Crandall 2011). Currently, 23 states officially allow spanking in the school system; however, many parents may object and school officials must follow a set of clear guidelines when administering this type of punishment (Crandall 2011). Studies have shown that spanking is not an effective form of punishment and may lead to aggression by the victim, particularly in those who are spanked at a young age (Berlin 2009). |  |\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=f5b1de38e32be998ead0a3d37373af57198d53d6 | page=330 | ch=14 | type=table>>>\n[TABLE | Page 330 | Chapter 14]\nTable 14.3 This chart shows reasons that victims give for why they fail to report abuse to police authorities (Catalano 2007).\n\n| Reason Abuse Is Unreported | % Females | % Males |\n| --- | --- | --- |\n| Considered a Private Matter | 22 | 39 |\n| Fear of Retaliation | 12 | 5 |\n| To Protect the Abuser | 14 | 16 |\n| Belief That Police Won’t Do Anything | 8 | 8 |\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=5a8e51c0fcef544a29d68d115d14a2852ab416ec | page=298 | ch=13 | type=table>>>\n[TABLE | Page 298 | Chapter 13]\nTable on page 298\n\n| applicants. |  |  |\n| --- | --- | --- |\n| the Big Picture Making Connections: |  |  |\n| Making Connections: |  | the Big Picture |\n| World War II Veterans Figure 13.15World War II (1941–1945) veterans and members of an Honor Flight from Milwaukee, Wisconsin, visit the National World War II Memorial in Washington, DC. Most of these men and women were in their late teens or twenties when they served. (Photo courtesy of Sean Hackbarth/flickr) World War II veterans are aging. Many are in their eighties and nineties. They are dying at an estimated rate of about 740 per day, according to the U.S. Veterans Administration (National Center for Veterans Analysis and Statistics 2011). Data suggest that by 2036, there will be no living veterans of WWII (U.S. Department of Veteran Affairs). When these veterans came home from the war and ended their service, little was known about posttraumatic stress disorder (PTSD). These heroes did not receive the mental and physical healthcare that could have helped them. As a result, many of them, now in old age, are dealing with the effects of PTSD. Research suggests a high percentage of World War II veterans are plagued by flashback memories and isolation, and that many “self-medicate” with alcohol. Research has found that veterans of any conflict are more than twice as likely as nonveterans to commit suicide, with rates highest among the oldest veterans. Reports show that WWII-era veterans are four times as likely to take their own lives as people of the same age with no military service (Glantz 2010). |  |  |\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=4839f8ca99a2d8441d269d290c7a2a89ec19fad2 | page=327 | ch=14 | type=table>>>\n[TABLE | Page 327 | Chapter 14]\nTable 14.2 Provisional number of divorces and annulments and rate: United States, 2000–2011 There has been a steady decrease in divorce over the past decade. (National Center for Health Statistics, CDC) 1Excludes data for California, Georgia, Hawaii, Indiana, Louisiana, and Minnesota. 2Excludes data for California, Georgia, Hawaii, Indiana, and Louisiana. 3Excludes data for California, Hawaii, Indiana, and Oklahoma. 4Excludes data for California, Indiana, and Oklahoma. 5Excludes data for California, Indiana, Louisiana, and Oklahoma. Note: Rates for 2001-2009 have been revised and are based on intercensal population estimates from the 2000 and 2010 censuses. Populations for 2010 rates are based on the 2010 census.\n\n| Year | Divorces and annulments | Population | Rate per 1,000 total population |\n| --- | --- | --- | --- |\n| 1 2011 | 877,000 | 246,273,366 | 3.6 |\n| 1 2010 | 872,000 | 244,122,529 | 3.6 |\n| 1 2009 | 840,000 | 242,610,561 | 3.5 |\n| 1 2008 | 844,000 | 240,545,163 | 3.5 |\n| 1 2007 | 856,000 | 238,352,850 | 3.6 |\n| 1 2006 | 872,000 | 236,094,277 | 3.7 |\n| 1 2005 | 847,000 | 233,495,163 | 3.6 |\n| 2 2004 | 879,000 | 236,402,656 | 3.7 |\n| 3 2003 | 927,000 | 243,902,090 | 3.8 |\n| 4 2002 | 955,000 | 243,108,303 | 3.9 |\n| 5 2001 | 940,000 | 236,416,762 | 4.0 |\n| 5 2000 | 944,000 | 233,550,143 | 4.0 |\n<<<END [C5]>>>",
+    "context_ids": [
+      "dccb3813ff2c2aea94f7da48ece0c1c334ce1752",
+      "ab90f8288afabfb2c98597ef050493388edee527",
+      "f5b1de38e32be998ead0a3d37373af57198d53d6",
+      "5a8e51c0fcef544a29d68d115d14a2852ab416ec",
+      "4839f8ca99a2d8441d269d290c7a2a89ec19fad2"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 58635.84,
+    "prompt_tokens": 4138,
+    "eval_tokens": 231,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_mhop_02",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Using Figure 16.5 (p.366) on Public Elementary-Secondary School System Revenue in FY2012, what were the total U.S. revenue and its breakdown into Federal, State, and Local dollars (in billions), and which single state had the largest total revenue?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "Based on the information provided in Figure 16.5 (p.366) on Public Elementary-Secondary School System Revenue in FY2012, the total U.S. revenue was 594.5 billion dollars, broken down into Federal revenue of 59.5 billion dollars, State revenue of 270.4 billion dollars, and Local revenue of 264.6 billion dollars. The single state with the largest total revenue was California, with a total revenue of 102.5 billion dollars. [2329dd43fbb76bc85b7fa1393ce61bfae9bfd791]",
+    "citations": [
+      "2329dd43fbb76bc85b7fa1393ce61bfae9bfd791"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Figure 16.5 p.366 Public Elementary-Secondary School System Revenue in FY2012",
+        "filter": {
+          "region_type": "figure"
+        },
+        "results": [
+          {
+            "id": "2329dd43fbb76bc85b7fa1393ce61bfae9bfd791",
+            "page": 366,
+            "region_type": "figure",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "59d6b39b6596e9db29ab46f49ff919f1b0ece42e",
+            "page": 374,
+            "region_type": "figure",
+            "score": 0.03200204813108039
+          },
+          {
+            "id": "7bcddeebafdb4bbe2c21f1040e94adca14b0b188",
+            "page": 420,
+            "region_type": "figure",
+            "score": 0.03149801587301587
+          },
+          {
+            "id": "8c83f0d96d18a3349a425d0b71a192d072220c77",
+            "page": 369,
+            "region_type": "figure",
+            "score": 0.030330882352941176
+          },
+          {
+            "id": "38017c4eb35b73d92dddb4b3a9daa8cc408663b2",
+            "page": 367,
+            "region_type": "figure",
+            "score": 0.030309988518943745
+          }
+        ],
+        "context_ids": [
+          "2329dd43fbb76bc85b7fa1393ce61bfae9bfd791",
+          "59d6b39b6596e9db29ab46f49ff919f1b0ece42e",
+          "7bcddeebafdb4bbe2c21f1040e94adca14b0b188",
+          "8c83f0d96d18a3349a425d0b71a192d072220c77",
+          "38017c4eb35b73d92dddb4b3a9daa8cc408663b2"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "Based on the information provided in Figure 16.5 (p.366) on Public Elementary-Secondary School System Revenue in FY2012:\n\n- The total U.S. revenue was 594.5 billion dollars.\n  - Federal revenue: 59.5 billion dollars\n  - State revenue: 270.4 billion dollars\n  - Local revenue: 264.6 billion dollars\n\nThe single state with the largest total revenue was California, with a total revenue of 102.5 billion dollars.\n\nThe breakdown of the total U.S. revenue into Federal, State, and Local dollars is as follows:\n- Federal: 59.5 billion dollars\n- State: 270.4 billion dollars\n- Local: 264.6 billion dollars\n\nThis information is extracted from the VLM summary and OCR text of the figure. The state with the largest total revenue is California, as indicated in the OCR text.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "Federal revenue | Staterevenue | Local revenue\nCalifornia\nNew York\nTexas\nIllinois\nNewJersey\nPennsylvania\nFlorida\nMichigan | Ohio | United States\nGeorgia | (Billionsof dollars.Detail may notadd to total due torounding)\nMassachusetts | Federal | State | Local\nMaryland | Virginia | 594.5 | 59.5 | 270.4 | 264.6\nNorth Carolina\nIndiana\nWashington\nWisconsin\nMinnesota\nMissouri\nConnecticut\nTennessee\nColorado\nSouth Carolina | Louisiana | Arkansas\nKentucky | Arizona | Mississippi | Utah\nAlabama | Oregon | West Virginia | Nevada\nOklahoma | lowa | New Mexico | Nebraska\nArkansas | Kansas | New Hampshire | Maine\nMississippi | Utah | Hawai | Alaska\nWest Virginia | Nevada | Rhode Island | Idaho\ndetail | New Hampshire | New Mexico | Nebraska | Wyoming | Delaware | Montana\nMoys | 01 | Hawaii | Alaska | Maine | District of Columbia | North Dakota | South Dakota | Vermont\nenlarged | Rhode Island | Idaho | 0 | 2 | 3 | 4\nDelaware | Billions of dollars\nScale | Wyoming\nMontana\nVermont\nDistrictofColumbia\nNorth Dakota\nSouthDakota\n0 | 10 | 20 | 30 | 40 | 50 | 60 | 70\nBillions of dollars"
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "Based on the information provided in Figure 16.5 (p.366) on Public Elementary-Secondary School System Revenue in FY2012, the total U.S. revenue was 594.5 billion dollars, broken down into Federal revenue of 59.5 billion dollars, State revenue of 270.4 billion dollars, and Local revenue of 264.6 billion dollars. The single state with the largest total revenue was California, with a total revenue of 102.5 billion dollars."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=2329dd43fbb76bc85b7fa1393ce61bfae9bfd791 | page=366 | ch=16 | type=figure>>>\n[FIGURE | Page 366 | Chapter 16]\nCaption: Figure 16.5 How has your state’s revenue affected your educational opportunities? (Graph courtesy of Census of Governments: Survey of School System Finances 2012)\nVLM visual summary: Bar chart. Title: \"Public Elementary-Secondary School System Revenue by Source and State: Fiscal Year 2012\". X-axis: \"Billions of dollars\". Y-axis: States. Legend: Federal revenue (dark teal), State revenue (light gray), Local revenue (medium teal). Key values: US total 594.5B (Federal 59.5B, State 270.4B, Local 264.6B). Trends: Federal revenue highest for some states (e.g., California, Texas), State revenue higher than Local for some states.\nOCR extracted rows:\nFigure 1.\nPublicElementary-SecondarySchoolSystemRevenuebySourceandState:FiscalYear2012\nFederalrevenue | Staterevenue | Local revenue\nCalifornia\nNew York\nTexas\nIllinois\nNewJersey\nPennsylvania\nFlorida\nMichigan | Ohio | United States\nGeorgia | (Billionsof dollars.Detail may notadd to total due torounding)\nMassachusetts | Federal | State | Local\nMaryland | Virginia | 594.5 | 59.5 | 270.4 | 264.6\nNorth Carolina\nIndiana\nWashington\nWisconsin\nMinnesota\nMissouri\nConnecticut\nTennessee\nColorado\nSouth Carolina | Louisiana | Arkansas\nKentucky | Arizona | Mississippi | Utah\nAlabama | Oregon | West Virginia | Nevada\nOklahoma | lowa | New Mexico | Nebraska\nArkansas | Kansas | New Hampshire | Maine\nMississippi | Utah | Hawai | Alaska\nWest Virginia | Nevada | Rhode Island | Idaho\ndetail | New Hampshire | New Mexico | Nebraska | Wyoming | Delaware | Montana\nMoys | 01 | Hawaii | Alaska | Maine | District of Columbia | North Dakota | South Dakota | Vermont\nenlarged | Rhode Island | Idaho | 0 | 2 | 3 | 4\nDelaware | Billions of dollars\nScale | Wyoming\nMontana\nVermont\nDistrictofColumbia\nNorth Dakota\nSouthDakota\n0 | 10 | 20 | 30 | 40 | 50 | 60 | 70\nBillions of dollars\nSource:2012 Census of Governments:Finance—Survey of School System Finances.Data are not subject to sampling error, but forinformation on nonsampling | error and definitions, see introductory text.Data users who create their own estimates from these tables should cite the U.S. Census Bureau as the source of\nthe original data only.\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=59d6b39b6596e9db29ab46f49ff919f1b0ece42e | page=374 | ch=16 | type=figure>>>\n[FIGURE | Page 374 | Chapter 16]\nCaption: Figure 16.10 The debate over the performance of charter schools vs. public schools is a charged one. Dozens of studies have been made on the topic, and some, as reflected in Stanford's CREDO study above, do not support the claim that charter schools always outperform public schools. (Source: Based on the CREDO study Multiple Choice: Charter School Performance in 16 States)\nVLM visual summary: Bar chart titled \"Charter School Performance Compared to Public Schools\". X-axis: categories \"Same\", \"Worse\", \"Better\"; Y-axis: percentage (0-50%). Legend: blue bar = \"Same\" (46%), red bar = \"Worse\" (37%), green bar = \"Better\" (17%). Key values: Same highest (46%), Worse middle (37%), Better lowest (17%). Labeled zones: categories; legend colors represent categories. Visible objects: bars; no people/signs.\nOCR extracted rows:\nCharterSchoolPerformance\nCompared toPublicSchools\n50% | 46%\n45%\n40% | 37%\n35%\n30%\n25%\n20% | 17%\n15%\n10%\n5%\n0%\nSame | Worse | Better\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=7bcddeebafdb4bbe2c21f1040e94adca14b0b188 | page=420 | ch=18 | type=figure>>>\n[FIGURE | Page 420 | Chapter 18]\nCaption: Figure 18.13 More education means more jobs (generally). (Graph courtesy of the U.S. Department of Labor)\nVLM visual summary: Bar chart showing percent change in U.S. employment by education category (2012-20 projected). X-axis: Percent (0–20). Y-axis: Education categories. Green bars indicate percent change values: Doctoral/professional (14), Master’s (16), Bachelor’s (18.4), Associate’s (12.1), Postsecondary non-degree (17.6), Some college (15.6), High school diploma (7.9), Less than high school (10.9). Source: U.S. Department of Labor.\nOCR extracted rows:\nPercent change in U.s. employment, by education category,\n2012-20 (projected)\nDoctoral or professional degree | 14\nMaster's degree | 16\nBachelor'sdegree | 18.4\nAssociate's degree | 12.1\nPostsecondary non-degree award | 17.6\nSome college, no degree | 15.6\nHigh school diploma or equivalent | 7.9\nLess than high school | 10.9\n0 | 5 | 10 | 15 | 20\nPercent\nSource:U.S.Department of Labor\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=8c83f0d96d18a3349a425d0b71a192d072220c77 | page=369 | ch=16 | type=figure>>>\n[FIGURE | Page 369 | Chapter 16]\nCaption: Figure 16.8 Conflict theorists see the education system as a means by which those in power stay in power. (Photo courtesy Thomas Ricker/flickr)\nVLM visual summary: Boy (blond, checkered shirt, dark pants) kicking soccer ball; four children inside metal cage; background includes brick wall and wooden planks; concrete ground with red line.\nOCR extracted rows:\n(none)\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=38017c4eb35b73d92dddb4b3a9daa8cc408663b2 | page=367 | ch=16 | type=figure>>>\n[FIGURE | Page 367 | Chapter 16]\nCaption: Figure 16.6 The teacher’s authority in the classroom is a way in which education fulfills the manifest functions of social control. (Photo courtesy of Tulane Public Relations/flickr)\nVLM visual summary: Classroom with wooden floor. Large projection screen showing a chart/graph (no title/axes/units/legend/key values). Students seated in chairs, some with laptops/notebooks. Teacher stands at front. Windows on wall. No diagram/map. Photo/illustration: visible objects (projector screen, chairs, desks, laptops, notebooks, windows), people (students, teacher), actions (seated/listening/using laptops), setting (classroom). PDF caption: Figure 16.6... (not part of image details).\nOCR extracted rows:\nLEAF\nTUASTCLE\n<<<END [C5]>>>",
+    "context_ids": [
+      "2329dd43fbb76bc85b7fa1393ce61bfae9bfd791",
+      "59d6b39b6596e9db29ab46f49ff919f1b0ece42e",
+      "7bcddeebafdb4bbe2c21f1040e94adca14b0b188",
+      "8c83f0d96d18a3349a425d0b71a192d072220c77",
+      "38017c4eb35b73d92dddb4b3a9daa8cc408663b2"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 106343.08,
+    "prompt_tokens": 3819,
+    "eval_tokens": 257,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_mhop_03",
+    "split": "dev",
+    "category": "multihop",
+    "answerable": true,
+    "question": "Across Figure 13.18 (p.301) and the conflict perspective text on the same page, what slogan appears on the protest sign held in the photo and what core principle of conflict theory explains why seniors organize protests?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "The slogan on the protest sign held in the photo (Figure 13.18, p.301) is 'SAVE MEDICARE MAKE BIG BANKS PAY THEIR SHARE.' This slogan reflects the core principle of the conflict perspective that social inequalities and power imbalances lead to conflicts, particularly between those who have resources (like big banks) and those who need support (like Medicare recipients). Seniors organizing protests highlight their struggle against economic and political structures that may not adequately address their needs, advocating for policies that would benefit them directly. This aligns with conflict theory's emphasis on the role of power dynamics in shaping social issues and the actions taken by marginalized groups to challenge these dynamics. [a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f]",
+    "citations": [
+      "a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Figure 13.18 p.301 protest sign slogan conflict perspective seniors organize protests",
+        "filter": {
+          "region_type": "figure"
+        },
+        "results": [
+          {
+            "id": "a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f",
+            "page": 301,
+            "region_type": "figure",
+            "score": 0.03252247488101534
+          },
+          {
+            "id": "d097e3d754b22d7b80a26c319c6edc79cf8eb096",
+            "page": 443,
+            "region_type": "figure",
+            "score": 0.029437229437229435
+          },
+          {
+            "id": "b54ef299f8c2abce0f71761ece688720898a7a28",
+            "page": 293,
+            "region_type": "figure",
+            "score": 0.02862400327131466
+          },
+          {
+            "id": "c427430f9d61e5988a64d9c617707ca73da45b24",
+            "page": 392,
+            "region_type": "figure",
+            "score": 0.02797339593114241
+          },
+          {
+            "id": "a3947bc39b1b0768bacdaea99074397ef17b0125",
+            "page": 493,
+            "region_type": "figure",
+            "score": 0.01639344262295082
+          }
+        ],
+        "context_ids": [
+          "a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f",
+          "d097e3d754b22d7b80a26c319c6edc79cf8eb096",
+          "b54ef299f8c2abce0f71761ece688720898a7a28",
+          "c427430f9d61e5988a64d9c617707ca73da45b24",
+          "a3947bc39b1b0768bacdaea99074397ef17b0125"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "The slogan on the protest sign held in the photo (Figure 13.18, p.301) is \"SAVE MEDICARE MAKE BIG BANKS PAY THEIR SHARE.\" This slogan reflects the core principle of the conflict perspective that social inequalities and power imbalances lead to conflicts, particularly between those who have resources (like big banks) and those who need support (like Medicare recipients). Seniors organizing protests highlight their struggle against economic and political structures that may not adequately address their needs, advocating for policies that would benefit them directly. This aligns with conflict theory's emphasis on the role of power dynamics in shaping social issues and the actions taken by marginalized groups to challenge these dynamics. [C1]",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "SAVE MEDICARE MAKE BIG BANKSPAY THEIR SHARE"
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "The slogan on the protest sign held in the photo (Figure 13.18, p.301) is 'SAVE MEDICARE MAKE BIG BANKS PAY THEIR SHARE.' This slogan reflects the core principle of the conflict perspective that social inequalities and power imbalances lead to conflicts, particularly between those who have resources (like big banks) and those who need support (like Medicare recipients). Seniors organizing protests highlight their struggle against economic and political structures that may not adequately address their needs, advocating for policies that would benefit them directly. This aligns with conflict theory's emphasis on the role of power dynamics in shaping social issues and the actions taken by marginalized groups to challenge these dynamics. [C1]"
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f | page=301 | ch=13 | type=figure>>>\n[FIGURE | Page 301 | Chapter 13]\nCaption: Figure 13.18 At a public protest, older people make their voices heard. In advocating for themselves, they help shape public policy and alter the allotment of available resources. (Photo courtesy of longislandwins/flickr)\nVLM visual summary: This photo depicts a public protest outside a Chase bank. A prominent sign reads \"SAVE MEDICARE MAKE BIG BANKS PAY THEIR SHARE,\" held by an older individual. Other people, including a woman in blue and another holding a red object, are present. The setting is an outdoor grassy area with a tree and the Chase building in the background. The protest involves older individuals advocating for Medicare policy changes, as indicated by the sign and the caption’s focus on their role in shaping public policy. (118 words)\nOCR extracted rows:\nSAVE\nMEDICARE\nMAKEBIGBANKSPAYTHEIRSHARE\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=d097e3d754b22d7b80a26c319c6edc79cf8eb096 | page=443 | ch=19 | type=figure>>>\n[FIGURE | Page 443 | Chapter 19]\nCaption: Figure 19.9 Many people in the United States worry that governmental oversight of healthcare represents a federal overstepping of constitutional guarantees of individual freedom. Others welcome a program that they believe will make healthcare accessible and affordable to everyone. (Photo courtesy of Fibonacci Blue/flickr)\nVLM visual summary: Three signs held by a crowd: orange sign reads \"OBAMA WHY ARE YOU DIVIDING AMERICA? And INCITING VIOLENCE!\"; yellow sign reads \"OBAMA GET YOUR HANDS OFF MY HEALTHCARE It's Unconstitutional!\"; third yellow sign reads \"STOP SPENDING STOP TYRANNY\". Setting: outdoor park with trees, grass, and people gathered. No charts, maps, or diagrams.\nOCR extracted rows:\nOBAMA!\nWHYAREYOU | OBAMA | GET yOUR | STOP\nDIVIDING | HANDSOFFMY | SPENDING\nAMERICA? | AndINCITING | HEALTHCARE | STOP\nTF+eypofe | Webonya cus | VIOLENCE! | IsUnconstiteional! | TYRANNY\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=b54ef299f8c2abce0f71761ece688720898a7a28 | page=293 | ch=13 | type=figure>>>\n[FIGURE | Page 293 | Chapter 13]\nCaption: Figure 13.11 As same-sex marriage becomes a possibility, many gay and lesbian couples are finally able to tie the knot—sometimes as seniors—after decades of waiting. (Photo courtesy of Fibonacci Blue/flickr).\nVLM visual summary: A man holds a blue banner with white text \"LEGAL MARRIAGE FOR GAY COUPLES NOW\" in a building lobby with marble columns. Other people are visible in the background. The setting is an interior space with columns, and the banner is held by the man.\nOCR extracted rows:\nLEGAL MARRIAGE\nFOR GAY COUPLES\nNOW\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=c427430f9d61e5988a64d9c617707ca73da45b24 | page=392 | ch=17 | type=figure>>>\n[FIGURE | Page 392 | Chapter 17]\nCaption: Figure 17.9 Americans' voting rights are a fundamental element of the U.S. democratic structure. (Photo courtesy of David Goehring/flickr)\nVLM visual summary: A sidewalk scene with pedestrians walking away. A beige brick building has a black door with a \"VOTE HERE\" sign (text: \"VOTE HERE ADD\" with arrow) and a smaller sign. The building has a covered walkway leading to a storefront. Trees and distant buildings are visible. Pedestrians wear winter clothing, suggesting cold weather. Actions: walking, standing near the building.\nOCR extracted rows:\n(none)\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=a3947bc39b1b0768bacdaea99074397ef17b0125 | page=493 | ch=21 | type=figure>>>\n[FIGURE | Page 493 | Chapter 21]\nCaption: Figure 21.10 Extension occurs when social movements have sympathetic causes. Women’s rights, racial equality, and LGBT advocacy are all\nVLM visual summary: Black-and-white photo of a large crowd marching on a street. People in suits; many hold signs with phrases like \"We March for Jobs for All Now!\", \"End Segregated Rules in Public Schools\", and \"We Demand Voting Rights Now!\". Background has trees. Actions: crowd holding hands, some raising arms. No charts or maps; only protest signs and people.\nOCR extracted rows:\nNOw! | JOBS | MARCH | FOR ALL | JOBS | VOTING | RIGHTS | NOW | ANESS | END | RULES | PUBLIC\n<<<END [C5]>>>",
+    "context_ids": [
+      "a7da84b22c6ce47e492b79d1c7ffd45aa9a87e9f",
+      "d097e3d754b22d7b80a26c319c6edc79cf8eb096",
+      "b54ef299f8c2abce0f71761ece688720898a7a28",
+      "c427430f9d61e5988a64d9c617707ca73da45b24",
+      "a3947bc39b1b0768bacdaea99074397ef17b0125"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 53736.48,
+    "prompt_tokens": 3206,
+    "eval_tokens": 191,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_txt_01",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "According to p.370, how did Pierre Bourdieu define 'cultural capital', and what is the 'hidden curriculum'?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "According to Pierre Bourdieu as described on p.370, cultural capital refers to cultural knowledge that serves as a form of currency, helping individuals navigate their culture. Members of the upper and middle classes possess more cultural capital than those from lower social classes, and this cultural capital is rewarded in the educational system, maintaining a cycle where the dominant culture's values are favored. The hidden curriculum, on the other hand, refers to the nonacademic knowledge that students learn through informal learning and cultural transmission, which reinforces the positions of those with higher cultural capital and serves to bestow status unequally. [e6db1623c0332e7864d23d6d7acd7acdbeb365cf] [ba86834e0d190ef2ac91a1c3139f72b37b9e78cd]",
+    "citations": [
+      "e6db1623c0332e7864d23d6d7acd7acdbeb365cf",
+      "ba86834e0d190ef2ac91a1c3139f72b37b9e78cd"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "get_page_assets",
+        "query": "page:370",
+        "results": [
+          {
+            "id": "32854c8dfff9455bec3782dd8e131573f1fa5689",
+            "page": 370,
+            "region_type": "table"
+          },
+          {
+            "id": "e6db1623c0332e7864d23d6d7acd7acdbeb365cf",
+            "page": 370,
+            "region_type": "text"
+          },
+          {
+            "id": "ba86834e0d190ef2ac91a1c3139f72b37b9e78cd",
+            "page": 370,
+            "region_type": "text"
+          },
+          {
+            "id": "9c7cff51c2b5bc722421161c4dd823bbcf721543",
+            "page": 370,
+            "region_type": "text"
+          },
+          {
+            "id": "61819a731242fec3d8eff3027ce7ef752d44c27b",
+            "page": 370,
+            "region_type": "text"
+          },
+          {
+            "id": "04a850c7d335803ba6f69694a90e312006508b33",
+            "page": 370,
+            "region_type": "text"
+          },
+          {
+            "id": "51c9466235cfa66c7d5f4509ed59a83743f5248a",
+            "page": 370,
+            "region_type": "text"
+          }
+        ],
+        "context_ids": [
+          "32854c8dfff9455bec3782dd8e131573f1fa5689",
+          "e6db1623c0332e7864d23d6d7acd7acdbeb365cf",
+          "ba86834e0d190ef2ac91a1c3139f72b37b9e78cd",
+          "9c7cff51c2b5bc722421161c4dd823bbcf721543",
+          "61819a731242fec3d8eff3027ce7ef752d44c27b",
+          "04a850c7d335803ba6f69694a90e312006508b33",
+          "51c9466235cfa66c7d5f4509ed59a83743f5248a"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "According to Pierre Bourdieu, as described on p.370:\n\n1. **Cultural Capital**: Cultural capital refers to cultural knowledge that serves as a form of currency, helping individuals navigate their culture. Members of the upper and middle classes possess more cultural capital than those from lower social classes. This cultural capital is rewarded in the educational system, maintaining a cycle where the dominant culture's values are favored. (Chunk [C2]: `[C2]`)\n\n2. **Hidden Curriculum**: The hidden curriculum refers to nonacademic knowledge that students learn through informal learning and cultural transmission. This knowledge reinforces the positions of those with higher cultural capital and serves to bestow status unequally. (Chunk [C3]: `[C3]`)\n\nThese definitions highlight how cultural capital and the hidden curriculum contribute to social class reproduction in educational settings.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C2",
+              "quote": "He researched how cultural capital, or cultural knowledge that serves (metaphorically) as currency that helps us navigate a culture, alters the experiences and opportunities available to French students from different social classes."
+            },
+            {
+              "chunk_id": "C3",
+              "quote": "The cycle of rewarding those who possess cultural capital is found in formal educational curricula as well as in the hidden curriculum, which refers to the type of nonacademic knowledge that students learn through informal learning and cultural transmission."
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "According to Pierre Bourdieu as described on p.370, cultural capital refers to cultural knowledge that serves as a form of currency, helping individuals navigate their culture. Members of the upper and middle classes possess more cultural capital than those from lower social classes, and this cultural capital is rewarded in the educational system, maintaining a cycle where the dominant culture's values are favored. The hidden curriculum, on the other hand, refers to the nonacademic knowledge that students learn through informal learning and cultural transmission, which reinforces the positions of those with higher cultural capital and serves to bestow status unequally."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=32854c8dfff9455bec3782dd8e131573f1fa5689 | page=370 | ch=16 | type=table>>>\n[TABLE | Page 370 | Chapter 16]\nTable on page 370\n\n| across the world. |  |  |\n| --- | --- | --- |\n| Making Connections: Sociology Real World in the |  |  |\n| Making Connections: |  | Sociology Real World in the |\n| Grade Inflation: When Is an A Really a C? Consider a large-city newspaper publisher. Ten years ago, when culling résumés for an entry-level copywriter, they were well assured that if they selected a grad with a GPA of 3.7 or higher, they’d have someone with the writing skills to contribute to the workplace on day one. But over the last few years, they’ve noticed that A-level students don’t have the competency evident in the past. More and more, they find themselves in the position of educating new hires in abilities that, in the past, had been mastered during their education. |  |  |\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=e6db1623c0332e7864d23d6d7acd7acdbeb365cf | page=370 | ch=16 | type=text>>>\nSuch a situation leads to social class reproduction, extensively studied by French sociologist Pierre Bourdieu.\n\nHe\nresearched how cultural capital, or cultural knowledge that serves (metaphorically) as currency that helps us navigate a\nculture, alters the experiences and opportunities available to French students from different social classes.\n\nMembers of the\nupper and middle classes have more cultural capital than do families of lower-class status.\n\nAs a result, the educational\nsystem maintains a cycle in which the dominant culture’s values are rewarded.\n\nInstruction and tests cater to the dominant\nculture and leave others struggling to identify with values and competencies outside their social class.\n\nFor example, there\nhas been a great deal of discussion over what standardized tests such as the SAT truly measure.\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=ba86834e0d190ef2ac91a1c3139f72b37b9e78cd | page=370 | ch=16 | type=text>>>\nMany argue that the tests\ngroup students by cultural ability rather than by natural intelligence.\n\nThe cycle of rewarding those who possess cultural capital is found in formal educational curricula as well as in the hidden\ncurriculum, which refers to the type of nonacademic knowledge that students learn through informal learning and cultural\ntransmission.\n\nThis hidden curriculum reinforces the positions of those with higher cultural capital and serves to bestow\nstatus unequally.\n\nConflict theorists point to tracking, a formalized sorting system that places students on “tracks” (advanced versus low\nachievers) that perpetuate inequalities.\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=9c7cff51c2b5bc722421161c4dd823bbcf721543 | page=370 | ch=16 | type=text>>>\nWhile educators may believe that students do better in tracked classes because they\nare with students of similar ability and may have access to more individual attention from teachers, conflict theorists feel\nthat tracking leads to self-fulfilling prophecies in which students live up (or down) to teacher and societal expectations\n(Education Week 2004).\n\nTo conflict theorists, schools play the role of training working-class students to accept and retain their position as lower\nmembers of society.\n\nThey argue that this role is fulfilled through the disparity of resources available to students in richer\nand poorer neighborhoods as well as through testing (Lauen and Tyson 2008).\n\nIQ tests have been attacked for being biased—for testing cultural knowledge rather than actual intelligence.\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=61819a731242fec3d8eff3027ce7ef752d44c27b | page=370 | ch=16 | type=text>>>\nFor example, a\ntest item may ask students what instruments belong in an orchestra.\n\nTo correctly answer this question requires certain\ncultural knowledge—knowledge most often held by more affluent people who typically have more exposure to orchestral\nmusic.\n\nThough experts in testing claim that bias has been eliminated from tests, conflict theorists maintain that this is\nimpossible.\n\nThese tests, to conflict theorists, are another way in which education does not provide opportunities, but\ninstead maintains an established configuration of power.\n\nFeminist Theory\n\nFeminist theory aims to understand the mechanisms and roots of gender inequality in education, as well as their societal\nrepercussions.\n\nLike many other institutions of society, educational systems are characterized by unequal treatment and\nopportunity for women.\n<<<END [C5]>>>\n\n<<<CHUNK [C6] | id=04a850c7d335803ba6f69694a90e312006508b33 | page=370 | ch=16 | type=text>>>\nAlmost two-thirds of the world’s 862 million illiterate people are women, and the illiteracy rate\namong women is expected to increase in many regions, especially in several African and Asian countries (UNESCO 2005;\nWorld Bank 2007).\n\nWomen in the United States have been relatively late, historically speaking, to be granted entry to the public university\nsystem.\n\nIn fact, it wasn’t until the establishment of Title IX of the Education Amendments in 1972 that discriminating on\nthe basis of sex in U.S. education programs became illegal.\n\nIn the United States, there is also a post-education gender\ndisparity between what male and female college graduates earn.\n\nA study released in May 2011 showed that, among men\nand women who graduated from college between 2006 and 2010, men out-earned women by an average of more than\n$5,000 each year.\n<<<END [C6]>>>\n\n<<<CHUNK [C7] | id=51c9466235cfa66c7d5f4509ed59a83743f5248a | page=370 | ch=16 | type=text>>>\nFirst-year job earnings for men averaged $33,150; for women the average was $28,000 (Godofsky,\nZukin, and van Horn 2011).\n\nSimilar trends are seen among salaries of professionals in virtually all industries.\n\nWhen women face limited opportunities for education, their capacity to achieve equal rights, including financial\nindependence, are limited.\n\nFeminist theory seeks to promote women’s rights to equal education (and its resultant benefits)\nacross the world.\n<<<END [C7]>>>",
+    "context_ids": [
+      "32854c8dfff9455bec3782dd8e131573f1fa5689",
+      "e6db1623c0332e7864d23d6d7acd7acdbeb365cf",
+      "ba86834e0d190ef2ac91a1c3139f72b37b9e78cd",
+      "9c7cff51c2b5bc722421161c4dd823bbcf721543",
+      "61819a731242fec3d8eff3027ce7ef752d44c27b",
+      "04a850c7d335803ba6f69694a90e312006508b33",
+      "51c9466235cfa66c7d5f4509ed59a83743f5248a"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 65704.39,
+    "prompt_tokens": 3600,
+    "eval_tokens": 195,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_txt_02",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "According to p.439, what are the most common mental disorders in the United States per NIMH, and what are the yearly vs. lifetime percentages for mood disorders among U.S. adults?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "According to p.439, the most common mental disorders in the United States per NIMH are anxiety disorders, with almost 18 percent of U.S. adults affected in a single year and 28 percent affected over the course of a lifetime. For mood disorders among U.S. adults, the yearly percentage is 10 percent, and the lifetime percentage is 21 percent. [f16d58a62feb9654d545f4111ad58e82a8ad9a21] [26713012af922cf1c78d57fe5a93773efe2c598c]",
+    "citations": [
+      "f16d58a62feb9654d545f4111ad58e82a8ad9a21",
+      "26713012af922cf1c78d57fe5a93773efe2c598c"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "p.439 mental disorders NIMH",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "5b2abd8328b8f0c905663359be69783dd00044cf",
+            "page": 440,
+            "region_type": "text",
+            "score": 0.03278688524590164
+          },
+          {
+            "id": "f16d58a62feb9654d545f4111ad58e82a8ad9a21",
+            "page": 439,
+            "region_type": "text",
+            "score": 0.03225806451612903
+          },
+          {
+            "id": "26713012af922cf1c78d57fe5a93773efe2c598c",
+            "page": 439,
+            "region_type": "text",
+            "score": 0.031009615384615385
+          },
+          {
+            "id": "8e3c73a9371db015426588f89e72a8d2efed715e",
+            "page": 439,
+            "region_type": "text",
+            "score": 0.030798389007344232
+          },
+          {
+            "id": "8cce58d4c5c1b3d432f72825f3312901f193c81d",
+            "page": 439,
+            "region_type": "text",
+            "score": 0.029437229437229435
+          }
+        ],
+        "context_ids": [
+          "5b2abd8328b8f0c905663359be69783dd00044cf",
+          "f16d58a62feb9654d545f4111ad58e82a8ad9a21",
+          "26713012af922cf1c78d57fe5a93773efe2c598c",
+          "8e3c73a9371db015426588f89e72a8d2efed715e",
+          "8cce58d4c5c1b3d432f72825f3312901f193c81d"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "According to p.439 of the textbook, the most common mental disorders in the United States per NIMH are anxiety disorders, with almost 18 percent of U.S. adults affected in a single year and 28 percent affected over the course of a lifetime.\n\nFor mood disorders among U.S. adults, the yearly percentage is 10 percent, and the lifetime percentage is 21 percent.\n\nReferences:\n- [C2]: Anxiety disorders are the most common mental disorders in the United States.\n- [C3]: Mood disorders are the second most common mental disorders in the United States, with 10 percent affected yearly and 21 percent affected over the course of a lifetime.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C2",
+              "quote": "According to the National Institute of Mental Health (NIMH), the most common mental disorders in the United States are anxiety disorders."
+            },
+            {
+              "chunk_id": "C2",
+              "quote": "Almost 18 percent of U.S. adults are likely to be affected in a single year, and 28 percent are likely to be affected over the course of a lifetime (National Institute of Mental Health 2005)."
+            },
+            {
+              "chunk_id": "C3",
+              "quote": "The second most common mental disorders in the United States are mood disorders; roughly 10 percent of U.S. adults are likely to be affected yearly, while 21 percent are likely to be affected over the course of a lifetime (National Institute of Mental Health 2005)."
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "According to p.439, the most common mental disorders in the United States per NIMH are anxiety disorders, with almost 18 percent of U.S. adults affected in a single year and 28 percent affected over the course of a lifetime. For mood disorders among U.S. adults, the yearly percentage is 10 percent, and the lifetime percentage is 21 percent."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=5b2abd8328b8f0c905663359be69783dd00044cf | page=440 | ch=19 | type=text>>>\nAutism Spectrum Disorders (ASD) have gained a lot of attention in recent years.\n\nThe term ASD encompasses a group of\ndevelopmental brain disorders that are characterized by “deficits in social interaction, verbal and nonverbal\ncommunication, and engagement in repetitive behaviors or interests” (National Institute of Mental Health).\n\nAs with the\npersonality disorders described above, the Diagnostic and Statistical Manual on Mental Disorders’ description of these is\nin the process of being revised.\n\nThe National Institute of Mental Health (NIMH) distinguishes between serious mental illness and other disorders.\n\nThe key\nfeature of serious mental illness is that it results in “serious functional impairment, which substantially interferes with or\nlimits one or more major life activities” (National Institute of Mental Health).\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=f16d58a62feb9654d545f4111ad58e82a8ad9a21 | page=439 | ch=19 | type=text>>>\nMental Health\n\nPeople with mental disorders (a condition that makes it more difficult to cope with everyday life) and people with mental\nillness (a severe, lasting mental disorder that requires long-term treatment) experience a wide range of effects.\n\nAccording to the National Institute of Mental Health (NIMH), the most common mental disorders in the United States are\nanxiety disorders.\n\nAlmost 18 percent of U.S. adults are likely to be affected in a single year, and 28 percent are likely to\nbe affected over the course of a lifetime (National Institute of Mental Health 2005).\n\nIt is important to distinguish between\noccasional feelings of anxiety and a true anxiety disorder.\n\nAnxiety is a normal reaction to stress that we all feel at some\npoint, but anxiety disorders are feelings of worry and fearfulness that last for months at a time.\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=26713012af922cf1c78d57fe5a93773efe2c598c | page=439 | ch=19 | type=text>>>\nAnxiety disorders include\nobsessive compulsive disorder (OCD), panic disorders, posttraumatic stress disorder (PTSD), and both social and specific\nphobias.\n\nThe second most common mental disorders in the United States are mood disorders; roughly 10 percent of U.S. adults are\nlikely to be affected yearly, while 21 percent are likely to be affected over the course of a lifetime (National Institute of\nMental Health 2005).\n\nMajor mood disorders are depression, bipolar disorder, and dysthymic disorder.\n\nLike anxiety,\ndepression might seem like something that everyone experiences at some point, and it is true that most people feel sad or\n“blue” at times in their lives.\n\nA true depressive episode, however, is more than just feeling sad for a short period.\n\nIt is a\nlong-term, debilitating illness that usually needs treatment to cure.\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=8e3c73a9371db015426588f89e72a8d2efed715e | page=439 | ch=19 | type=text>>>\nAfter a multilevel review of proposed revisions, the American\nPsychiatric Association Board of Trustees ultimately decided to retain the DSM-IV categorical approach with the same ten\npersonality disorders (paranoid personality disorder, schizoid personality disorder, schizotypal personality disorder,\nantisocial personality disorder, borderline personality disorder, histrionic personality, narcissistic personality disorder,\navoidant personality disorder, dependent personality disorder and obsessive-compulsive personality disorder.\n\nIn the DSMIV, personality disorders represent “an enduring pattern of inner experience and behavior that deviates markedly from the\nexpectations of the culture of the individual who exhibits it” (National Institute of Mental Health).\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=8cce58d4c5c1b3d432f72825f3312901f193c81d | page=439 | ch=19 | type=text>>>\nAnd bipolar disorder is characterized by dramatic shifts\nin energy and mood, often affecting the individual’s ability to carry out day-to-day tasks.\n\nBipolar disorder used to be called\nmanic depression because of the way people would swing between manic and depressive episodes.\n\nDepending on what definition is used, there is some overlap between mood disorders and personality disorders, which\naffect 9 percent of people in the United States yearly.\n\nThe American Psychological Association publishes the Diagnostic\nand Statistical Manual on Mental Disorders (DSM), and their definition of personality disorders is changing in the fifth\nedition, which is being revised in 2011 and 2012.\n<<<END [C5]>>>",
+    "context_ids": [
+      "5b2abd8328b8f0c905663359be69783dd00044cf",
+      "f16d58a62feb9654d545f4111ad58e82a8ad9a21",
+      "26713012af922cf1c78d57fe5a93773efe2c598c",
+      "8e3c73a9371db015426588f89e72a8d2efed715e",
+      "8cce58d4c5c1b3d432f72825f3312901f193c81d"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 63200.41,
+    "prompt_tokens": 3101,
+    "eval_tokens": 181,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_d_txt_03",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "What distinction does p.465 draw among a 'refugee', an 'asylum-seeker', and an 'internally displaced person', and how many total displaced people did the world exceed in 2013?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "answered",
+    "answer": "On page 465, the text provides the following distinctions among a 'refugee', an 'asylum-seeker', and an 'internally displaced person':\n- **Refugee**: An individual who has been forced to leave his or her country in order to escape war, persecution, or natural disaster.\n- **Asylum-seeker**: Those whose claim to refugee status has not been validated.\n- **Internally displaced person**: A displaced person who has fled their homes while remaining inside their country’s borders.\n\nThe text also states that in 2013, the number of refugees, asylum-seekers, and internally displaced people worldwide exceeded 50 million people for the first time since the end of World War II. Half of these people were children. Therefore, the total number of displaced people the world exceeded in 2013 was 50 million. [855db08dc97bf100cadb994eb5149fba3c218f9b]",
+    "citations": [
+      "855db08dc97bf100cadb994eb5149fba3c218f9b"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "refugee asylum-seeker internally displaced person 2013",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "a0a85dd6b17ea0a5773fbec9a094a91c50308ba1",
+            "page": 458,
+            "region_type": "text",
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "9b27bbc8245e52ac748e29ab53bfdb2f22a10226",
+            "page": 480,
+            "region_type": "text",
+            "score": 0.031754032258064516
+          },
+          {
+            "id": "010a9b2049aab501eb42da5962c091574c96e510",
+            "page": 474,
+            "region_type": "text",
+            "score": 0.03125763125763126
+          },
+          {
+            "id": "0898015434a19ac2eb7f6cd3ae2afecd642f694e",
+            "page": 461,
+            "region_type": "text",
+            "score": 0.030117753623188408
+          },
+          {
+            "id": "6c8b87bd1a9e05cf641fc02af38ffbf696d45e5e",
+            "page": 463,
+            "region_type": "text",
+            "score": 0.03007688828584351
+          }
+        ],
+        "context_ids": [
+          "a0a85dd6b17ea0a5773fbec9a094a91c50308ba1",
+          "9b27bbc8245e52ac748e29ab53bfdb2f22a10226",
+          "010a9b2049aab501eb42da5962c091574c96e510",
+          "0898015434a19ac2eb7f6cd3ae2afecd642f694e",
+          "6c8b87bd1a9e05cf641fc02af38ffbf696d45e5e"
+        ]
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "tool": "search_adv",
+        "query": "refugee asylum-seeker internally displaced person 2013",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "a0a85dd6b17ea0a5773fbec9a094a91c50308ba1",
+            "page": 458,
+            "region_type": "text",
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "9b27bbc8245e52ac748e29ab53bfdb2f22a10226",
+            "page": 480,
+            "region_type": "text",
+            "score": 0.031754032258064516
+          },
+          {
+            "id": "010a9b2049aab501eb42da5962c091574c96e510",
+            "page": 474,
+            "region_type": "text",
+            "score": 0.03125763125763126
+          },
+          {
+            "id": "0898015434a19ac2eb7f6cd3ae2afecd642f694e",
+            "page": 461,
+            "region_type": "text",
+            "score": 0.030117753623188408
+          },
+          {
+            "id": "6c8b87bd1a9e05cf641fc02af38ffbf696d45e5e",
+            "page": 463,
+            "region_type": "text",
+            "score": 0.03007688828584351
+          }
+        ],
+        "context_ids": [
+          "a0a85dd6b17ea0a5773fbec9a094a91c50308ba1",
+          "9b27bbc8245e52ac748e29ab53bfdb2f22a10226",
+          "010a9b2049aab501eb42da5962c091574c96e510",
+          "0898015434a19ac2eb7f6cd3ae2afecd642f694e",
+          "6c8b87bd1a9e05cf641fc02af38ffbf696d45e5e"
+        ]
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "tool": "get_page_assets",
+        "query": "page:465",
+        "results": [
+          {
+            "id": "855db08dc97bf100cadb994eb5149fba3c218f9b",
+            "page": 465,
+            "region_type": "table"
+          },
+          {
+            "id": "cb1c704eba0b4f96c48b87ffe4b7c16abf603ce0",
+            "page": 465,
+            "region_type": "text"
+          },
+          {
+            "id": "c32fd083915c52809bd6deff0fdc2c57b030172a",
+            "page": 465,
+            "region_type": "text"
+          },
+          {
+            "id": "66b3ba4e964a058abbc46bde320df0a4591142c3",
+            "page": 465,
+            "region_type": "text"
+          }
+        ],
+        "context_ids": [
+          "a0a85dd6b17ea0a5773fbec9a094a91c50308ba1",
+          "9b27bbc8245e52ac748e29ab53bfdb2f22a10226",
+          "010a9b2049aab501eb42da5962c091574c96e510",
+          "0898015434a19ac2eb7f6cd3ae2afecd642f694e",
+          "6c8b87bd1a9e05cf641fc02af38ffbf696d45e5e",
+          "855db08dc97bf100cadb994eb5149fba3c218f9b",
+          "cb1c704eba0b4f96c48b87ffe4b7c16abf603ce0",
+          "c32fd083915c52809bd6deff0fdc2c57b030172a"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "On page 465, the text provides the following distinctions among a 'refugee', an 'asylum-seeker', and an 'internally displaced person':\n\n- **Refugee**: An individual who has been forced to leave his or her country in order to escape war, persecution, or natural disaster.\n- **Asylum-seeker**: Those whose claim to refugee status has not been validated.\n- **Internally displaced person**: A displaced person who has fled their homes while remaining inside their country’s borders.\n\nThe text also states that in 2013, the number of refugees, asylum-seekers, and internally displaced people worldwide exceeded 50 million people for the first time since the end of World War II. Half of these people were children.\n\nTherefore, the total number of displaced people the world exceeded in 2013 was **50 million**.\n\n[Reference: `Chunk [C6]` on page 465, Table on page 465]",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C6",
+              "quote": "A refugee is defined as an individual who has been forced to leave his or her country in order to escape war, persecution, or natural disaster, while asylum-seekers are those whose claim to refugee status has not been validated. An internally displaced person, on the other hand, is neither a refugee nor an asylum-seeker. Displaced persons have fled their homes while remaining inside their country’s borders."
+            },
+            {
+              "chunk_id": "C6",
+              "quote": "In 2013, the number of refugees, asylum-seekers, and internally displaced people worldwide exceeded 50 million people for the first time since the end of World War II. Half these people were children."
+            }
+          ],
+          "has_sufficient_evidence": true,
+          "missing_reason": "",
+          "final_answer": "On page 465, the text provides the following distinctions among a 'refugee', an 'asylum-seeker', and an 'internally displaced person':\n- **Refugee**: An individual who has been forced to leave his or her country in order to escape war, persecution, or natural disaster.\n- **Asylum-seeker**: Those whose claim to refugee status has not been validated.\n- **Internally displaced person**: A displaced person who has fled their homes while remaining inside their country’s borders.\n\nThe text also states that in 2013, the number of refugees, asylum-seekers, and internally displaced people worldwide exceeded 50 million people for the first time since the end of World War II. Half of these people were children. Therefore, the total number of displaced people the world exceeded in 2013 was 50 million."
+        }
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=a0a85dd6b17ea0a5773fbec9a094a91c50308ba1 | page=458 | ch=20 | type=text>>>\nLearning Objectives\n\n20.1.\n\nDemography and Population\n•\nUnderstand demographic measurements like fertility and mortality rates\n\n•\nDescribe a variety of demographic theories, such as Malthusian, cornucopian, zero population growth, and\ndemographic transition theories\n\n•\nBe familiar with current population trends and patterns\n\n•\nUnderstand the difference between an internally displaced person, an asylum-seeker, and a refugee\n\n20.2.\n\nUrbanization\n•\nDescribe the process of urbanization in the United States and the growth of urban populations worldwide\n\n•\nUnderstand the function of suburbs, exurbs, and concentric zones\n\n•\nDiscuss urbanization from various sociological perspectives\n\n20.3.\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=9b27bbc8245e52ac748e29ab53bfdb2f22a10226 | page=480 | ch=20 | type=text>>>\nSimon, Julian Lincoln.\n\n1981.\n\nThe Ultimate Resource.\n\nPrinceton, NJ: Princeton University Press.\n\nThe United Nations Refugee Agency.\n\n2014.\n\n\"World Refugee Day: Global Forced Displacement Tops 50 Million for First\nTime in Post-World War II Era.\" UNHCR News.\n\nN.p., Retrieved October 31, 2014(http://www.unhcr.org/\n53a155bc6.html).\n\nU.S.\n\nCongress.\n\n2008.\n\nThe William Wilberforce Trafficking Victims Protection Reauthorization Act of 2008.\n\n7311, 110\nCong., U.S.\n\nG.P.O. (enacted).\n\nPrint.\n\n20.2 Urbanization\n\nBBC.\n\n2005.\n\n“Timeline: French Riots—A Chronology of Key Events.” November 14.\n\nRetrieved December 9, 2011\n(http://news.bbc.co.uk/2/hi/europe/4413964.stm (http://news.bbc.co.uk/2/hi/europe/4413964.stm) ).\n\nBurgess, Ernest.\n\n1925.\n\n“The Growth of the City.” Pp.\n\n47–62 in The City, edited by R.\n\nPark and E.\n\nBurgess.\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=010a9b2049aab501eb42da5962c091574c96e510 | page=474 | ch=20 | type=text>>>\nChapter Review\n\nKey Terms\n\nasylum-seekers:\n\nthose whose claim to refugee status have not been validated\n\ncancer cluster:\n\na geographic area with high levels of cancer within its population\n\ncarrying capacity:\n\nthe amount of people that can live in a given area considering the amount of available resources\n\nclimate change:\n\nlong-term shifts in temperature and climate due to human activity\n\nconcentric zone model:\n\na model of human ecology that views cities as a series of circular rings or zones\n\ncornucopian theory:\n\na theory that asserts human ingenuity will rise to the challenge of providing adequate resources\nfor a growing population\n\ndemographic transition theory:\n\na theory that describes four stages of population growth, following patterns that\nconnect birth and death rates with stages of industrial development\n\ndemography:\n\nthe study\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=0898015434a19ac2eb7f6cd3ae2afecd642f694e | page=461 | ch=20 | type=text>>>\nGiven the fact that these children are fleeing various kinds of violence and extreme poverty, how should the U.S.\ngovernment respond?\n\nShould the government pass laws granting a general amnesty?\n\nOr should it follow a zerotolerance policy, automatically returning any and all unaccompanied minor migrants to their countries of origin so as\nto discourage additional immigration that will stress the already overwhelmed system?\n\nA functional perspective theorist might focus on the dysfunctions caused by the sudden influx of underage asylum\nseekers, while a conflict perspective theorist might look at the way social stratification influences how the members\nof a developed country are treating the lower-status migrants from less-developed countries in Latin America.\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=6c8b87bd1a9e05cf641fc02af38ffbf696d45e5e | page=463 | ch=20 | type=text>>>\nFrom 1990\nto 2013, the number of migrants living in the United States increased from one in six to one in five (The Pew Research\nCenter 2013).\n\nOverall, in 2013 the United States was home to about 46 million foreign-born people, while only about 3\nmillion U.S. citizens lived abroad.\n\nOf foreign-born citizens emigrating to the United States, 55 percent originated in Latin\nAmerica and the Caribbean (Connor, Cohn, and Gonzalez-Barrera 2013).\n\nWhile there are more foreign-born people residing in the United States legally, as of 2012 about 11.7 million resided here\nwithout legal status (Passel, Cohn, and Gonzalez-Barrera 2013).\n\nMost citizens agree that our national immigration policies\n<<<END [C5]>>>\n\n<<<CHUNK [C6] | id=855db08dc97bf100cadb994eb5149fba3c218f9b | page=465 | ch=20 | type=table>>>\n[TABLE | Page 465 | Chapter 20]\nTable on page 465\n\n| recent immigrants, have made their way to urban centers to seek a better life in the city. |  |  |\n| --- | --- | --- |\n| Making Connections: Sociology Real World in the |  |  |\n| Making Connections: |  | Sociology Real World in the |\n| Managing Refugees and Asylum-Seekers in the Modern World In 2013, the number of refugees, asylum-seekers, and internally displaced people worldwide exceeded 50 million people for the first time since the end of World War II. Half these people were children. Arefugeeis defined as an individual who has been forced to leave his or her country in order to escape war, persecution, or natural disaster, whileasylum-seekersare those whose claim to refugee status has not been validated. Aninternally displaced person, on the other hand, is neither a refugee nor an asylum-seeker. Displaced persons have fled their homes while remaining inside their country’s borders. The war in Syria caused most of the 2013 increase, forcing 2.5 million people to seek refugee status while internally displacing an additional 6.5 million. Violence in Central African Republic and South Sudan also contributed a large number of people to the total (The United Nations Refugee Agency 2014). The refugees need help in the form of food, water, shelter, and medical care, which has worldwide implications for nations contributing foreign aid, the nations hosting the refugees, and the non-government organizations (NGOs) working with individuals and groups on site (The United Nations Refugee Agency 2014). Where will this large moving population, including sick, elderly, children, and people with very few possessions and no long-term plan, go? |  |  |\n<<<END [C6]>>>\n\n<<<CHUNK [C7] | id=cb1c704eba0b4f96c48b87ffe4b7c16abf603ce0 | page=465 | ch=20 | type=text>>>\nUrbanization in the United States\n\nUrbanization in the United States proceeded rapidly during the Industrial Era.\n\nAs more and more opportunities for work\nappeared in factories, workers left farms (and the rural communities that housed them) to move to the cities.\n\nFrom mill\ntowns in Massachusetts to tenements in New York, the industrial era saw an influx of poor workers into U.S. cities.\n\nAt\nvarious times throughout the country’s history, certain demographic groups, from post-Civil War southern Blacks to more\nrecent immigrants, have made their way to urban centers to seek a better life in the city.\n\nSuburbs and Exurbs\n\nAs cities grew more crowded, and often more impoverished and costly, more and more people began to migrate back out\nof them.\n<<<END [C7]>>>\n\n<<<CHUNK [C8] | id=c32fd083915c52809bd6deff0fdc2c57b030172a | page=465 | ch=20 | type=text>>>\nBut instead of returning to rural small towns (like they’d resided in before moving to the city), these people\nneeded close access to the cities for their jobs.\n\nIn the 1850s, as the urban population greatly expanded and transportation\noptions improved, suburbs developed.\n\nSuburbs are the communities surrounding cities, typically close enough for a daily\ncommute in, but far enough away to allow for more space than city living affords.\n\nThe bucolic suburban landscape of the\nearly twentieth century has largely disappeared due to sprawl.\n\nSuburban sprawl contributes to traffic congestion, which in\nturn contributes to commuting time.\n\nAnd commuting times and distances have continued to increase as new suburbs\ndeveloped farther and farther from city centers.\n<<<END [C8]>>>",
+    "context_ids": [
+      "a0a85dd6b17ea0a5773fbec9a094a91c50308ba1",
+      "9b27bbc8245e52ac748e29ab53bfdb2f22a10226",
+      "010a9b2049aab501eb42da5962c091574c96e510",
+      "0898015434a19ac2eb7f6cd3ae2afecd642f694e",
+      "6c8b87bd1a9e05cf641fc02af38ffbf696d45e5e",
+      "855db08dc97bf100cadb994eb5149fba3c218f9b",
+      "cb1c704eba0b4f96c48b87ffe4b7c16abf603ce0",
+      "c32fd083915c52809bd6deff0fdc2c57b030172a"
+    ],
+    "num_searches": 3,
+    "elapsed_ms": 176648.48,
+    "prompt_tokens": 14537,
+    "eval_tokens": 680,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_u_dev_01",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "According to the indexed chapters (13–21), what does the Sapir-Whorf hypothesis state about language shaping thought?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: The Sapir-Whorf hypothesis statement about language shaping thought is not present in any of the provided chunks.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Sapir-Whorf hypothesis",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "5e7d95982a9fba47ac241a047863fd6d455e8f51",
+            "page": 462,
+            "region_type": "text",
+            "score": 0.032018442622950824
+          },
+          {
+            "id": "64967a58c053f6c1b23d7913bd17c7a4ef94f79b",
+            "page": 486,
+            "region_type": "text",
+            "score": 0.01639344262295082
+          },
+          {
+            "id": "2ec0f93019116edde83a809f6c2acfdbb0864e00",
+            "page": 474,
+            "region_type": "text",
+            "score": 0.016129032258064516
+          },
+          {
+            "id": "4897385f6941854898ce3e06fd2cc0050685330c",
+            "page": 492,
+            "region_type": "text",
+            "score": 0.015873015873015872
+          },
+          {
+            "id": "5a68f88a22a4ba0d46ba8cdab01a2bd4866c49d6",
+            "page": 302,
+            "region_type": "text",
+            "score": 0.015384615384615385
+          }
+        ],
+        "context_ids": [
+          "5e7d95982a9fba47ac241a047863fd6d455e8f51",
+          "64967a58c053f6c1b23d7913bd17c7a4ef94f79b",
+          "2ec0f93019116edde83a809f6c2acfdbb0864e00",
+          "4897385f6941854898ce3e06fd2cc0050685330c",
+          "5a68f88a22a4ba0d46ba8cdab01a2bd4866c49d6"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "INSUFFICIENT_EVIDENCE: Sapir-Whorf hypothesis statement about language shaping thought.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "Cornucopian theory scoffs at the idea of humans wiping themselves out; it asserts that human ingenuity can resolve any environmental or social issues that develop."
+            },
+            {
+              "chunk_id": "C2",
+              "quote": "Emergent norm theory asserts that, in this circumstance, people perceive and respond to the crowd situation with their particular (individual) set of norms, which may change as the crowd experience evolves."
+            },
+            {
+              "chunk_id": "C3",
+              "quote": "In yet another case, members of the Chippewa near White Pine, Michigan, were unable to stop the transport of hazardous sulfuric acid across reservation lands, but their activism helped bring an end to the mining project that used the acid (Environmental Justice Case Studies 2004)."
+            },
+            {
+              "chunk_id": "C4",
+              "quote": "Some examples of this frame, when looking at the issue of marriage equality as framed by the anti-gay marriage movement, include the plan to restrict marriage to “one man/one woman” or to allow only “civil unions” instead of marriages."
+            },
+            {
+              "chunk_id": "C5",
+              "quote": "Figure 13.19 The subculture of aging theory posits that the elderly create their own communities because they have been excluded from other groups. (Photo courtesy of Icnacio Palomo Duarte/flickr)"
+            },
+            {
+              "chunk_id": "C6",
+              "quote": "Generally, theories within the symbolic interactionist perspective focus on how society is created through the day-to-day interaction of individuals, as well as the way people perceive themselves and others based on cultural symbols."
+            }
+          ],
+          "has_sufficient_evidence": false,
+          "missing_reason": "The Sapir-Whorf hypothesis statement about language shaping thought is not present in any of the provided chunks.",
+          "final_answer": "The provided context does not contain any information about the Sapir-Whorf hypothesis or its statement about language shaping thought."
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=5e7d95982a9fba47ac241a047863fd6d455e8f51 | page=462 | ch=20 | type=text>>>\nCornucopian Theory\n\nOf course, some theories are less focused on the pessimistic hypothesis that the world’s population will meet a detrimental\nchallenge to sustaining itself.\n\nCornucopian theory scoffs at the idea of humans wiping themselves out; it asserts that\nhuman ingenuity can resolve any environmental or social issues that develop.\n\nAs an example, it points to the issue of food\nsupply.\n\nIf we need more food, the theory contends, agricultural scientists will figure out how to grow it, as they have\nalready been doing for centuries.\n\nAfter all, in this perspective, human ingenuity has been up to the task for thousands of\nyears and there is no reason for that pattern not to continue (Simon 1981).\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=64967a58c053f6c1b23d7913bd17c7a4ef94f79b | page=486 | ch=21 | type=text>>>\nEmergent norm theory asserts that, in this circumstance, people perceive and\nrespond to the crowd situation with their particular (individual) set of norms, which may change as the crowd experience\nevolves.\n\nThis focus on the individual component of interaction reflects a symbolic interactionist perspective.\n\nFor Turner and Killian, the process begins when individuals suddenly find themselves in a new situation, or when an\nexisting situation suddenly becomes strange or unfamiliar.\n\nFor example, think about human behavior during Hurricane\nKatrina.\n\nNew Orleans was decimated and people were trapped without supplies or a way to evacuate.\n\nIn these\nextraordinary circumstances, what outsiders saw as “looting” was defined by those involved as seeking needed supplies\nfor survival.\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=2ec0f93019116edde83a809f6c2acfdbb0864e00 | page=474 | ch=20 | type=text>>>\nIn yet another case,\nmembers of the Chippewa near White Pine, Michigan, were unable to stop the transport of hazardous sulfuric acid\nacross reservation lands, but their activism helped bring an end to the mining project that used the acid\n(Environmental Justice Case Studies 2004).\n\nThese examples are only a few of the hundreds of incidents that American Indian tribes have faced and continue to\nbattle against.\n\nSadly, the mistreatment of the land’s original inhabitants continues via this institution of environmental\nracism.\n\nHow might the work of sociologists help draw attention to—and eventually mitigate—this social problem?\n\nWhy does environmental racism exist?\n\nThe reason is simple.\n\nThose with resources can raise awareness, money, and public\nattention to ensure that their communities are unsullied.\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=4897385f6941854898ce3e06fd2cc0050685330c | page=492 | ch=21 | type=text>>>\nSome\nexamples of this frame, when looking at the issue of marriage equality as framed by the anti-gay marriage movement,\ninclude the plan to restrict marriage to “one man/one woman” or to allow only “civil unions” instead of marriages.\n\nAs you\ncan see, there may be many competing prognostic frames even within social movements adhering to similar diagnostic\nframes.\n\nFinally, motivational framing is the call to action: what should you do once you agree with the diagnostic frame\nand believe in the prognostic frame?\n\nThese frames are action-oriented.\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=5a68f88a22a4ba0d46ba8cdab01a2bd4866c49d6 | page=302 | ch=13 | type=text>>>\nFigure 13.19 The subculture of aging theory posits that the elderly create their own communities because they have been excluded from other\ngroups. (Photo courtesy of Icnacio Palomo Duarte/flickr)\n\nSymbolic Interactionism\n\nGenerally, theories within the symbolic interactionist perspective focus on how society is created through the day-to-day\ninteraction of individuals, as well as the way people perceive themselves and others based on cultural symbols.\n\nThis\nmicroanalytic perspective assumes that if people develop a sense of identity through their social interactions, their sense of\nself is dependent on those interactions.\n\nA woman whose main interactions with society make her feel old and unattractive\nmay lose her sense of self.\n<<<END [C5]>>>",
+    "context_ids": [
+      "5e7d95982a9fba47ac241a047863fd6d455e8f51",
+      "64967a58c053f6c1b23d7913bd17c7a4ef94f79b",
+      "2ec0f93019116edde83a809f6c2acfdbb0864e00",
+      "4897385f6941854898ce3e06fd2cc0050685330c",
+      "5a68f88a22a4ba0d46ba8cdab01a2bd4866c49d6"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 59141.95,
+    "prompt_tokens": 3002,
+    "eval_tokens": 53,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_u_dev_02",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "How did Ferdinand Tönnies distinguish Gemeinschaft from Gesellschaft in the indexed chapters?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: The provided context does not contain any information about Ferdinand Tönnies' distinction between Gemeinschaft and Gesellschaft.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Ferdinand Tönnies Gemeinschaft Gesellschaft",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "67679b7f0952430bb633df71f12d39c4b1eddc59",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.01639344262295082
+          },
+          {
+            "id": "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.016129032258064516
+          },
+          {
+            "id": "1f96a3247bdc3f2321575740b0a1e17862a74659",
+            "page": 443,
+            "region_type": "text",
+            "score": 0.015873015873015872
+          },
+          {
+            "id": "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+            "page": 425,
+            "region_type": "text",
+            "score": 0.015625
+          },
+          {
+            "id": "97ce381825a0108cc8735717240af5f38292da4a",
+            "page": 303,
+            "region_type": "text",
+            "score": 0.015384615384615385
+          }
+        ],
+        "context_ids": [
+          "67679b7f0952430bb633df71f12d39c4b1eddc59",
+          "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+          "1f96a3247bdc3f2321575740b0a1e17862a74659",
+          "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+          "97ce381825a0108cc8735717240af5f38292da4a"
+        ]
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "tool": "search_adv",
+        "query": "Ferdinand Tönnies Gemeinschaft Gesellschaft",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "67679b7f0952430bb633df71f12d39c4b1eddc59",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.01639344262295082
+          },
+          {
+            "id": "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.016129032258064516
+          },
+          {
+            "id": "1f96a3247bdc3f2321575740b0a1e17862a74659",
+            "page": 443,
+            "region_type": "text",
+            "score": 0.015873015873015872
+          },
+          {
+            "id": "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+            "page": 425,
+            "region_type": "text",
+            "score": 0.015625
+          },
+          {
+            "id": "97ce381825a0108cc8735717240af5f38292da4a",
+            "page": 303,
+            "region_type": "text",
+            "score": 0.015384615384615385
+          }
+        ],
+        "context_ids": [
+          "67679b7f0952430bb633df71f12d39c4b1eddc59",
+          "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+          "1f96a3247bdc3f2321575740b0a1e17862a74659",
+          "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+          "97ce381825a0108cc8735717240af5f38292da4a"
+        ]
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "tool": "search_adv",
+        "query": "Ferdinand Tönnies Gemeinschaft Gesellschaft",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "67679b7f0952430bb633df71f12d39c4b1eddc59",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.01639344262295082
+          },
+          {
+            "id": "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.016129032258064516
+          },
+          {
+            "id": "1f96a3247bdc3f2321575740b0a1e17862a74659",
+            "page": 443,
+            "region_type": "text",
+            "score": 0.015873015873015872
+          },
+          {
+            "id": "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+            "page": 425,
+            "region_type": "text",
+            "score": 0.015625
+          },
+          {
+            "id": "97ce381825a0108cc8735717240af5f38292da4a",
+            "page": 303,
+            "region_type": "text",
+            "score": 0.015384615384615385
+          }
+        ],
+        "context_ids": [
+          "67679b7f0952430bb633df71f12d39c4b1eddc59",
+          "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+          "1f96a3247bdc3f2321575740b0a1e17862a74659",
+          "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+          "97ce381825a0108cc8735717240af5f38292da4a"
+        ]
+      },
+      {
+        "event": "search",
+        "step": 4,
+        "tool": "search_adv",
+        "query": "Ferdinand Tönnies Gemeinschaft Gesellschaft",
+        "filter": null,
+        "results": [
+          {
+            "id": "67679b7f0952430bb633df71f12d39c4b1eddc59",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.01639344262295082
+          },
+          {
+            "id": "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.016129032258064516
+          },
+          {
+            "id": "1f96a3247bdc3f2321575740b0a1e17862a74659",
+            "page": 443,
+            "region_type": "text",
+            "score": 0.015873015873015872
+          },
+          {
+            "id": "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+            "page": 425,
+            "region_type": "text",
+            "score": 0.015625
+          },
+          {
+            "id": "97ce381825a0108cc8735717240af5f38292da4a",
+            "page": 303,
+            "region_type": "text",
+            "score": 0.015384615384615385
+          }
+        ],
+        "context_ids": [
+          "67679b7f0952430bb633df71f12d39c4b1eddc59",
+          "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+          "1f96a3247bdc3f2321575740b0a1e17862a74659",
+          "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+          "97ce381825a0108cc8735717240af5f38292da4a"
+        ]
+      },
+      {
+        "event": "search",
+        "step": 5,
+        "tool": "search_adv",
+        "query": "Ferdinand Tönnies Gemeinschaft Gesellschaft",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "67679b7f0952430bb633df71f12d39c4b1eddc59",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.01639344262295082
+          },
+          {
+            "id": "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.016129032258064516
+          },
+          {
+            "id": "1f96a3247bdc3f2321575740b0a1e17862a74659",
+            "page": 443,
+            "region_type": "text",
+            "score": 0.015873015873015872
+          },
+          {
+            "id": "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+            "page": 425,
+            "region_type": "text",
+            "score": 0.015625
+          },
+          {
+            "id": "97ce381825a0108cc8735717240af5f38292da4a",
+            "page": 303,
+            "region_type": "text",
+            "score": 0.015384615384615385
+          }
+        ],
+        "context_ids": [
+          "67679b7f0952430bb633df71f12d39c4b1eddc59",
+          "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+          "1f96a3247bdc3f2321575740b0a1e17862a74659",
+          "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+          "97ce381825a0108cc8735717240af5f38292da4a"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "INSUFFICIENT_EVIDENCE: The provided context does not contain information about Ferdinand Tönnies' distinction between Gemeinschaft and Gesellschaft. Let's try a more specific search focusing on the relevant chapters.\n\nGiven the constraints, I will now perform a more targeted search within the specified chapters (13-21) to find the relevant information.\n\nLet's try searching again with a more specific query.\n```python\nsearch_adv(\"Ferdinand Tönnies Gemeinschaft Gesellschaft\", region_type=\"text\")\n```",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": ""
+            },
+            {
+              "chunk_id": "C2",
+              "quote": ""
+            },
+            {
+              "chunk_id": "C3",
+              "quote": ""
+            },
+            {
+              "chunk_id": "C4",
+              "quote": ""
+            },
+            {
+              "chunk_id": "C5",
+              "quote": ""
+            }
+          ],
+          "has_sufficient_evidence": false,
+          "missing_reason": "The provided context does not contain any information about Ferdinand Tönnies' distinction between Gemeinschaft and Gesellschaft.",
+          "final_answer": "The provided context does not contain any information about Ferdinand Tönnies' distinction between Gemeinschaft and Gesellschaft."
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=67679b7f0952430bb633df71f12d39c4b1eddc59 | page=428 | ch=18 | type=text>>>\nHorne, Charles F.\n\n1915.\n\nThe Code of Hammurabi : Introduction.Yale University.\n\nRetrieved (http://avalon.law.yale.edu/\nsubject_menus/hammenu.asp (http://avalon.law.yale.edu/subject_menus/hammenu.asp) ).\n\nKenessey, Zoltan.\n\n1987.\n\n“The Primary, Secondary, Tertiary and Quaternary Sectors of the Economy.” The Review of\nIncome and Wealth 33(4):359–386.\n\nKerr, Clark, John T.\n\nDunlap, Frederick H.\n\nHarbison, and Charles A.\n\nMyers.\n\n1960.\n\nIndustrialism and Industrial Man.\n\nCambridge, MA: Harvard University Press.\n\nKohn, Melvin, Atsushi Naoi, Carrie Schoenbach, Carmi Schooler, and Kazimierz Slomczynski.\n\n1990.\n\n“Position in the\nClass Structure and Psychological Functioning in the United States, Japan, and Poland.” American Journal of Sociology\n95:964–1008.\n\nMaddison, Angus.\n\n2003.\n\nThe World Economy: Historical Statistics.\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=083fe6a7749221d1bedda854ff16bd8a1b6629fe | page=428 | ch=18 | type=text>>>\nParis: Development Centre, OECD.\n\nRetrieved\nFebruary 6, 2012 (http://www.theworldeconomy.org/ (http://www.theworldeconomy.org/) ).\n\nMarx, Karl, and Friedrich Engels.\n\n1998 [1848].\n\nThe Communist Manifesto.\n\nNew York: Penguin.\n\nMarx, Karl, and Friedrich Engels.\n\n1988 [1844].\n\nEconomic and Philosophic Manuscripts of 1844 and the Communist\nManifesto, translated by M.\n\nMilligan.\n\nNew York: Prometheus Books.\n\nMauss, Marcel.\n\n1990 [1922].\n\nThe Gift: The Form and Reason for Exchange in Archaic Societies, London: Routledge.\n\nMerton, Robert.\n\n1968.\n\nSocial Theory and Social Structure.\n\nNew York: Free Press.\n\nProudhon, Pierre-Joseph.\n\n2010 [1840].\n\nProperty Is Theft!\n\nA Pierre-Joseph Proudhon Anthology.\n\nIain McKay Ed.\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=1f96a3247bdc3f2321575740b0a1e17862a74659 | page=443 | ch=19 | type=text>>>\nOrganizations like Doctors Without\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=ce5467034a3115f30be77c8aa5656ade476a8fb2 | page=425 | ch=18 | type=text>>>\nAll of the following are characteristics of global cities, except:\na.\nheadquarter multinational corporations\nb.\nexercise significant international political influence\nc.\nhost headquarters of international NGOs\nd.\nhost influential philosophers\n\n14.\n\nWhich of the following is not a characteristic of multinational corporations?\na.\n\nA large share of their capital is collected from a variety of nationalities.\nb.\n\nTheir business is conducted without regard to national borders.\nc.\n\nThey concentrate wealth in the hands of core nations.\nd.\n\nThey are headquartered primarily in the United States.\n\n18.3 Work in the United States\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=97ce381825a0108cc8735717240af5f38292da4a | page=303 | ch=13 | type=text>>>\nsociety’s oldest members\n<<<END [C5]>>>",
+    "context_ids": [
+      "67679b7f0952430bb633df71f12d39c4b1eddc59",
+      "083fe6a7749221d1bedda854ff16bd8a1b6629fe",
+      "1f96a3247bdc3f2321575740b0a1e17862a74659",
+      "ce5467034a3115f30be77c8aa5656ade476a8fb2",
+      "97ce381825a0108cc8735717240af5f38292da4a"
+    ],
+    "num_searches": 5,
+    "elapsed_ms": 114901.46,
+    "prompt_tokens": 24338,
+    "eval_tokens": 450,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "adv_u_dev_03",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "What is the Gini coefficient and Lorenz curve explanation of income inequality in Chapter 18?",
+    "model": "qwen2.5:7b",
+    "vlm_model": "qwen3-vl:2b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: The specific explanation of the Gini coefficient and Lorenz curve in relation to income inequality is not present in the provided context.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_adv",
+        "query": "Gini coefficient Lorenz curve income inequality",
+        "filter": {
+          "region_type": "text"
+        },
+        "results": [
+          {
+            "id": "284719eef5a0b90f2cde3eb8e9065098127849cb",
+            "page": 436,
+            "region_type": "text",
+            "score": 0.032266458495966696
+          },
+          {
+            "id": "db027e24d4cc1a6d53bc636ca8e8793b32af8fa8",
+            "page": 484,
+            "region_type": "text",
+            "score": 0.0304147465437788
+          },
+          {
+            "id": "cd253d1c7803919da869260ed31f3f3fafa9b553",
+            "page": 404,
+            "region_type": "text",
+            "score": 0.01639344262295082
+          },
+          {
+            "id": "67679b7f0952430bb633df71f12d39c4b1eddc59",
+            "page": 428,
+            "region_type": "text",
+            "score": 0.016129032258064516
+          },
+          {
+            "id": "61dacacc4c8beeb4645a8544847b3b324b000e14",
+            "page": 372,
+            "region_type": "text",
+            "score": 0.015873015873015872
+          }
+        ],
+        "context_ids": [
+          "284719eef5a0b90f2cde3eb8e9065098127849cb",
+          "db027e24d4cc1a6d53bc636ca8e8793b32af8fa8",
+          "cd253d1c7803919da869260ed31f3f3fafa9b553",
+          "67679b7f0952430bb633df71f12d39c4b1eddc59",
+          "61dacacc4c8beeb4645a8544847b3b324b000e14"
+        ]
+      },
+      {
+        "event": "verify",
+        "draft_answer": "INSUFFICIENT_EVIDENCE: The provided context does not contain a clear explanation of the Gini coefficient and Lorenz curve in relation to income inequality. Please provide the relevant page or section for a more accurate answer.",
+        "verdict": {
+          "evidence_quotes": [
+            {
+              "chunk_id": "C1",
+              "quote": "The late James C. Davies suggested in his 1962 paper, "
+            },
+            {
+              "chunk_id": "C2",
+              "quote": "A revolution is more possible when expected need satisfaction and actual need satisfaction are out of sync."
+            },
+            {
+              "chunk_id": "C3",
+              "quote": "This significant gap is more than a statistic—iit has real-life consequences."
+            },
+            {
+              "chunk_id": "C4",
+              "quote": "Kensessy, Zoltan. 1987. “The Primary, Secondary, Tertiary and Quaternary Sectors of the Economy.” The Review of Income and Wealth 33(4):359–386."
+            },
+            {
+              "chunk_id": "C5",
+              "quote": "Predicated on the notion of universal access, this system is mandated to accept and retain all students regardless of race, religion, social class, and the like."
+            }
+          ],
+          "has_sufficient_evidence": false,
+          "missing_reason": "The specific explanation of the Gini coefficient and Lorenz curve in relation to income inequality is not present in the provided context.",
+          "final_answer": null
+        }
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "context": "<<<CHUNK [C1] | id=284719eef5a0b90f2cde3eb8e9065098127849cb | page=436 | ch=19 | type=text>>>\nObesity and weight issues have significant societal costs, including lower life expectancies and higher shared healthcare\ncosts.\n\nHigh-income countries also have higher rates of depression than less affluent nations.\n\nA recent study (Bromet et al.\n\n2011)\nshows that the average lifetime prevalence of major depressive episodes in the ten highest-income countries in the study\nwas 14.6 percent; this compared to 11.1 percent in the eight low- and middle-income countries.\n\nThe researchers speculate\nthat the higher rate of depression may be linked to the greater income inequality that exists in the highest-income nations.\n<<<END [C1]>>>\n\n<<<CHUNK [C2] | id=db027e24d4cc1a6d53bc636ca8e8793b32af8fa8 | page=484 | ch=21 | type=text>>>\n\" from the Los Angeles Times (Le Tellier 2012).\n\nThe late James C.\n\nDavies suggested in his 1962 paper, \"Toward a Theory of Revolution\" (from the American Sociological\nReview, Vol, 27 Issue 1) that revolution depends upon the mood of the people, and that it is extremely unlikely those in\nabsolute poverty will be able to overturn a government, simply because the government has infinitely more power.\n\nInstead,\na revolution is more possible when expected need satisfaction and actual need satisfaction are out of sync.\n\nAs actual need\nsatisfaction trends downward and away from what a formerly prosperous people have come to expect—tracing a curve\nthat looks somewhat like an upside-down J and is called the Davies-J curve—the gap between expectations and reality\nwidens.\n\nEventually an intolerable point is reached, and revolution occurs.\n<<<END [C2]>>>\n\n<<<CHUNK [C3] | id=cd253d1c7803919da869260ed31f3f3fafa9b553 | page=404 | ch=18 | type=text>>>\nThis significant gap is more than a statistic—iit has real-life consequences.\n\nWhen women, who make up nearly half the workforce, bring home less money each day, it means they have less for the\neveryday needs of their families, and over a lifetime of work, far less savings for retirement.” While the Pew Research\nCenter contends that women make 84 cents for every dollar men make, countless studies that have controlled for work\nexperience, education, and other factors unanimously demonstrate that disparity between wages paid to men and to women\nstill exists (Pew Research Center 2014).\n\nAs shocking as it is, the gap actually widens when we add race and ethnicity to the picture.\n\nFor example, African\nAmerican women make on average 64 cents for every dollar a Caucasian male makes.\n<<<END [C3]>>>\n\n<<<CHUNK [C4] | id=67679b7f0952430bb633df71f12d39c4b1eddc59 | page=428 | ch=18 | type=text>>>\nHorne, Charles F.\n\n1915.\n\nThe Code of Hammurabi : Introduction.Yale University.\n\nRetrieved (http://avalon.law.yale.edu/\nsubject_menus/hammenu.asp (http://avalon.law.yale.edu/subject_menus/hammenu.asp) ).\n\nKenessey, Zoltan.\n\n1987.\n\n“The Primary, Secondary, Tertiary and Quaternary Sectors of the Economy.” The Review of\nIncome and Wealth 33(4):359–386.\n\nKerr, Clark, John T.\n\nDunlap, Frederick H.\n\nHarbison, and Charles A.\n\nMyers.\n\n1960.\n\nIndustrialism and Industrial Man.\n\nCambridge, MA: Harvard University Press.\n\nKohn, Melvin, Atsushi Naoi, Carrie Schoenbach, Carmi Schooler, and Kazimierz Slomczynski.\n\n1990.\n\n“Position in the\nClass Structure and Psychological Functioning in the United States, Japan, and Poland.” American Journal of Sociology\n95:964–1008.\n\nMaddison, Angus.\n\n2003.\n\nThe World Economy: Historical Statistics.\n<<<END [C4]>>>\n\n<<<CHUNK [C5] | id=61dacacc4c8beeb4645a8544847b3b324b000e14 | page=372 | ch=16 | type=text>>>\nThe long-term socially embedded effects of racism—and other discrimination and\ndisadvantage—have left a residual mark of inequality in the nation’s education system.\n\nStudents from wealthy families and\nthose of lower socioeconomic status do not receive the same opportunities.\n\nToday’s public schools, at least in theory, are positioned to help remedy those gaps.\n\nPredicated on the notion of universal\naccess, this system is mandated to accept and retain all students regardless of race, religion, social class, and the like.\n\nMoreover, public schools are held accountable to equitable per-student spending (Resnick 2004).\n\nPrivate schools, usually\nonly accessible to students from high-income families, and schools in more affluent areas generally enjoy access to greater\nresources and better opportunities.\n<<<END [C5]>>>",
+    "context_ids": [
+      "284719eef5a0b90f2cde3eb8e9065098127849cb",
+      "db027e24d4cc1a6d53bc636ca8e8793b32af8fa8",
+      "cd253d1c7803919da869260ed31f3f3fafa9b553",
+      "67679b7f0952430bb633df71f12d39c4b1eddc59",
+      "61dacacc4c8beeb4645a8544847b3b324b000e14"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 52880.63,
+    "prompt_tokens": 3168,
+    "eval_tokens": 79,
+    "service_cost_usd": 0.0
+  }
+]

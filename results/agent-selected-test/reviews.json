@@ -1,0 +1,63 @@
+[
+  {
+    "query_id": "q21",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "c0f376f6 (p.45) contains exact gold evidence; answer accurate and fully grounded."
+  },
+  {
+    "query_id": "q22",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": [false],
+    "notes": "Context had p.44 and p.39, missed p.46; model fabricated 3 forms from p.44 field research description."
+  },
+  {
+    "query_id": "q23",
+    "context_grade": 1,
+    "answer_grade": 0,
+    "citation_support": [false, false, false],
+    "notes": "Context had p.46-47 general participant observation but missed p.47 covert advantage sentence ('authentic, natural behaviors'); model answered for general participant observation."
+  },
+  {
+    "query_id": "q24",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "90f90f63 (p.48) contains exact gold evidence; answer accurate and grounded."
+  },
+  {
+    "query_id": "q25",
+    "context_grade": 1,
+    "answer_grade": 1,
+    "citation_support": [true, false, false],
+    "notes": "94f9e41d (p.51) covers avoiding population entry/investment/risks (partial); missed explicit 'saves time and money and adds depth' sentence. Model shifted citations [6c61a4d8] and [d5c31721] onto claims from earlier chunks."
+  },
+  {
+    "query_id": "q26",
+    "context_grade": 1,
+    "answer_grade": 1,
+    "citation_support": [true, true],
+    "notes": "Context retrieved p.23 (Ch.1 Durkheim/Spencer definitions of society) instead of p.14 textbook definition; claims faithfully reflect p.23 citations."
+  },
+  {
+    "query_id": "q27",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [true],
+    "notes": "dc661950 (p.19) contains exact Sieyès 1780 and Comte 1838 evidence; answer exact and grounded."
+  },
+  {
+    "query_id": "u_test_01",
+    "citation_support": [false, false],
+    "abstention_correct": false,
+    "notes": "False claim tying 'cultural relativism' to reification [463e77f6] and 'ethnocentrism' to [510b013b]; neither term appears in corpus."
+  },
+  {
+    "query_id": "u_test_02",
+    "citation_support": [false, true, true],
+    "abstention_correct": false,
+    "notes": "Correctly cited [cbb58209]/[df2c0bc3] for random sampling, but misattributed scientific method glossary [7d1f57f9] and guessed snowball sampling definition from outside knowledge."
+  }
+]

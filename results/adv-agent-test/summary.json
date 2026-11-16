@@ -1,0 +1,47 @@
+{
+  "split": "test",
+  "benchmark_version": "test_v2_held_out",
+  "total_cases": 30,
+  "passed_cases": 27,
+  "failed_cases": 3,
+  "accuracy": 0.9,
+  "meets_90_percent_bar": true,
+  "by_category": {
+    "table": {
+      "total": 6,
+      "passed": 5,
+      "accuracy": 0.8333
+    },
+    "image_diagram": {
+      "total": 5,
+      "passed": 5,
+      "accuracy": 1.0
+    },
+    "chart": {
+      "total": 5,
+      "passed": 4,
+      "accuracy": 0.8
+    },
+    "multihop": {
+      "total": 4,
+      "passed": 3,
+      "accuracy": 0.75
+    },
+    "text": {
+      "total": 4,
+      "passed": 4,
+      "accuracy": 1.0
+    },
+    "unanswerable": {
+      "total": 6,
+      "passed": 6,
+      "accuracy": 1.0
+    }
+  },
+  "avg_elapsed_ms": 57870.71,
+  "avg_searches": 1.03,
+  "total_prompt_tokens": 111813,
+  "total_eval_tokens": 5911,
+  "total_service_cost_usd": 0.0,
+  "errors": 0
+}

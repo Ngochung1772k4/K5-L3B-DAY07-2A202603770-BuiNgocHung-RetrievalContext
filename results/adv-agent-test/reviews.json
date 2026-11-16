@@ -1,0 +1,328 @@
+[
+  {
+    "query_id": "adv_t2_tab_01",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "ec683f22b7ac1bb5ca66d2c1450a526ba80b32e5"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_tab_02",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "ec683f22b7ac1bb5ca66d2c1450a526ba80b32e5",
+      "76cd77b637ea9e116f9cb8ed4b510b04b45454af"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_tab_03",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "9e3b4c7690072d9cfc704bfa5b58571f74ea9613"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_tab_04",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "dccb3813ff2c2aea94f7da48ece0c1c334ce1752"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_tab_05",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "f5b1de38e32be998ead0a3d37373af57198d53d6"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_tab_06",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "6f45ceb94ddfdbb23766efd146412da0ab947224"
+    ],
+    "score": 0,
+    "notes": "All 5 GDP values ($62,400; $55,400; $54,800; $1,100; $600) and ranks #7, #218, #227 are exact, but Norway/Switzerland ranks were off by 1 (#8/#10 vs #9/#11); graded 0 under strict audit."
+  },
+  {
+    "query_id": "adv_t2_img_01",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "3dc53100ed843836b9c138ee6b1ca5884b31ab56"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_img_02",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "aaaa9f3d995c0f59222d85d65c9cbd2ced002059"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_img_03",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "218e17e130d0c1a25d9dc32cf5a2777df45829e7",
+      "5fd9e1c574b77661c3bf9a331ff7b6d780423804"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_img_04",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "d892ca88e788ae4710e8d6279cb5cc17dba74b7c"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_img_05",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "507e20988cc1cdcaa2be9020ba1c977c7f1c423c",
+      "a3947bc39b1b0768bacdaea99074397ef17b0125"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_cht_01",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "a77054b2f2e14671032308ea417d20fbbd1175a4"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_cht_02",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "0b28d9cd04a89e7d006c8560a37930875a40f23b"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_cht_03",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "59d6b39b6596e9db29ab46f49ff919f1b0ece42e"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_cht_04",
+    "category": "chart",
+    "answerable": true,
+    "status": "abstain",
+    "citations": [],
+    "score": 0,
+    "notes": "False abstention on Figure 19.2 (p.434, Mosby 0-10 pain scale); verifier rejected brief OCR/VLM summary."
+  },
+  {
+    "query_id": "adv_t2_cht_05",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "7412e377339820b7d153d27891b0751a283d07da"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_mhop_01",
+    "category": "multihop",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "59d6b39b6596e9db29ab46f49ff919f1b0ece42e",
+      "9f11a14de2e4c32c21947a3dfd7d6a871fa3bcf8"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_mhop_02",
+    "category": "multihop",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "41ca0eca99284b51756a7f8364781d8d7f3afd63",
+      "76cd77b637ea9e116f9cb8ed4b510b04b45454af",
+      "d44bb33260ede736f90b659350e9143a4dcc599c"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_mhop_03",
+    "category": "multihop",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "4cfcc647ba1601146e78e72b71ad3b490608b8bb",
+      "9a3c15829fff4fbd5b03ef6278507b42d8e5316d"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_mhop_04",
+    "category": "multihop",
+    "answerable": true,
+    "status": "abstain",
+    "citations": [],
+    "score": 0,
+    "notes": "False abstention on Table 20.1 (p.461) + p.463 migration stats; p.463 migration chunk fell outside 6500-char context budget."
+  },
+  {
+    "query_id": "adv_t2_txt_01",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "57b8f5a9724dd8785fab40b964815e42c4854825",
+      "69da311f68e5ecc775dc8146e7bdc0e4d04e0cae",
+      "e600aef88f29baf0ae82640605d6dc7e488fddf5"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_txt_02",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "14b35111d5e1518731cfc25c40ce676c798b24a1"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_txt_03",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "eafca63f8a50c2109ec0e02fadfeba797750f508",
+      "9cde056aedab7dd52fab826efa8aa2249db72658"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_t2_txt_04",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "citations": [
+      "762b8b644f0e0c78b21cfe452f1411aa9a65c273",
+      "71eef90145ff0ccc5bfe5933c7a5790b37b7c0f0",
+      "a87b914f36be37e01d3a6575b5126d477b485cfd"
+    ],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_u2_test_01",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "citations": [],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_u2_test_02",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "citations": [],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_u2_test_03",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "citations": [],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_u2_test_04",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "citations": [],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_u2_test_05",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "citations": [],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  },
+  {
+    "query_id": "adv_u2_test_06",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "citations": [],
+    "score": 1,
+    "notes": "Verified 100% accurate against original PDF page, cropped PNG, and gold evidence."
+  }
+]

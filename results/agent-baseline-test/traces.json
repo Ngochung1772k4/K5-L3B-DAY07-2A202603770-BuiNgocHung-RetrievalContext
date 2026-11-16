@@ -1,0 +1,569 @@
+[
+  {
+    "query_id": "q21",
+    "split": "test",
+    "answerable": true,
+    "question": "What common feature makes small interest groups such as folk dancers or Mensa members sociologically interesting?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: searched for \"common feature small interest groups sociologically interesting\" but no relevant context was found.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "common feature small interest groups sociologically interesting",
+        "filter": null,
+        "results": [
+          {
+            "id": "c0f376f6afd5042afc616e899ea6db1596a51037",
+            "page": 45,
+            "chapter": "2",
+            "score": 0.17351257277567153
+          },
+          {
+            "id": "639bb2c83b5d85a6a0b4161e2a989f500000f070",
+            "page": 14,
+            "chapter": "1",
+            "score": 0.13591453883577626
+          },
+          {
+            "id": "b9bd2b7dd63e7b9873fdb08d7b0754c924bf6ac6",
+            "page": 14,
+            "chapter": "1",
+            "score": 0.09634971052152193
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "abstain",
+        "step": 2
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "num_searches": 1,
+    "elapsed_ms": 5279.37,
+    "prompt_tokens": 1024,
+    "eval_tokens": 59,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "q22",
+    "split": "test",
+    "answerable": true,
+    "question": "In Chapter 2, which three forms of field research are introduced on this page?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: The specific three forms of field research introduced on this page were not found in the provided context. The context discusses the limitations and nature of field research but does not list the three forms requested. [b9cec86e0eaf3bb265c8e7baee4b6a4559dacaf8]",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "three forms of field research introduced",
+        "filter": null,
+        "results": [
+          {
+            "id": "e5062df3d30fecdfa79ff5bf8ad454cee1eafc1b",
+            "page": 39,
+            "chapter": "2",
+            "score": 0.13004622010160272
+          },
+          {
+            "id": "b9cec86e0eaf3bb265c8e7baee4b6a4559dacaf8",
+            "page": 44,
+            "chapter": "2",
+            "score": 0.12508790137245546
+          },
+          {
+            "id": "8c6f7260f756722e089927bc6328524af18691b9",
+            "page": 44,
+            "chapter": "2",
+            "score": 0.12073338952834306
+          }
+        ],
+        "context_ids": [
+          "b9cec86e0eaf3bb265c8e7baee4b6a4559dacaf8"
+        ],
+        "context_chars": 775
+      },
+      {
+        "event": "abstain",
+        "step": 2
+      }
+    ],
+    "context": "[b9cec86e0eaf3bb265c8e7baee4b6a4559dacaf8 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 44 | ch 2]\nField work is optimal for observing how people behave.\n\nIt is less useful, however, for understanding why they behave that way.\n\nYou can't really narrow down cause and effect when there are so many variables floating around in a natural environment.\n\nMuch of the data gathered in field research are based not on cause and effect but on correlation.\n\nAnd while field research looks for correlation, its small sample size does not allow for establishing a causal relationship between two variables.\n\n36 Chapter 2 | Sociological Research This OpenStax book is available for free at http://cnx.org/content/col11762/1.6",
+    "context_ids": [
+      "b9cec86e0eaf3bb265c8e7baee4b6a4559dacaf8"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 10587.02,
+    "prompt_tokens": 1263,
+    "eval_tokens": 110,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "answerable": true,
+    "question": "In Chapter 2, what is the main advantage of covert participant observation?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: Chapter 2 does not contain information about the main advantage of covert participant observation.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "main advantage covert participant observation",
+        "filter": null,
+        "results": [
+          {
+            "id": "6580c73f79d3644734fa396da5299499a730e950",
+            "page": 47,
+            "chapter": "2",
+            "score": 0.2569547857149704
+          },
+          {
+            "id": "fbbce554d0ed63fc19dafb4c6926f81602c9ca0c",
+            "page": 46,
+            "chapter": "2",
+            "score": 0.1142654107358857
+          },
+          {
+            "id": "d8e10ad162701d59b37c00686ec5723dc06b64db",
+            "page": 46,
+            "chapter": "2",
+            "score": 0.11364947968982016
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "abstain",
+        "step": 2
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "num_searches": 1,
+    "elapsed_ms": 5532.08,
+    "prompt_tokens": 1015,
+    "eval_tokens": 54,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "answerable": true,
+    "question": "What does institutional ethnography focus on?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "abstain",
+    "answer": "The provided excerpt does not directly address what institutional ethnography focuses on. The context mentions other sociological theories but does not specifically discuss institutional ethnography. \n\nINSUFFICIENT_EVIDENCE: \"institutional ethnography focus\"",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "institutional ethnography focus",
+        "filter": null,
+        "results": [
+          {
+            "id": "90f90f63ca7c4133bb449b537ddfc64e8710b6d9",
+            "page": 48,
+            "chapter": "2",
+            "score": 0.4027523447319322
+          },
+          {
+            "id": "510b013bb112b904d3d0c6f069e533e4d0e7ddb7",
+            "page": 47,
+            "chapter": "2",
+            "score": 0.10936675055778416
+          },
+          {
+            "id": "d7e9f70b8188cb094aa2a6ed46d2957d3f7fa796",
+            "page": 48,
+            "chapter": "2",
+            "score": 0.1046200671458378
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "step": 2,
+        "tool": "search_chunks",
+        "query": "institutional ethnography focus on",
+        "filter": null,
+        "results": [
+          {
+            "id": "90f90f63ca7c4133bb449b537ddfc64e8710b6d9",
+            "page": 48,
+            "chapter": "2",
+            "score": 0.4014950906733934
+          },
+          {
+            "id": "510b013bb112b904d3d0c6f069e533e4d0e7ddb7",
+            "page": 47,
+            "chapter": "2",
+            "score": 0.1260525731944372
+          },
+          {
+            "id": "9458774adb32dde7579242bf60a25d26fd12e593",
+            "page": 45,
+            "chapter": "2",
+            "score": 0.11164307255695993
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "step": 3,
+        "tool": "search_chunks",
+        "query": "institutional ethnography focuses on",
+        "filter": null,
+        "results": [
+          {
+            "id": "90f90f63ca7c4133bb449b537ddfc64e8710b6d9",
+            "page": 48,
+            "chapter": "2",
+            "score": 0.4361370569939641
+          },
+          {
+            "id": "510b013bb112b904d3d0c6f069e533e4d0e7ddb7",
+            "page": 47,
+            "chapter": "2",
+            "score": 0.18267982211832884
+          },
+          {
+            "id": "67142c473f874f5192e829d3808e23564b695ab9",
+            "page": 25,
+            "chapter": "1",
+            "score": 0.10545830495072242
+          }
+        ],
+        "context_ids": [
+          "67142c473f874f5192e829d3808e23564b695ab9"
+        ],
+        "context_chars": 611
+      },
+      {
+        "event": "abstain",
+        "step": 4
+      }
+    ],
+    "context": "[67142c473f874f5192e829d3808e23564b695ab9 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 25 | ch 1]\nMany social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.\n\nSymbolic Interactionist Theory Symbolic interactionism is a micro-level theory that focuses on the relationships among individuals within a society.\n\nCommunication—the exchange of meaning through language and symbols—is believed to be the way in which people Chapter 1 | An Introduction to Sociology 17",
+    "context_ids": [
+      "67142c473f874f5192e829d3808e23564b695ab9"
+    ],
+    "num_searches": 3,
+    "elapsed_ms": 10792.74,
+    "prompt_tokens": 2436,
+    "eval_tokens": 119,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "answerable": true,
+    "question": "Why might sociologists analyze information that is already available?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "answered",
+    "answer": "Sociologists might analyze information that is already available to update, refine, or validate existing knowledge. This process ensures that the sociological understanding remains current and accurate [c25e958b8ebc63d57fa30067ba340e43dd4b3d3d].",
+    "citations": [
+      "c25e958b8ebc63d57fa30067ba340e43dd4b3d3d"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "analyze information already available",
+        "filter": null,
+        "results": [
+          {
+            "id": "6c61a4d81ebc23d394b768be3d95bf776b859576",
+            "page": 50,
+            "chapter": "2",
+            "score": 0.11907863868224411
+          },
+          {
+            "id": "c25e958b8ebc63d57fa30067ba340e43dd4b3d3d",
+            "page": 52,
+            "chapter": "2",
+            "score": 0.11015335531309725
+          },
+          {
+            "id": "17310f87634f36c59a12f6a64befeae56525a907",
+            "page": 28,
+            "chapter": "1",
+            "score": 0.08711091729651721
+          }
+        ],
+        "context_ids": [
+          "c25e958b8ebc63d57fa30067ba340e43dd4b3d3d"
+        ],
+        "context_chars": 226
+      },
+      {
+        "event": "answer",
+        "step": 2
+      }
+    ],
+    "context": "[c25e958b8ebc63d57fa30067ba340e43dd4b3d3d | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 52 | ch 2]\nbook is available for free at http://cnx.org/content/col11762/1.6",
+    "context_ids": [
+      "c25e958b8ebc63d57fa30067ba340e43dd4b3d3d"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 9020.97,
+    "prompt_tokens": 1142,
+    "eval_tokens": 94,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "q26",
+    "split": "test",
+    "answerable": true,
+    "question": "In Chapter 1, how do sociologists define a society?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: The search for a definition of society in Chapter 1 did not yield relevant results. The provided context is from Chapter 2 and does not contain a definition of society.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "define society",
+        "filter": null,
+        "results": [
+          {
+            "id": "3d58fce3b69ee1add37f4dc26a80e883e0671dde",
+            "page": 38,
+            "chapter": "2",
+            "score": 0.22421893840127347
+          },
+          {
+            "id": "357c977af3875f7614cb2837cbe0ebc2ddf67046",
+            "page": 23,
+            "chapter": "1",
+            "score": 0.17276738103323797
+          },
+          {
+            "id": "d61ada1aa20f951c570707bdbe8fb8538f2f234b",
+            "page": 40,
+            "chapter": "2",
+            "score": 0.1602611990397192
+          }
+        ],
+        "context_ids": [
+          "3d58fce3b69ee1add37f4dc26a80e883e0671dde"
+        ],
+        "context_chars": 704
+      },
+      {
+        "event": "abstain",
+        "step": 2
+      }
+    ],
+    "context": "[3d58fce3b69ee1add37f4dc26a80e883e0671dde | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 38 | ch 2]\nLearning Objectives 2.1.\n\nApproaches to Sociological Research • Define and describe the scientific method • Explain how the scientific method is used in sociological research • Understand the function and importance of an interpretive framework • Define what reliability and validity mean in a research study 2.2.\n\nResearch Methods • Differentiate between four kinds of research methods: surveys, field research, experiments, and secondary data analysis • Understand why different topics are better suited to different research approaches 2.3.",
+    "context_ids": [
+      "3d58fce3b69ee1add37f4dc26a80e883e0671dde"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 7294.9,
+    "prompt_tokens": 1221,
+    "eval_tokens": 69,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "q27",
+    "split": "test",
+    "answerable": true,
+    "question": "Who first coined the term 'sociology' in 1780, and who reinvented it in 1838?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: searched for \"coined sociology 1780 reinvented 1838\" but found no relevant context.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "coined sociology 1780 reinvented 1838",
+        "filter": null,
+        "results": [
+          {
+            "id": "dc661950f401f452263c23664de9a7fa2ae97f9c",
+            "page": 19,
+            "chapter": "1",
+            "score": 0.1969143582073361
+          },
+          {
+            "id": "ae04ca1a0636b4f8e41d5e091ec84c0adafcf4c9",
+            "page": 19,
+            "chapter": "1",
+            "score": 0.061778472794266036
+          },
+          {
+            "id": "c9d7bee4f602fc2708f2cf03a8037f36c4d36a6e",
+            "page": 21,
+            "chapter": "1",
+            "score": 0.05314518359762309
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "abstain",
+        "step": 2
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "num_searches": 1,
+    "elapsed_ms": 6326.26,
+    "prompt_tokens": 1053,
+    "eval_tokens": 72,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "u_test_01",
+    "split": "test",
+    "answerable": false,
+    "question": "How does the textbook define ethnocentrism and cultural relativism?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: \"ethnocentrism\" and \"cultural relativism\" were requested but not found in the provided excerpts.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "ethnocentrism cultural relativism",
+        "filter": null,
+        "results": [
+          {
+            "id": "b88890afad8a5ab4a166b00e357a9aae8a692eef",
+            "page": 51,
+            "chapter": "2",
+            "score": 0.15845995244310238
+          },
+          {
+            "id": "0d0c9fa847f30442509f0e27e06d5999e06f31ec",
+            "page": 40,
+            "chapter": "2",
+            "score": 0.08370898374961055
+          },
+          {
+            "id": "463e77f693ac27a107cb368942e894b50bc2a909",
+            "page": 15,
+            "chapter": "1",
+            "score": 0.08279803674765196
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "abstain",
+        "step": 2
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "num_searches": 1,
+    "elapsed_ms": 5957.42,
+    "prompt_tokens": 1011,
+    "eval_tokens": 57,
+    "service_cost_usd": 0.0
+  },
+  {
+    "query_id": "u_test_02",
+    "split": "test",
+    "answerable": false,
+    "question": "In Chapter 2, how does the textbook define snowball sampling compared with random sampling?",
+    "config": "baseline",
+    "model": "qwen2.5:7b",
+    "error": null,
+    "status": "abstain",
+    "answer": "INSUFFICIENT_EVIDENCE: Câu trả lời không có citation hợp lệ nằm trong context.",
+    "raw_ungrounded_answer": "In Chapter 2, the textbook defines snowball sampling and random sampling as follows:\n\n- **Random Sampling**: Every person in a population has the same chance of being chosen for the study. According to the laws of probability, random samples represent the population as a whole.\n\n- **Snowball Sampling**: The excerpt does not directly define snowball sampling. However, it is implied that snowball sampling is a method used when the population is hard to reach, such as people who are the focus of a study like college athletes, international students, or teenagers living with type 1 (juvenile-onset) diabetes. In this method, researchers start with a small group and then ask them to refer others who fit the criteria, gradually building a larger sample.\n\n[cb58209a529a25f4b34a1985110d94b5958918b]",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "step": 1,
+        "tool": "search_chunks",
+        "query": "snowball sampling random sampling",
+        "filter": null,
+        "results": [
+          {
+            "id": "df2c0bc376f5927659aa9fc0e42ebee75a7f8e8d",
+            "page": 43,
+            "chapter": "2",
+            "score": 0.15648257436172705
+          },
+          {
+            "id": "cbb58209a529a25f4b34a1985110d94b5958918b",
+            "page": 43,
+            "chapter": "2",
+            "score": 0.08229648526284362
+          },
+          {
+            "id": "3183fe59c0d05661b0886adba04bbd4a3f94992e",
+            "page": 53,
+            "chapter": "2",
+            "score": 0.047176269380421174
+          }
+        ],
+        "context_ids": [
+          "cbb58209a529a25f4b34a1985110d94b5958918b"
+        ],
+        "context_chars": 783
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "step": 2
+      }
+    ],
+    "context": "[cbb58209a529a25f4b34a1985110d94b5958918b | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 43 | ch 2]\nA survey targets a specific population, people who are the focus of a study, such as college athletes, international students, or teenagers living with type 1 (juvenile-onset) diabetes.\n\nMost researchers choose to survey a small sector of the population, or a sample: that is, a manageable number of subjects who represent a larger population.\n\nThe success of a study depends on how well a population is represented by the sample.\n\nIn a random sample, every person in a population has the same chance of being chosen for the study.\n\nAccording to the laws of probability, random samples represent the population as a whole.",
+    "context_ids": [
+      "cbb58209a529a25f4b34a1985110d94b5958918b"
+    ],
+    "num_searches": 1,
+    "elapsed_ms": 24576.01,
+    "prompt_tokens": 1275,
+    "eval_tokens": 222,
+    "service_cost_usd": 0.0
+  }
+]

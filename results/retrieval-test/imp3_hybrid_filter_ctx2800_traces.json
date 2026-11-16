@@ -1,0 +1,430 @@
+[
+  {
+    "query_id": "q21",
+    "split": "test",
+    "type": "application",
+    "question": "What common feature makes small interest groups such as folk dancers or Mensa members sociologically interesting?",
+    "filter_used": null,
+    "config_id": "imp3_hybrid_filter_ctx2800",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2800,
+    "expand_neighbors": true,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 45,
+        "evidence": "Some sociologists study small groups of people who share an identity in one aspect of their lives.\n\nAlmost everyone belongs to a group of like-minded people who share an interest or hobby."
+      }
+    ],
+    "results": [
+      {
+        "id": "c0f376f6afd5042afc616e899ea6db1596a51037",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "page": 45,
+        "chapter": "2",
+        "hit": true,
+        "text": "Making Connections: Sociology in the Real World Parrotheads as Sociological Subjects Figure 2.6 Business suits for the day job are replaced by leis and T-shirts for a Jimmy Buffett concert. (Photo courtesy of Sam Howzitt/flickr) Some sociologists study small groups of people who share an identity in one aspect of their lives.\n\nAlmost everyone belongs to a group of like-minded people who share an interest or hobby.\n\nScientologists, folk dancers, or members of Mensa (an organization for people with exceptionally high IQs) express a specific part of their identity through their affiliation with a group.\n\nThose groups are often of great interest to sociologists."
+      },
+      {
+        "id": "b9bd2b7dd63e7b9873fdb08d7b0754c924bf6ac6",
+        "rank": 2,
+        "score": 0.031024531024531024,
+        "page": 14,
+        "chapter": "1",
+        "hit": false,
+        "text": "Why do we feel and act differently in different types of social situations?\n\nWhy might people of a single group exhibit different behaviors in the same situation?\n\nWhy might people acting similarly not feel connected to others exhibiting the same behavior?\n\nThese are some of the many questions sociologists ask as they study people and societies.\n\n1.1 What Is Sociology?\n\nFigure 1.2 Sociologists learn about society as a whole while studying one-to-one and group interactions. (Photo courtesy of Gareth Williams/flickr) What Are Society and Culture?\n\nSociology is the study of groups and group interactions, societies and social interactions, from small and personal groups to very large groups."
+      },
+      {
+        "id": "023f74fe38985db19369f24a9bc354a80eb024b4",
+        "rank": 3,
+        "score": 0.030621785881252923,
+        "page": 14,
+        "chapter": "1",
+        "hit": false,
+        "text": "Introduction to Sociology We all belong to many groups; you’re a member of your sociology class, and you're a member of your family; you may belong to a political party, sports team, or the crowd watching a sporting event; you’re a citizen of your country, and you're a part of a generation.\n\nYou may have a somewhat different role in each group and feel differently in each.\n\nGroups vary in their sizes and formalities, as well as in the levels of attachment between group members, among other things.\n\nWithin a large group, smaller groups may exist, and each group may behave differently.\n\nAt a rock concert, for example, some may enjoy singing along, others prefer to sit and observe, while still others may join in a mosh pit or try crowd surfing."
+      }
+    ],
+    "context": "[c0f376f6afd5042afc616e899ea6db1596a51037 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 45 | ch 2]\nMaking Connections: Sociology in the Real World Parrotheads as Sociological Subjects Figure 2.6 Business suits for the day job are replaced by leis and T-shirts for a Jimmy Buffett concert. (Photo courtesy of Sam Howzitt/flickr) Some sociologists study small groups of people who share an identity in one aspect of their lives.\n\nAlmost everyone belongs to a group of like-minded people who share an interest or hobby.\n\nScientologists, folk dancers, or members of Mensa (an organization for people with exceptionally high IQs) express a specific part of their identity through their affiliation with a group.\n\nThose groups are often of great interest to sociologists.\n\n[b9bd2b7dd63e7b9873fdb08d7b0754c924bf6ac6 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 14 | ch 1]\nWhy do we feel and act differently in different types of social situations?\n\nWhy might people of a single group exhibit different behaviors in the same situation?\n\nWhy might people acting similarly not feel connected to others exhibiting the same behavior?\n\nThese are some of the many questions sociologists ask as they study people and societies.\n\n1.1 What Is Sociology?\n\nFigure 1.2 Sociologists learn about society as a whole while studying one-to-one and group interactions. (Photo courtesy of Gareth Williams/flickr) What Are Society and Culture?\n\nSociology is the study of groups and group interactions, societies and social interactions, from small and personal groups to very large groups.\n\n[023f74fe38985db19369f24a9bc354a80eb024b4 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 14 | ch 1]\nIntroduction to Sociology We all belong to many groups; you’re a member of your sociology class, and you're a member of your family; you may belong to a political party, sports team, or the crowd watching a sporting event; you’re a citizen of your country, and you're a part of a generation.\n\nYou may have a somewhat different role in each group and feel differently in each.\n\nGroups vary in their sizes and formalities, as well as in the levels of attachment between group members, among other things.\n\nWithin a large group, smaller groups may exist, and each group may behave differently.\n\nAt a rock concert, for example, some may enjoy singing along, others prefer to sit and observe, while still others may join in a mosh pit or try crowd surfing.",
+    "context_ids": [
+      "c0f376f6afd5042afc616e899ea6db1596a51037",
+      "b9bd2b7dd63e7b9873fdb08d7b0754c924bf6ac6",
+      "023f74fe38985db19369f24a9bc354a80eb024b4"
+    ],
+    "context_chars": 2600,
+    "elapsed_ms": 31.137000012677163,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q22",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter 2, which three forms of field research are introduced on this page?",
+    "filter_used": {
+      "chapter": "2"
+    },
+    "config_id": "imp3_hybrid_filter_ctx2800",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2800,
+    "expand_neighbors": true,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 46,
+        "evidence": "Here, we will look at three types of field research: participant observation, ethnography, and the case study."
+      }
+    ],
+    "results": [
+      {
+        "id": "b9cec86e0eaf3bb265c8e7baee4b6a4559dacaf8",
+        "rank": 1,
+        "score": 0.03177805800756621,
+        "page": 44,
+        "chapter": "2",
+        "hit": false,
+        "text": "Field work is optimal for observing how people behave.\n\nIt is less useful, however, for understanding why they behave that way.\n\nYou can't really narrow down cause and effect when there are so many variables floating around in a natural environment.\n\nMuch of the data gathered in field research are based not on cause and effect but on correlation.\n\nAnd while field research looks for correlation, its small sample size does not allow for establishing a causal relationship between two variables.\n\n36 Chapter 2 | Sociological Research This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      },
+      {
+        "id": "4eaec56c4120f7eefc49c4cf167b4ead5474082f",
+        "rank": 2,
+        "score": 0.03036576949620428,
+        "page": 41,
+        "chapter": "2",
+        "hit": false,
+        "text": "This type of researcher also learns as he or she proceeds and sometimes adjusts the research methods or processes midway to optimize findings as they evolve.\n\n2.2 Research Methods Sociologists examine the world, see a problem or interesting pattern, and set out to study it.\n\nThey use research methods to design a study—perhaps a detailed, systematic, scientific method for conducting research and obtaining data, or perhaps Chapter 2 | Sociological Research 33"
+      },
+      {
+        "id": "3d58fce3b69ee1add37f4dc26a80e883e0671dde",
+        "rank": 3,
+        "score": 0.030330882352941176,
+        "page": 38,
+        "chapter": "2",
+        "hit": false,
+        "text": "Learning Objectives 2.1.\n\nApproaches to Sociological Research • Define and describe the scientific method • Explain how the scientific method is used in sociological research • Understand the function and importance of an interpretive framework • Define what reliability and validity mean in a research study 2.2.\n\nResearch Methods • Differentiate between four kinds of research methods: surveys, field research, experiments, and secondary data analysis • Understand why different topics are better suited to different research approaches 2.3."
+      }
+    ],
+    "context": "[b9cec86e0eaf3bb265c8e7baee4b6a4559dacaf8 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 44 | ch 2]\nField work is optimal for observing how people behave.\n\nIt is less useful, however, for understanding why they behave that way.\n\nYou can't really narrow down cause and effect when there are so many variables floating around in a natural environment.\n\nMuch of the data gathered in field research are based not on cause and effect but on correlation.\n\nAnd while field research looks for correlation, its small sample size does not allow for establishing a causal relationship between two variables.\n\n36 Chapter 2 | Sociological Research This OpenStax book is available for free at http://cnx.org/content/col11762/1.6\n\n[4eaec56c4120f7eefc49c4cf167b4ead5474082f | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 41 | ch 2]\nThis type of researcher also learns as he or she proceeds and sometimes adjusts the research methods or processes midway to optimize findings as they evolve.\n\n2.2 Research Methods Sociologists examine the world, see a problem or interesting pattern, and set out to study it.\n\nThey use research methods to design a study—perhaps a detailed, systematic, scientific method for conducting research and obtaining data, or perhaps Chapter 2 | Sociological Research 33\n\n[3d58fce3b69ee1add37f4dc26a80e883e0671dde | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 38 | ch 2]\nLearning Objectives 2.1.\n\nApproaches to Sociological Research • Define and describe the scientific method • Explain how the scientific method is used in sociological research • Understand the function and importance of an interpretive framework • Define what reliability and validity mean in a research study 2.2.\n\nResearch Methods • Differentiate between four kinds of research methods: surveys, field research, experiments, and secondary data analysis • Understand why different topics are better suited to different research approaches 2.3.",
+    "context_ids": [
+      "b9cec86e0eaf3bb265c8e7baee4b6a4559dacaf8",
+      "4eaec56c4120f7eefc49c4cf167b4ead5474082f",
+      "3d58fce3b69ee1add37f4dc26a80e883e0671dde"
+    ],
+    "context_chars": 2105,
+    "elapsed_ms": 19.335500022862107,
+    "hit1": false,
+    "hit3": false,
+    "reciprocal_rank": 0.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q23",
+    "split": "test",
+    "type": "tradeoff",
+    "question": "In Chapter 2, what is the main advantage of covert participant observation?",
+    "filter_used": {
+      "chapter": "2"
+    },
+    "config_id": "imp3_hybrid_filter_ctx2800",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2800,
+    "expand_neighbors": true,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 47,
+        "evidence": "main advantage of covert participant observation is that it allows the researcher access to authentic, natural behaviors"
+      }
+    ],
+    "results": [
+      {
+        "id": "d8e10ad162701d59b37c00686ec5723dc06b64db",
+        "rank": 1,
+        "score": 0.03252247488101534,
+        "page": 46,
+        "chapter": "2",
+        "hit": false,
+        "text": "Figure 2.7 Is she a working waitress or a sociologist conducting a study using participant observation? (Photo courtesy of zoetnet/flickr) At the beginning of a field study, researchers might have a question: “What really goes on in the kitchen of the most popular diner on campus?” or “What is it like to be homeless?” Participant observation is a useful method if the researcher wants to explore a certain environment from the inside.\n\nField researchers simply want to observe and learn.\n\nIn such a setting, the researcher will be alert and open minded to whatever happens, recording all observations accurately.\n\nSoon, as patterns emerge, questions will become more specific, observations will lead to hypotheses, and hypotheses will guide the researcher in shaping data into results."
+      },
+      {
+        "id": "6580c73f79d3644734fa396da5299499a730e950",
+        "rank": 2,
+        "score": 0.03177805800756621,
+        "page": 47,
+        "chapter": "2",
+        "hit": true,
+        "text": "This shaped the structure of Middletown: A Study in Modern American Culture, their published results (Lynd and Lynd 1959).\n\nThe Lynds were upfront about their mission.\n\nThe townspeople of Muncie, Indiana, knew why the researchers were in their midst.\n\nBut some sociologists prefer not to alert people to their presence.\n\nThe main advantage of covert participant observation is that it allows the researcher access to authentic, natural behaviors of a group’s members.\n\nThe challenge, however, is gaining access to a setting without disrupting the pattern of others’ behavior.\n\nBecoming an inside member of a group, organization, or subculture takes time and effort.\n\nResearchers must pretend to be something they are not."
+      },
+      {
+        "id": "9a278424825265ae7c6434ec490b3c7cefb695aa",
+        "rank": 3,
+        "score": 0.031746031746031744,
+        "page": 47,
+        "chapter": "2",
+        "hit": false,
+        "text": "The process could involve role playing, making contacts, networking, or applying for a job.\n\nOnce inside a group, some researchers spend months or even years pretending to be one of the people they are observing.\n\nHowever, as observers, they cannot get too involved.\n\nThey must keep their purpose in mind and apply the sociological perspective.\n\nThat way, they illuminate social patterns that are often unrecognized.\n\nBecause information gathered during participant observation is mostly qualitative, rather than quantitative, the end results are often descriptive or interpretive.\n\nThe researcher might present findings in an article or book and describe what he or she witnessed and experienced.\n\nThis type of research is what journalist Barbara Ehrenreich conducted for her book Nickel and Dimed."
+      }
+    ],
+    "context": "[d8e10ad162701d59b37c00686ec5723dc06b64db | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 46 | ch 2]\nFigure 2.7 Is she a working waitress or a sociologist conducting a study using participant observation? (Photo courtesy of zoetnet/flickr) At the beginning of a field study, researchers might have a question: “What really goes on in the kitchen of the most popular diner on campus?” or “What is it like to be homeless?” Participant observation is a useful method if the researcher wants to explore a certain environment from the inside.\n\nField researchers simply want to observe and learn.\n\nIn such a setting, the researcher will be alert and open minded to whatever happens, recording all observations accurately.\n\nSoon, as patterns emerge, questions will become more specific, observations will lead to hypotheses, and hypotheses will guide the researcher in shaping data into results.\n\n[6580c73f79d3644734fa396da5299499a730e950 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 47 | ch 2]\nThis shaped the structure of Middletown: A Study in Modern American Culture, their published results (Lynd and Lynd 1959).\n\nThe Lynds were upfront about their mission.\n\nThe townspeople of Muncie, Indiana, knew why the researchers were in their midst.\n\nBut some sociologists prefer not to alert people to their presence.\n\nThe main advantage of covert participant observation is that it allows the researcher access to authentic, natural behaviors of a group’s members.\n\nThe challenge, however, is gaining access to a setting without disrupting the pattern of others’ behavior.\n\nBecoming an inside member of a group, organization, or subculture takes time and effort.\n\nResearchers must pretend to be something they are not.\n\n[9a278424825265ae7c6434ec490b3c7cefb695aa | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 47 | ch 2]\nThe process could involve role playing, making contacts, networking, or applying for a job.\n\nOnce inside a group, some researchers spend months or even years pretending to be one of the people they are observing.\n\nHowever, as observers, they cannot get too involved.\n\nThey must keep their purpose in mind and apply the sociological perspective.\n\nThat way, they illuminate social patterns that are often unrecognized.\n\nBecause information gathered during participant observation is mostly qualitative, rather than quantitative, the end results are often descriptive or interpretive.\n\nThe researcher might present findings in an article or book and describe what he or she witnessed and experienced.\n\nThis type of research is what journalist Barbara Ehrenreich conducted for her book Nickel and Dimed.",
+    "context_ids": [
+      "d8e10ad162701d59b37c00686ec5723dc06b64db",
+      "6580c73f79d3644734fa396da5299499a730e950",
+      "9a278424825265ae7c6434ec490b3c7cefb695aa"
+    ],
+    "context_chars": 2794,
+    "elapsed_ms": 10.71049994789064,
+    "hit1": false,
+    "hit3": true,
+    "reciprocal_rank": 0.5,
+    "context_hit": true
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "type": "definition",
+    "question": "What does institutional ethnography focus on?",
+    "filter_used": null,
+    "config_id": "imp3_hybrid_filter_ctx2800",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2800,
+    "expand_neighbors": true,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 48,
+        "evidence": "Institutional ethnography is an extension of basic ethnographic research principles that focuses intentionally on everyday concrete social relationships."
+      }
+    ],
+    "results": [
+      {
+        "id": "90f90f63ca7c4133bb449b537ddfc64e8710b6d9",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "page": 48,
+        "chapter": "2",
+        "hit": true,
+        "text": "Institutional Ethnography Institutional ethnography is an extension of basic ethnographic research principles that focuses intentionally on everyday concrete social relationships.\n\nDeveloped by Canadian sociologist Dorothy E.\n\nSmith, institutional ethnography is often considered a feminist-inspired approach to social analysis and primarily considers women’s experiences within maledominated societies and power structures.\n\nSmith’s work is seen to challenge sociology’s exclusion of women, both academically and in the study of women’s lives (Fenstermaker, n.d.).\n\nHistorically, social science research tended to objectify women and ignore their experiences except as viewed from the male perspective."
+      },
+      {
+        "id": "510b013bb112b904d3d0c6f069e533e4d0e7ddb7",
+        "rank": 2,
+        "score": 0.03225806451612903,
+        "page": 47,
+        "chapter": "2",
+        "hit": false,
+        "text": "Nickel and Dimed: On (Not) Getting By in America, the book she wrote upon her return to her real life as a well-paid writer, has been widely read and used in many college classrooms.\n\nFigure 2.8 Field research happens in real locations.\n\nWhat type of environment do work spaces foster?\n\nWhat would a sociologist discover after blending in? (Photo courtesy of drewzhrodague/flickr) Ethnography Ethnography is the extended observation of the social perspective and cultural values of an entire social setting.\n\nEthnographies involve objective observation of an entire community.\n\nThe heart of an ethnographic study focuses on how subjects view their own social standing and how they understand themselves in relation to a community."
+      },
+      {
+        "id": "d7e9f70b8188cb094aa2a6ed46d2957d3f7fa796",
+        "rank": 3,
+        "score": 0.015873015873015872,
+        "page": 48,
+        "chapter": "2",
+        "hit": false,
+        "text": "Modern feminists note that describing women, and other marginalized groups, as subordinates helps those in authority maintain their own dominant positions (Social Sciences and Humanities Research Council of Canada, n.d.).\n\nSmith’s three major works explored what she called “the conceptual practices of power” (1990; cited in Fensternmaker, n.d.) and are still considered seminal works in feminist theory and ethnography.\n\nThe Making of Middletown: A Study in Modern U.S.\n\nCulture In 1924, a young married couple named Robert and Helen Lynd undertook an unprecedented ethnography: to apply sociological methods to the study of one U.S. city in order to discover what “ordinary” people in the United States did and believed."
+      }
+    ],
+    "context": "[90f90f63ca7c4133bb449b537ddfc64e8710b6d9 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 48 | ch 2]\nInstitutional Ethnography Institutional ethnography is an extension of basic ethnographic research principles that focuses intentionally on everyday concrete social relationships.\n\nDeveloped by Canadian sociologist Dorothy E.\n\nSmith, institutional ethnography is often considered a feminist-inspired approach to social analysis and primarily considers women’s experiences within maledominated societies and power structures.\n\nSmith’s work is seen to challenge sociology’s exclusion of women, both academically and in the study of women’s lives (Fenstermaker, n.d.).\n\nHistorically, social science research tended to objectify women and ignore their experiences except as viewed from the male perspective.\n\n[510b013bb112b904d3d0c6f069e533e4d0e7ddb7 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 47 | ch 2]\nNickel and Dimed: On (Not) Getting By in America, the book she wrote upon her return to her real life as a well-paid writer, has been widely read and used in many college classrooms.\n\nFigure 2.8 Field research happens in real locations.\n\nWhat type of environment do work spaces foster?\n\nWhat would a sociologist discover after blending in? (Photo courtesy of drewzhrodague/flickr) Ethnography Ethnography is the extended observation of the social perspective and cultural values of an entire social setting.\n\nEthnographies involve objective observation of an entire community.\n\nThe heart of an ethnographic study focuses on how subjects view their own social standing and how they understand themselves in relation to a community.\n\n[d7e9f70b8188cb094aa2a6ed46d2957d3f7fa796 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 48 | ch 2]\nModern feminists note that describing women, and other marginalized groups, as subordinates helps those in authority maintain their own dominant positions (Social Sciences and Humanities Research Council of Canada, n.d.).\n\nSmith’s three major works explored what she called “the conceptual practices of power” (1990; cited in Fensternmaker, n.d.) and are still considered seminal works in feminist theory and ethnography.\n\nThe Making of Middletown: A Study in Modern U.S.\n\nCulture In 1924, a young married couple named Robert and Helen Lynd undertook an unprecedented ethnography: to apply sociological methods to the study of one U.S. city in order to discover what “ordinary” people in the United States did and believed.",
+    "context_ids": [
+      "90f90f63ca7c4133bb449b537ddfc64e8710b6d9",
+      "510b013bb112b904d3d0c6f069e533e4d0e7ddb7",
+      "d7e9f70b8188cb094aa2a6ed46d2957d3f7fa796"
+    ],
+    "context_chars": 2643,
+    "elapsed_ms": 6.785200035665184,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "type": "benefit",
+    "question": "Why might sociologists analyze information that is already available?",
+    "filter_used": {
+      "chapter": "2"
+    },
+    "config_id": "imp3_hybrid_filter_ctx2800",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2800,
+    "expand_neighbors": true,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 51,
+        "evidence": "Using available information not only saves time and money but can also add depth to a study."
+      }
+    ],
+    "results": [
+      {
+        "id": "cffe3687c368a690214ad4324ee3cc0c3b05440b",
+        "rank": 1,
+        "score": 0.031544957774465976,
+        "page": 51,
+        "chapter": "2",
+        "hit": true,
+        "text": "Using available information not only saves time and money but can also add depth to a study.\n\nSociologists often interpret findings in a new way, a way that was not part of an author’s original purpose or intention.\n\nTo study how women were encouraged to act and behave in the 1960s, for example, a researcher might watch movies, televisions shows, and situation comedies from that period.\n\nOr to research changes in behavior and attitudes due to the emergence of television in the late 1950s and early 1960s, a sociologist would rely on new interpretations of secondary data.\n\nDecades from now, researchers will most likely conduct similar studies on the advent of mobile phones, the Internet, or Facebook.\n\nSocial scientists also learn by analyzing the research of a variety of agencies."
+      },
+      {
+        "id": "6c61a4d81ebc23d394b768be3d95bf776b859576",
+        "rank": 2,
+        "score": 0.030886196246139225,
+        "page": 50,
+        "chapter": "2",
+        "hit": false,
+        "text": "The funding to pay traffic fines had run out, and so had the enthusiasm of the participants (Heussenstamm 1971).\n\nSecondary Data Analysis While sociologists often engage in original research studies, they also contribute knowledge to the discipline through secondary data analysis.\n\nSecondary data don’t result from firsthand research collected from primary sources, but are the already completed work of other researchers.\n\nSociologists might study works written by historians, economists, teachers, or early sociologists.\n\nThey might search through periodicals, newspapers, or magazines from any period in history.\n\n42 Chapter 2 | Sociological Research This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      },
+      {
+        "id": "716bad6724098cbe92184594ec5fb764e34ff8eb",
+        "rank": 3,
+        "score": 0.030776515151515152,
+        "page": 41,
+        "chapter": "2",
+        "hit": false,
+        "text": "Sociologists analyze general patterns in response to a study, but they are equally interested in exceptions to patterns.\n\nIn a study of education, a researcher might predict that high school dropouts have a hard time finding rewarding careers.\n\nWhile it has become at least a cultural assumption that the higher the education, the higher the salary and degree of career happiness, there are certainly exceptions.\n\nPeople with little education have had stunning careers, and people with advanced degrees have had trouble finding work.\n\nA sociologist prepares a hypothesis knowing that results will vary.\n\nOnce the preliminary work is done, it’s time for the next research steps: designing and conducting a study and drawing conclusions.\n\nThese research methods are discussed below."
+      }
+    ],
+    "context": "[cffe3687c368a690214ad4324ee3cc0c3b05440b | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 51 | ch 2]\nUsing available information not only saves time and money but can also add depth to a study.\n\nSociologists often interpret findings in a new way, a way that was not part of an author’s original purpose or intention.\n\nTo study how women were encouraged to act and behave in the 1960s, for example, a researcher might watch movies, televisions shows, and situation comedies from that period.\n\nOr to research changes in behavior and attitudes due to the emergence of television in the late 1950s and early 1960s, a sociologist would rely on new interpretations of secondary data.\n\nDecades from now, researchers will most likely conduct similar studies on the advent of mobile phones, the Internet, or Facebook.\n\nSocial scientists also learn by analyzing the research of a variety of agencies.\n\n[6c61a4d81ebc23d394b768be3d95bf776b859576 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 50 | ch 2]\nThe funding to pay traffic fines had run out, and so had the enthusiasm of the participants (Heussenstamm 1971).\n\nSecondary Data Analysis While sociologists often engage in original research studies, they also contribute knowledge to the discipline through secondary data analysis.\n\nSecondary data don’t result from firsthand research collected from primary sources, but are the already completed work of other researchers.\n\nSociologists might study works written by historians, economists, teachers, or early sociologists.\n\nThey might search through periodicals, newspapers, or magazines from any period in history.\n\n42 Chapter 2 | Sociological Research This OpenStax book is available for free at http://cnx.org/content/col11762/1.6\n\n[716bad6724098cbe92184594ec5fb764e34ff8eb | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 41 | ch 2]\nSociologists analyze general patterns in response to a study, but they are equally interested in exceptions to patterns.\n\nIn a study of education, a researcher might predict that high school dropouts have a hard time finding rewarding careers.\n\nWhile it has become at least a cultural assumption that the higher the education, the higher the salary and degree of career happiness, there are certainly exceptions.\n\nPeople with little education have had stunning careers, and people with advanced degrees have had trouble finding work.\n\nA sociologist prepares a hypothesis knowing that results will vary.\n\nOnce the preliminary work is done, it’s time for the next research steps: designing and conducting a study and drawing conclusions.\n\nThese research methods are discussed below.",
+    "context_ids": [
+      "cffe3687c368a690214ad4324ee3cc0c3b05440b",
+      "6c61a4d81ebc23d394b768be3d95bf776b859576",
+      "716bad6724098cbe92184594ec5fb764e34ff8eb"
+    ],
+    "context_chars": 2790,
+    "elapsed_ms": 9.821100044064224,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": true
+  },
+  {
+    "query_id": "q26",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter 1, how do sociologists define a society?",
+    "filter_used": {
+      "chapter": "1"
+    },
+    "config_id": "imp3_hybrid_filter_ctx2800",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2800,
+    "expand_neighbors": true,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 14,
+        "evidence": "A group of people who live in a defined geographic area, who interact with one another, and who share a common culture is what sociologists call a society."
+      }
+    ],
+    "results": [
+      {
+        "id": "2ce5887c8c3ac57942909e3dd954cd023307d966",
+        "rank": 1,
+        "score": 0.03128054740957967,
+        "page": 20,
+        "chapter": "1",
+        "hit": false,
+        "text": "Durkheim believed that sociologists could study objective “social facts” (Poggi 2000).\n\nHe also believed that through such studies it would be possible to determine if a society was “healthy” or “pathological.” He saw healthy societies as stable, while pathological societies experienced a breakdown in social norms between individuals and society.\n\n12 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      },
+      {
+        "id": "b8346e45ded7f7372b1ff5fd73bc3de9780ea743",
+        "rank": 2,
+        "score": 0.03055037313432836,
+        "page": 17,
+        "chapter": "1",
+        "hit": false,
+        "text": "This illustrates how sociologists observe a pattern in society.\n\nSociologists identify and study patterns related to all kinds of contemporary social issues.\n\nThe “don’t ask, don’t tell” policy, the emergence of the Tea Party as a political faction, how Twitter has influenced everyday communication—these are all examples of topics that sociologists might explore.\n\nStudying Part and Whole: How Sociologists View Social Structures A key basis of the sociological perspective is the concept that the individual and society are inseparable.\n\nIt is impossible to study one without the other.\n\nGerman sociologist Norbert Elias called the process of simultaneously analyzing the behavior of individuals and the society that shapes that behavior figuration."
+      },
+      {
+        "id": "b9bd2b7dd63e7b9873fdb08d7b0754c924bf6ac6",
+        "rank": 3,
+        "score": 0.030158730158730156,
+        "page": 14,
+        "chapter": "1",
+        "hit": false,
+        "text": "Why do we feel and act differently in different types of social situations?\n\nWhy might people of a single group exhibit different behaviors in the same situation?\n\nWhy might people acting similarly not feel connected to others exhibiting the same behavior?\n\nThese are some of the many questions sociologists ask as they study people and societies.\n\n1.1 What Is Sociology?\n\nFigure 1.2 Sociologists learn about society as a whole while studying one-to-one and group interactions. (Photo courtesy of Gareth Williams/flickr) What Are Society and Culture?\n\nSociology is the study of groups and group interactions, societies and social interactions, from small and personal groups to very large groups."
+      }
+    ],
+    "context": "[2ce5887c8c3ac57942909e3dd954cd023307d966 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 20 | ch 1]\nDurkheim believed that sociologists could study objective “social facts” (Poggi 2000).\n\nHe also believed that through such studies it would be possible to determine if a society was “healthy” or “pathological.” He saw healthy societies as stable, while pathological societies experienced a breakdown in social norms between individuals and society.\n\n12 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6\n\n[b8346e45ded7f7372b1ff5fd73bc3de9780ea743 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 17 | ch 1]\nThis illustrates how sociologists observe a pattern in society.\n\nSociologists identify and study patterns related to all kinds of contemporary social issues.\n\nThe “don’t ask, don’t tell” policy, the emergence of the Tea Party as a political faction, how Twitter has influenced everyday communication—these are all examples of topics that sociologists might explore.\n\nStudying Part and Whole: How Sociologists View Social Structures A key basis of the sociological perspective is the concept that the individual and society are inseparable.\n\nIt is impossible to study one without the other.\n\nGerman sociologist Norbert Elias called the process of simultaneously analyzing the behavior of individuals and the society that shapes that behavior figuration.\n\n[b9bd2b7dd63e7b9873fdb08d7b0754c924bf6ac6 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 14 | ch 1]\nWhy do we feel and act differently in different types of social situations?\n\nWhy might people of a single group exhibit different behaviors in the same situation?\n\nWhy might people acting similarly not feel connected to others exhibiting the same behavior?\n\nThese are some of the many questions sociologists ask as they study people and societies.\n\n1.1 What Is Sociology?\n\nFigure 1.2 Sociologists learn about society as a whole while studying one-to-one and group interactions. (Photo courtesy of Gareth Williams/flickr) What Are Society and Culture?\n\nSociology is the study of groups and group interactions, societies and social interactions, from small and personal groups to very large groups.",
+    "context_ids": [
+      "2ce5887c8c3ac57942909e3dd954cd023307d966",
+      "b8346e45ded7f7372b1ff5fd73bc3de9780ea743",
+      "b9bd2b7dd63e7b9873fdb08d7b0754c924bf6ac6"
+    ],
+    "context_chars": 2408,
+    "elapsed_ms": 18.31710000988096,
+    "hit1": false,
+    "hit3": false,
+    "reciprocal_rank": 0.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q27",
+    "split": "test",
+    "type": "direct",
+    "question": "Who first coined the term 'sociology' in 1780, and who reinvented it in 1838?",
+    "filter_used": null,
+    "config_id": "imp3_hybrid_filter_ctx2800",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 2800,
+    "expand_neighbors": true,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 19,
+        "evidence": "The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al.\n\n1999).\n\nIn 1838, the term was reinvented by Auguste Comte (1798–1857)."
+      }
+    ],
+    "results": [
+      {
+        "id": "dc661950f401f452263c23664de9a7fa2ae97f9c",
+        "rank": 1,
+        "score": 0.03278688524590164,
+        "page": 19,
+        "chapter": "1",
+        "hit": true,
+        "text": "Creating a Discipline Auguste Comte (1798–1857) Figure 1.5 Auguste Comte played an important role in the development of sociology as a recognized discipline. (Photo courtesy of Wikimedia Commons) The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al.\n\n1999).\n\nIn 1838, the term was reinvented by Auguste Comte (1798–1857).\n\nComte originally studied to be an engineer, but later became a pupil of social philosopher Claude Henri de Rouvroy Comte de Saint-Simon (1760–1825).\n\nThey both thought that social scientists could study society using the same scientific methods utilized in natural sciences.\n\nComte also believed in the potential of social scientists to work toward the betterment of society."
+      },
+      {
+        "id": "35e4516fbfda280ef22fea358940cf380e028099",
+        "rank": 2,
+        "score": 0.0315136476426799,
+        "page": 20,
+        "chapter": "1",
+        "hit": false,
+        "text": "While his economic predictions may not have come true in the time frame he predicted, Marx’s idea that social conflict leads to change in society is still one of the major theories used in modern sociology.\n\nHerbert Spencer (1820–1903) In 1873, the English philosopher Herbert Spencer published The Study of Sociology, the first book with the term “sociology” in the title.\n\nSpencer rejected much of Comte’s philosophy as well as Marx's theory of class struggle and his support of communism.\n\nInstead, he favored a form of government that allowed market forces to control capitalism.\n\nHis work influenced many early sociologists including Émile Durkheim (1858–1917).\n\nGeorg Simmel (1858–1918) Georg Simmel was a German art critic who wrote widely on social and political issues as well."
+      },
+      {
+        "id": "ae04ca1a0636b4f8e41d5e091ec84c0adafcf4c9",
+        "rank": 3,
+        "score": 0.030776515151515152,
+        "page": 19,
+        "chapter": "1",
+        "hit": false,
+        "text": "She was an early observer of social practices, including economics, social class, religion, suicide, government, and women’s rights.\n\nHer writing career began in 1931 with a series of stories titled Illustrations of Political Economy, in which she tried to educate ordinary people about the principles of economics (Johnson 2003).\n\nMartineau was the first to translate Comte’s writing from French to English and thereby introduced sociology to Englishspeaking scholars (Hill 1991).\n\nShe is also credited with the first systematic methodological international comparisons of social institutions in two of her most famous sociological works: Society in America (1837) and Retrospect of Western Travel (1838)."
+      }
+    ],
+    "context": "[dc661950f401f452263c23664de9a7fa2ae97f9c | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 19 | ch 1]\nCreating a Discipline Auguste Comte (1798–1857) Figure 1.5 Auguste Comte played an important role in the development of sociology as a recognized discipline. (Photo courtesy of Wikimedia Commons) The term sociology was first coined in 1780 by the French essayist Emmanuel-Joseph Sieyès (1748–1836) in an unpublished manuscript (Fauré et al.\n\n1999).\n\nIn 1838, the term was reinvented by Auguste Comte (1798–1857).\n\nComte originally studied to be an engineer, but later became a pupil of social philosopher Claude Henri de Rouvroy Comte de Saint-Simon (1760–1825).\n\nThey both thought that social scientists could study society using the same scientific methods utilized in natural sciences.\n\nComte also believed in the potential of social scientists to work toward the betterment of society.\n\n[35e4516fbfda280ef22fea358940cf380e028099 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 20 | ch 1]\nWhile his economic predictions may not have come true in the time frame he predicted, Marx’s idea that social conflict leads to change in society is still one of the major theories used in modern sociology.\n\nHerbert Spencer (1820–1903) In 1873, the English philosopher Herbert Spencer published The Study of Sociology, the first book with the term “sociology” in the title.\n\nSpencer rejected much of Comte’s philosophy as well as Marx's theory of class struggle and his support of communism.\n\nInstead, he favored a form of government that allowed market forces to control capitalism.\n\nHis work influenced many early sociologists including Émile Durkheim (1858–1917).\n\nGeorg Simmel (1858–1918) Georg Simmel was a German art critic who wrote widely on social and political issues as well.\n\n[ae04ca1a0636b4f8e41d5e091ec84c0adafcf4c9 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 19 | ch 1]\nShe was an early observer of social practices, including economics, social class, religion, suicide, government, and women’s rights.\n\nHer writing career began in 1931 with a series of stories titled Illustrations of Political Economy, in which she tried to educate ordinary people about the principles of economics (Johnson 2003).\n\nMartineau was the first to translate Comte’s writing from French to English and thereby introduced sociology to Englishspeaking scholars (Hill 1991).\n\nShe is also credited with the first systematic methodological international comparisons of social institutions in two of her most famous sociological works: Society in America (1837) and Retrospect of Western Travel (1838).",
+    "context_ids": [
+      "dc661950f401f452263c23664de9a7fa2ae97f9c",
+      "35e4516fbfda280ef22fea358940cf380e028099",
+      "ae04ca1a0636b4f8e41d5e091ec84c0adafcf4c9"
+    ],
+    "context_chars": 2768,
+    "elapsed_ms": 8.783900004345924,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": true
+  }
+]

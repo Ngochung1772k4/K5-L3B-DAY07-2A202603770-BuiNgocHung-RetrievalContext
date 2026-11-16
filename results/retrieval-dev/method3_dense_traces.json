@@ -1,0 +1,1149 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "type": "causal_context",
+    "question": "How do sociologists explain why people make different personal choices in similar social settings?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 15,
+        "evidence": "Cultural patterns and social forces put pressure on people to select one choice over another."
+      }
+    ],
+    "results": [
+      {
+        "id": "b9bd2b7dd63e7b9873fdb08d7b0754c924bf6ac6",
+        "rank": 1,
+        "score": 0.6230167150497437,
+        "page": 14,
+        "chapter": "1",
+        "hit": false,
+        "text": "Why do we feel and act differently in different types of social situations?\n\nWhy might people of a single group exhibit different behaviors in the same situation?\n\nWhy might people acting similarly not feel connected to others exhibiting the same behavior?\n\nThese are some of the many questions sociologists ask as they study people and societies.\n\n1.1 What Is Sociology?\n\nFigure 1.2 Sociologists learn about society as a whole while studying one-to-one and group interactions. (Photo courtesy of Gareth Williams/flickr) What Are Society and Culture?\n\nSociology is the study of groups and group interactions, societies and social interactions, from small and personal groups to very large groups."
+      },
+      {
+        "id": "918a92750c321a436e13241d93dafabc598e0ea9",
+        "rank": 2,
+        "score": 0.6184408068656921,
+        "page": 39,
+        "chapter": "2",
+        "hit": false,
+        "text": "For example, how do different communities fare in terms of psychological well-being, community cohesiveness, range of vocation, wealth, crime rates, and so on?\n\nAre communities functioning smoothly?\n\nSociologists look between the cracks to discover obstacles to meeting basic human needs.\n\nThey might study environmental influences and patterns of behavior that lead to crime, substance abuse, divorce, poverty, unplanned pregnancies, or illness.\n\nAnd, because sociological studies are not all focused on negative behaviors or challenging situations, researchers might study vacation trends, healthy eating habits, neighborhood organizations, higher education patterns, games, parks, and exercise habits.\n\nChapter 2 | Sociological Research 31"
+      },
+      {
+        "id": "c69c08a627ae1c3b15604cf642812f208e761a17",
+        "rank": 3,
+        "score": 0.6070085763931274,
+        "page": 15,
+        "chapter": "1",
+        "hit": false,
+        "text": "How has culture influenced the choices that individuals make in living arrangements?\n\nOther sociologists are studying the consequences of these new patterns, such as the ways children are affected by them or changing needs for education, housing, and healthcare.\n\nChapter 1 | An Introduction to Sociology 7"
+      }
+    ],
+    "context": "[c69c08a627ae1c3b15604cf642812f208e761a17 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 15 | ch 1]\nHow has culture influenced the choices that individuals make in living arrangements?\n\nOther sociologists are studying the consequences of these new patterns, such as the ways children are affected by them or changing needs for education, housing, and healthcare.\n\nChapter 1 | An Introduction to Sociology 7",
+    "context_ids": [
+      "c69c08a627ae1c3b15604cf642812f208e761a17"
+    ],
+    "context_chars": 467,
+    "elapsed_ms": 381.43290000152774,
+    "hit1": false,
+    "hit3": false,
+    "reciprocal_rank": 0.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "When SNAP participation differs by state, what kinds of factors do sociologists compare to explain the differences?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 17,
+        "evidence": "Sociologists study the economies in each state"
+      }
+    ],
+    "results": [
+      {
+        "id": "0df5a6abf6d28cad4dd8aa7d1a4a07b4be69d260",
+        "rank": 1,
+        "score": 0.6709723472595215,
+        "page": 17,
+        "chapter": "1",
+        "hit": true,
+        "text": "Does this mean, if the stereotype above were applied, that people in some states are lazier and less motivated than those in other states?\n\nSociologists study the economies in each state—comparing unemployment rates, food, energy costs, and other factors—to explain differences in social issues like this.\n\nTo identify social trends, sociologists also study how people use SNAP benefits and how people react to their use.\n\nResearch has found that for many people from all classes, there is a strong stigma attached to the use of SNAP benefits.\n\nThis stigma can prevent people who qualify for this type of assistance from using SNAP benefits.\n\nAccording to Hanson and Gundersen (2002), how strongly this stigma is felt is linked to the general economic climate."
+      },
+      {
+        "id": "7e343849296f19bb5401e0701478c4f4e91ca059",
+        "rank": 2,
+        "score": 0.5748422741889954,
+        "page": 17,
+        "chapter": "1",
+        "hit": false,
+        "text": "Table 1.1 SNAP Use by State in 2005 Sociologists examine social conditions in different states to explain differences in the number of people receiving SNAP benefits. (Table courtesy of U.S.\n\nDepartment of Agriculture) Percent Eligible by Reason for Eligibility Living in Waiver Area Have Not Exceeded Time Limits[1] In E & T Program Received Exemption Total Percent Eligible for the FSP[2] Alabama 29 62 / 72 0 1 73 / 80 Alaska 100 62 / 72 0 0 100 California 6 62 / 72 0 0 64 / 74 District of Columbia 100 62 / 72 0 0 100 Florida 48 62 / 72 0 0 80 / 85 Mississippi 39 62 / 72 0 3 100 Wyoming 7 62 / 72 0 0 64 / 74 The percentage of the population receiving SNAP benefits is much higher in certain states than in others."
+      },
+      {
+        "id": "918a92750c321a436e13241d93dafabc598e0ea9",
+        "rank": 3,
+        "score": 0.5692018866539001,
+        "page": 39,
+        "chapter": "2",
+        "hit": false,
+        "text": "For example, how do different communities fare in terms of psychological well-being, community cohesiveness, range of vocation, wealth, crime rates, and so on?\n\nAre communities functioning smoothly?\n\nSociologists look between the cracks to discover obstacles to meeting basic human needs.\n\nThey might study environmental influences and patterns of behavior that lead to crime, substance abuse, divorce, poverty, unplanned pregnancies, or illness.\n\nAnd, because sociological studies are not all focused on negative behaviors or challenging situations, researchers might study vacation trends, healthy eating habits, neighborhood organizations, higher education patterns, games, parks, and exercise habits.\n\nChapter 2 | Sociological Research 31"
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 7.236399978864938,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "type": "case_rephrase",
+    "question": "After Ashley and her partner moved from a city to a small town, what new discrimination did Ashley report?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 18,
+        "evidence": "Ashley found herself experiencing direct discrimination because of her sexual orientation."
+      },
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 18,
+        "evidence": "Landlords would not rent to them."
+      }
+    ],
+    "results": [
+      {
+        "id": "549b1219f3caff37f7b58bd380e0fe71066d8b4e",
+        "rank": 1,
+        "score": 0.7190321087837219,
+        "page": 18,
+        "chapter": "1",
+        "hit": true,
+        "text": "Some of it was particularly hurtful.\n\nLandlords would not rent to them.\n\nAshley, who is a highly trained professional, had a great deal of difficulty finding a new job.\n\nWhen Nathan asked Ashley if she and her partner became discouraged or bitter about this new situation, Ashley said that rather than letting it get to them, they decided to do something about it.\n\nAshley approached groups at a local college and several churches in the area.\n\nTogether they decided to form the town's first gay-straight alliance.\n\nThe alliance has worked successfully to educate their community about same-sex couples.\n\nIt also worked to raise awareness about the kinds of discrimination that Ashley and her partner experienced in the town and how those could be eliminated."
+      },
+      {
+        "id": "f7d8c605559b81f7b1f8859b4163dc692b27313d",
+        "rank": 2,
+        "score": 0.6411194205284119,
+        "page": 18,
+        "chapter": "1",
+        "hit": true,
+        "text": "Making Connections: Sociology in the Real World Individual-Society Connections When sociologist Nathan Kierns spoke to his friend Ashley (a pseudonym) about the move she and her partner had made from an urban center to a small Midwestern town, he was curious about how the social pressures placed on a lesbian couple differed from one community to the other.\n\nAshley said that in the city they had been accustomed to getting looks and hearing comments when she and her partner walked hand in hand.\n\nOtherwise, she felt that they were at least being tolerated.\n\nThere had been little to no outright discrimination.\n\nThings changed when they moved to the small town for her partner’s job.\n\nFor the first time, Ashley found herself experiencing direct discrimination because of her sexual orientation."
+      },
+      {
+        "id": "8e28f8e57e6af926d99f31eba2933df1b413d3d4",
+        "rank": 3,
+        "score": 0.31439006328582764,
+        "page": 47,
+        "chapter": "2",
+        "hit": false,
+        "text": "She discovered the obvious, that it’s almost impossible to get by on minimum wage work.\n\nShe also experienced and observed attitudes many middle and upper-class people never think about.\n\nShe witnessed firsthand the treatment of working class employees.\n\nShe saw the extreme measures people take to make ends meet and to survive.\n\nShe described fellow employees who held two or three jobs, worked seven days a week, lived in cars, could not pay to treat chronic health conditions, got randomly fired, submitted to drug tests, and moved in and out of homeless shelters.\n\nShe brought aspects of that life to light, describing difficult working conditions and the poor treatment that low-wage workers suffer."
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 7.957499998155981,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 1, what did Karl Marx say drives social change?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 20,
+        "evidence": "He believed that societies grew and changed as a result of the struggles of different social classes over the means of production."
+      }
+    ],
+    "results": [
+      {
+        "id": "d823944f2b03d5efa573dae7c72b2c7a11d487bd",
+        "rank": 1,
+        "score": 0.698846161365509,
+        "page": 20,
+        "chapter": "1",
+        "hit": true,
+        "text": "Karl Marx (1818–1883) Figure 1.6 Karl Marx was one of the founders of sociology.\n\nHis ideas about social conflict are still relevant today. (Photo courtesy of John Mayall/ Wikimedia Commons) Karl Marx (1818–1883) was a German philosopher and economist.\n\nIn 1848 he and Friedrich Engels (1820–1895) coauthored the Communist Manifesto.\n\nThis book is one of the most influential political manuscripts in history.\n\nIt also presents Marx's theory of society, which differed from what Comte proposed.\n\nMarx rejected Comte's positivism.\n\nHe believed that societies grew and changed as a result of the struggles of different social classes over the means of production."
+      },
+      {
+        "id": "56da0171e9cd6e3ebd994b3ee58b0e5a14505607",
+        "rank": 2,
+        "score": 0.6309722065925598,
+        "page": 20,
+        "chapter": "1",
+        "hit": false,
+        "text": "At the time he was developing his theories, the Industrial Revolution and the rise of capitalism led to great disparities in wealth between the owners of the factories and workers.\n\nCapitalism, an economic system characterized by private or corporate ownership of goods and the means to produce them, grew in many nations.\n\nMarx predicted that inequalities of capitalism would become so extreme that workers would eventually revolt.\n\nThis would lead to the collapse of capitalism, which would be replaced by communism.\n\nCommunism is an economic system under which there is no private or corporate ownership: everything is owned communally and distributed as needed.\n\nMarx believed that communism was a more equitable system than capitalism."
+      },
+      {
+        "id": "9a50486c05c7a2fa115632d5137e44677dbc4c9c",
+        "rank": 3,
+        "score": 0.611163854598999,
+        "page": 24,
+        "chapter": "1",
+        "hit": false,
+        "text": "German sociologist Max Weber agreed with Marx but also believed that, in addition to economic inequalities, inequalities of political power and social structure cause conflict.\n\nWeber noted that different groups were affected differently based on 16 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      }
+    ],
+    "context": "[9a50486c05c7a2fa115632d5137e44677dbc4c9c | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 24 | ch 1]\nGerman sociologist Max Weber agreed with Marx but also believed that, in addition to economic inequalities, inequalities of political power and social structure cause conflict.\n\nWeber noted that different groups were affected differently based on 16 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6",
+    "context_ids": [
+      "9a50486c05c7a2fa115632d5137e44677dbc4c9c"
+    ],
+    "context_chars": 531,
+    "elapsed_ms": 6.747400009771809,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "How did Durkheim explain the different suicide statistics he found in Catholic and Protestant communities?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 21,
+        "evidence": "He attributed the differences to socioreligious forces rather than to individual or psychological causes."
+      }
+    ],
+    "results": [
+      {
+        "id": "8a1290369ab6d83028746c4010b1b183218517cd",
+        "rank": 1,
+        "score": 0.765438437461853,
+        "page": 22,
+        "chapter": "1",
+        "hit": false,
+        "text": "His studied social ties within a group, or social solidarity, and hypothesized that differences in suicide rates might be explained by religion-based differences.\n\nDurkheim gathered a large amount of data about Europeans who had ended their lives, and he did indeed find differences based on religion.\n\nProtestants were more likely to commit suicide than Catholics in Durkheim’s society, and his work supports the utility of theory in sociological research.\n\nTheories vary in scope depending on the scale of the issues that they are meant to explain.\n\nMacro-level theories relate to large-scale issues and large groups of people, while micro-level theories look at very specific relationships between individuals or small groups."
+      },
+      {
+        "id": "54139b55dc33866ba99c8eb43062f99adda69966",
+        "rank": 2,
+        "score": 0.5943818688392639,
+        "page": 21,
+        "chapter": "1",
+        "hit": true,
+        "text": "Making Connections: Social Policy & Debate In 1897, Durkheim attempted to demonstrate the effectiveness of his rules of social research when he published a work titled Suicide.\n\nDurkheim examined suicide statistics in different police districts to research differences between Catholic and Protestant communities.\n\nHe attributed the differences to socioreligious forces rather than to individual or psychological causes.\n\nGeorge Herbert Mead (1863–1931) George Herbert Mead was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk n.d.).\n\nHe argued that how an individual comes to view himself or herself is based to a very large extent on interactions with others."
+      },
+      {
+        "id": "2ce5887c8c3ac57942909e3dd954cd023307d966",
+        "rank": 3,
+        "score": 0.5053248405456543,
+        "page": 20,
+        "chapter": "1",
+        "hit": false,
+        "text": "Durkheim believed that sociologists could study objective “social facts” (Poggi 2000).\n\nHe also believed that through such studies it would be possible to determine if a society was “healthy” or “pathological.” He saw healthy societies as stable, while pathological societies experienced a breakdown in social norms between individuals and society.\n\n12 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      }
+    ],
+    "context": "[2ce5887c8c3ac57942909e3dd954cd023307d966 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 20 | ch 1]\nDurkheim believed that sociologists could study objective “social facts” (Poggi 2000).\n\nHe also believed that through such studies it would be possible to determine if a society was “healthy” or “pathological.” He saw healthy societies as stable, while pathological societies experienced a breakdown in social norms between individuals and society.\n\n12 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6",
+    "context_ids": [
+      "2ce5887c8c3ac57942909e3dd954cd023307d966"
+    ],
+    "context_chars": 634,
+    "elapsed_ms": 8.292200014693663,
+    "hit1": false,
+    "hit3": true,
+    "reciprocal_rank": 0.5,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is public sociology intended to do about social problems?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 22,
+        "evidence": "The goals of public sociology are to increase understanding of the social factors that underlie social problems and assist in finding solutions."
+      }
+    ],
+    "results": [
+      {
+        "id": "0691fa42440db4d02782aa797177761a17d2138c",
+        "rank": 1,
+        "score": 0.6835699677467346,
+        "page": 22,
+        "chapter": "1",
+        "hit": true,
+        "text": "Sociologists may consider the minimum wage issue from differing perspectives as well.\n\nHow much of an impact would a minimum wage raise have for a single mother?\n\nSome might study the economic effects, such as her ability to pay bills and keep food on the table.\n\nOthers might look at how reduced economic stress could improve family relationships.\n\nSome sociologists might research the impact on the status of small business owners.\n\nThese could all be examples of public sociology, a branch of sociology that strives to bring sociological dialogue to public forums.\n\nThe goals of public sociology are to increase understanding of the social factors that underlie social problems and assist in finding solutions."
+      },
+      {
+        "id": "41c0d25a2a9b60669aaf25b8b7676811b58588b7",
+        "rank": 2,
+        "score": 0.6300404071807861,
+        "page": 22,
+        "chapter": "1",
+        "hit": false,
+        "text": "According to Michael Burawoy (2005), the challenge of public sociology is to engage multiple publics in multiple ways.\n\n1.3 Theoretical Perspectives Figure 1.7 Sociologists develop theories to explain social occurrences such as protest rallies. (Photo courtesy of voanews.com/Wikimedia Commons) Sociologists study social events, interactions, and patterns, and they develop a theory in an attempt to explain why things work as they do.\n\nIn sociology, a theory is a way to explain different aspects of social interactions and to create a testable proposition, called a hypothesis, about society (Allan 2006).\n\nFor example, although suicide is generally considered an individual phenomenon, Émile Durkheim was interested in studying the social factors that affect it."
+      },
+      {
+        "id": "b6ebda8e6a55a211b0aa824ce8819ac468e3dca0",
+        "rank": 3,
+        "score": 0.6073656678199768,
+        "page": 26,
+        "chapter": "1",
+        "hit": false,
+        "text": "18 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      }
+    ],
+    "context": "[b6ebda8e6a55a211b0aa824ce8819ac468e3dca0 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 26 | ch 1]\n18 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6",
+    "context_ids": [
+      "b6ebda8e6a55a211b0aa824ce8819ac468e3dca0"
+    ],
+    "context_chars": 284,
+    "elapsed_ms": 6.915400008438155,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "type": "definition",
+    "question": "According to structural functionalism, how are society's parts related to people's needs?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 23,
+        "evidence": "sees society as a structure with interrelated parts designed to meet the biological and social needs of the individuals in that society."
+      }
+    ],
+    "results": [
+      {
+        "id": "09fafe22c30afeab393b0789a3b3ffac1cbc88a8",
+        "rank": 1,
+        "score": 0.6625784635543823,
+        "page": 23,
+        "chapter": "1",
+        "hit": true,
+        "text": "Table 1.2 Sociological Theories or Perspectives Different sociological perspectives enable sociologists to view social issues through a variety of useful lenses.\n\nSociological Paradigm Level of Analysis Focus Structural Functionalism Macro or mid The way each part of society functions together to contribute to thewhole Conflict Theory Macro The way inequalities contribute to social differences and perpetuatedifferences in power Symbolic Interactionism Micro One-to-one interactions and communications Functionalism Functionalism, also called structural-functional theory, sees society as a structure with interrelated parts designed to meet the biological and social needs of the individuals in that society."
+      },
+      {
+        "id": "ba3aab5d7c1cc6128610fe084ae06ab3e3bf634b",
+        "rank": 2,
+        "score": 0.6153362393379211,
+        "page": 23,
+        "chapter": "1",
+        "hit": false,
+        "text": "Functionalism grew out of the writings of English philosopher and biologist, Hebert Spencer (1820–1903), who saw similarities between society and the human body; he argued that just as the various organs of the body work together to keep the body functioning, the various parts of society work together to keep society functioning (Spencer 1898).\n\nThe parts of society that Spencer referred to were the social institutions, or patterns of beliefs and behaviors focused on meeting social needs, such as government, education, family, healthcare, religion, and the economy. Émile Durkheim, another early sociologist, applied Spencer’s theory to explain how societies change and survive over time."
+      },
+      {
+        "id": "1c7b4b57135ff6b8fae8e95b741abd8e6e6c44c3",
+        "rank": 3,
+        "score": 0.5745238065719604,
+        "page": 23,
+        "chapter": "1",
+        "hit": false,
+        "text": "Social processes that have undesirable consequences for the operation of society are called dysfunctions.\n\nIn education, examples of dysfunction include getting bad grades, truancy, dropping out, not graduating, and not finding suitable employment.\n\nCriticism One criticism of the structural-functional theory is that it can’t adequately explain social change.\n\nAlso problematic is the somewhat circular nature of this theory; repetitive behavior patterns are assumed to have a function, yet we profess to know that they have a function only because they are repeated.\n\nFurthermore, dysfunctions may continue, even though they don’t serve a function, which seemingly contradicts the basic premise of the theory."
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 7.87770000169985,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "type": "comparison",
+    "question": "At what scale and around what kind of activity does symbolic interactionism focus?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 23,
+        "evidence": "Symbolic Interactionism Micro One-to-one interactions and communications"
+      }
+    ],
+    "results": [
+      {
+        "id": "67142c473f874f5192e829d3808e23564b695ab9",
+        "rank": 1,
+        "score": 0.7135461568832397,
+        "page": 25,
+        "chapter": "1",
+        "hit": false,
+        "text": "Many social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.\n\nSymbolic Interactionist Theory Symbolic interactionism is a micro-level theory that focuses on the relationships among individuals within a society.\n\nCommunication—the exchange of meaning through language and symbols—is believed to be the way in which people Chapter 1 | An Introduction to Sociology 17"
+      },
+      {
+        "id": "0dc6c4d5ffd5b5422a70b2dd43c7783a41d5bb5d",
+        "rank": 2,
+        "score": 0.6800019145011902,
+        "page": 26,
+        "chapter": "1",
+        "hit": false,
+        "text": "make sense of their social worlds.\n\nTheorists Herman and Reynolds (1994) note that this perspective sees people as being active in shaping the social world rather than simply being acted upon.\n\nGeorge Herbert Mead (1863–1931) is considered a founder of symbolic interactionism though he never published his work on it (LaRossa and Reitzes 1993).\n\nMead’s student, Herbert Blumer, coined the term “symbolic interactionism” and outlined these basic premises: humans interact with things based on meanings ascribed to those things; the ascribed meaning of things comes from our interactions with others and society; the meanings of things are interpreted by a person when dealing with things in specific circumstances (Blumer 1969)."
+      },
+      {
+        "id": "5c6099c4ac0b86b096b7361ac59f83b0e178a57e",
+        "rank": 3,
+        "score": 0.6771367192268372,
+        "page": 26,
+        "chapter": "1",
+        "hit": false,
+        "text": "If you love books, for example, a symbolic interactionist might propose that you learned that books are good or important in the interactions you had with family, friends, school, or church; maybe your family had a special reading time each week, getting your library card was treated as a special event, or bedtime stories were associated with warmth and comfort.\n\nSocial scientists who apply symbolic-interactionist thinking look for patterns of interaction between individuals.\n\nTheir studies often involve observation of one-on-one interactions."
+      }
+    ],
+    "context": "[67142c473f874f5192e829d3808e23564b695ab9 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 25 | ch 1]\nMany social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.\n\nSymbolic Interactionist Theory Symbolic interactionism is a micro-level theory that focuses on the relationships among individuals within a society.\n\nCommunication—the exchange of meaning through language and symbols—is believed to be the way in which people Chapter 1 | An Introduction to Sociology 17",
+    "context_ids": [
+      "67142c473f874f5192e829d3808e23564b695ab9"
+    ],
+    "context_chars": 611,
+    "elapsed_ms": 7.337899995036423,
+    "hit1": false,
+    "hit3": false,
+    "reciprocal_rank": 0.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 1, what positive social effect did Georg Simmel think conflict could have?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 25,
+        "evidence": "believed that conflict can help integrate and stabilize a society."
+      }
+    ],
+    "results": [
+      {
+        "id": "262169dc6a2b3b29c30cc2da43a004f30bf2dca8",
+        "rank": 1,
+        "score": 0.6795861124992371,
+        "page": 25,
+        "chapter": "1",
+        "hit": true,
+        "text": "Making Connections: Sociology in the Real World education, race, and gender, and that people’s reactions to inequality were moderated by class differences and rates of social mobility, as well as by perceptions about the legitimacy of those in power.\n\nGerman sociologist Georg Simmel (1858–1918) believed that conflict can help integrate and stabilize a society.\n\nHe said that the intensity of the conflict varies depending on the emotional involvement of the parties, the degree of solidarity within the opposing groups, and the clarity and limited nature of the goals.\n\nSimmel also showed that groups work to create internal solidarity, centralize power, and reduce dissent.\n\nResolving conflicts can reduce tension and hostility and can pave the way for future agreements."
+      },
+      {
+        "id": "a86b2b2395aff79ee1c0eb3937685240e438743c",
+        "rank": 2,
+        "score": 0.6407940983772278,
+        "page": 20,
+        "chapter": "1",
+        "hit": false,
+        "text": "Simmel took an antipositivism stance and addressed topics such as social conflict, the function of money, individual identity in city life, and the European fear of outsiders (Stapley 2010).\n\nMuch of his work focused on the micro-level theories, and it analyzed the dynamics of two-person and three-person groups.\n\nHis work also emphasized individual culture as the creative capacities of individuals."
+      },
+      {
+        "id": "9a50486c05c7a2fa115632d5137e44677dbc4c9c",
+        "rank": 3,
+        "score": 0.5624092221260071,
+        "page": 24,
+        "chapter": "1",
+        "hit": false,
+        "text": "German sociologist Max Weber agreed with Marx but also believed that, in addition to economic inequalities, inequalities of political power and social structure cause conflict.\n\nWeber noted that different groups were affected differently based on 16 Chapter 1 | An Introduction to Sociology This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      }
+    ],
+    "context": "[a86b2b2395aff79ee1c0eb3937685240e438743c | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 20 | ch 1]\nSimmel took an antipositivism stance and addressed topics such as social conflict, the function of money, individual identity in city life, and the European fear of outsiders (Stapley 2010).\n\nMuch of his work focused on the micro-level theories, and it analyzed the dynamics of two-person and three-person groups.\n\nHis work also emphasized individual culture as the creative capacities of individuals.",
+    "context_ids": [
+      "a86b2b2395aff79ee1c0eb3937685240e438743c"
+    ],
+    "context_chars": 562,
+    "elapsed_ms": 7.279799989191815,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "In symbolic interactionism, where do the meanings people assign to things come from, and how are those meanings applied?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 26,
+        "evidence": "the ascribed meaning of things comes from our interactions with others and society; the meanings of things are interpreted by a person when dealing with things in specific circumstances"
+      }
+    ],
+    "results": [
+      {
+        "id": "67142c473f874f5192e829d3808e23564b695ab9",
+        "rank": 1,
+        "score": 0.7200296521186829,
+        "page": 25,
+        "chapter": "1",
+        "hit": false,
+        "text": "Many social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.\n\nSymbolic Interactionist Theory Symbolic interactionism is a micro-level theory that focuses on the relationships among individuals within a society.\n\nCommunication—the exchange of meaning through language and symbols—is believed to be the way in which people Chapter 1 | An Introduction to Sociology 17"
+      },
+      {
+        "id": "e1bb08514bca73b638c39c3c2f03c660d494b9f9",
+        "rank": 2,
+        "score": 0.640140175819397,
+        "page": 26,
+        "chapter": "1",
+        "hit": false,
+        "text": "Studies that use the symbolic interactionist perspective are more likely to use qualitative research methods, such as indepth interviews or participant observation, because they seek to understand the symbolic worlds in which research subjects live.\n\nConstructivism is an extension of symbolic interaction theory which proposes that reality is what humans cognitively construct it to be.\n\nWe develop social constructs based on interactions with others, and those constructs that last over time are those that have meanings which are widely agreed-upon or generally accepted by most within the society.\n\nThis approach is often used to understand what’s defined as deviant within a society."
+      },
+      {
+        "id": "0dc6c4d5ffd5b5422a70b2dd43c7783a41d5bb5d",
+        "rank": 3,
+        "score": 0.6306776404380798,
+        "page": 26,
+        "chapter": "1",
+        "hit": true,
+        "text": "make sense of their social worlds.\n\nTheorists Herman and Reynolds (1994) note that this perspective sees people as being active in shaping the social world rather than simply being acted upon.\n\nGeorge Herbert Mead (1863–1931) is considered a founder of symbolic interactionism though he never published his work on it (LaRossa and Reitzes 1993).\n\nMead’s student, Herbert Blumer, coined the term “symbolic interactionism” and outlined these basic premises: humans interact with things based on meanings ascribed to those things; the ascribed meaning of things comes from our interactions with others and society; the meanings of things are interpreted by a person when dealing with things in specific circumstances (Blumer 1969)."
+      }
+    ],
+    "context": "[67142c473f874f5192e829d3808e23564b695ab9 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 25 | ch 1]\nMany social structures are extremely stable or have gradually progressed over time rather than changing abruptly as conflict theory would suggest.\n\nSymbolic Interactionist Theory Symbolic interactionism is a micro-level theory that focuses on the relationships among individuals within a society.\n\nCommunication—the exchange of meaning through language and symbols—is believed to be the way in which people Chapter 1 | An Introduction to Sociology 17",
+    "context_ids": [
+      "67142c473f874f5192e829d3808e23564b695ab9"
+    ],
+    "context_chars": 611,
+    "elapsed_ms": 7.62580000446178,
+    "hit1": false,
+    "hit3": true,
+    "reciprocal_rank": 0.3333333333333333,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "type": "application",
+    "question": "Name one data-analysis skill sociology can prepare a graduate to use in the workplace.",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 28,
+        "evidence": "the ability to collect, read, and analyze statistical information from polls or surveys"
+      }
+    ],
+    "results": [
+      {
+        "id": "17310f87634f36c59a12f6a64befeae56525a907",
+        "rank": 1,
+        "score": 0.6747787594795227,
+        "page": 28,
+        "chapter": "1",
+        "hit": true,
+        "text": "Making Connections: Sociology in the Real World Studying sociology can provide people with this wide knowledge and a skill set that can contribute to many workplaces, including • an understanding of social systems and large bureaucracies; • the ability to devise and carry out research projects to assess whether a program or policy is working; • the ability to collect, read, and analyze statistical information from polls or surveys; • the ability to recognize important differences in people’s social, cultural, and economic backgrounds; • skills in preparing reports and communicating complex ideas; and • the capacity for critical thinking about social issues and problems that confront modern society. (Department of Sociology, University of Alabama) Sociology prepares people for a wide"
+      },
+      {
+        "id": "1dd810363823fa2b0552dbccafe90ea8a2bed97d",
+        "rank": 2,
+        "score": 0.6682989597320557,
+        "page": 27,
+        "chapter": "1",
+        "hit": false,
+        "text": "This prepares them to live and work in an increasingly diverse and integrated world.\n\nSociology in the Workplace Employers continue to seek people with what are called “transferable skills.” This means that they want to hire people whose knowledge and education can be applied in a variety of settings and whose skills will contribute to various tasks.\n\nChapter 1 | An Introduction to Sociology 19"
+      },
+      {
+        "id": "3d58fce3b69ee1add37f4dc26a80e883e0671dde",
+        "rank": 3,
+        "score": 0.5463643670082092,
+        "page": 38,
+        "chapter": "2",
+        "hit": false,
+        "text": "Learning Objectives 2.1.\n\nApproaches to Sociological Research • Define and describe the scientific method • Explain how the scientific method is used in sociological research • Understand the function and importance of an interpretive framework • Define what reliability and validity mean in a research study 2.2.\n\nResearch Methods • Differentiate between four kinds of research methods: surveys, field research, experiments, and secondary data analysis • Understand why different topics are better suited to different research approaches 2.3."
+      }
+    ],
+    "context": "[1dd810363823fa2b0552dbccafe90ea8a2bed97d | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 27 | ch 1]\nThis prepares them to live and work in an increasingly diverse and integrated world.\n\nSociology in the Workplace Employers continue to seek people with what are called “transferable skills.” This means that they want to hire people whose knowledge and education can be applied in a variety of settings and whose skills will contribute to various tasks.\n\nChapter 1 | An Introduction to Sociology 19",
+    "context_ids": [
+      "1dd810363823fa2b0552dbccafe90ea8a2bed97d"
+    ],
+    "context_chars": 558,
+    "elapsed_ms": 6.8069999979343265,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which four research methods does Chapter 2 distinguish?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 38,
+        "evidence": "Differentiate between four kinds of research methods: surveys, field research, experiments, and secondary data analysis"
+      }
+    ],
+    "results": [
+      {
+        "id": "4eaec56c4120f7eefc49c4cf167b4ead5474082f",
+        "rank": 1,
+        "score": 0.5770285129547119,
+        "page": 41,
+        "chapter": "2",
+        "hit": false,
+        "text": "This type of researcher also learns as he or she proceeds and sometimes adjusts the research methods or processes midway to optimize findings as they evolve.\n\n2.2 Research Methods Sociologists examine the world, see a problem or interesting pattern, and set out to study it.\n\nThey use research methods to design a study—perhaps a detailed, systematic, scientific method for conducting research and obtaining data, or perhaps Chapter 2 | Sociological Research 33"
+      },
+      {
+        "id": "3d58fce3b69ee1add37f4dc26a80e883e0671dde",
+        "rank": 2,
+        "score": 0.5708340406417847,
+        "page": 38,
+        "chapter": "2",
+        "hit": true,
+        "text": "Learning Objectives 2.1.\n\nApproaches to Sociological Research • Define and describe the scientific method • Explain how the scientific method is used in sociological research • Understand the function and importance of an interpretive framework • Define what reliability and validity mean in a research study 2.2.\n\nResearch Methods • Differentiate between four kinds of research methods: surveys, field research, experiments, and secondary data analysis • Understand why different topics are better suited to different research approaches 2.3."
+      },
+      {
+        "id": "5a931e34f6d72a5da0ff4069a3e0d50d12f9f97e",
+        "rank": 3,
+        "score": 0.5674790143966675,
+        "page": 53,
+        "chapter": "2",
+        "hit": false,
+        "text": "Prior to conducting a study, researchers are careful to apply operational definitions to their terms and to establish dependent and independent variables.\n\n2.2 Research Methods Sociological research is a fairly complex process.\n\nAs you can see, a lot goes into even a simple research design.\n\nThere are many steps and much to consider when collecting data on human behavior, as well as in interpreting and analyzing data in order to form conclusive results.\n\nSociologists use scientific methods for good reason.\n\nThe scientific method provides a system of organization that helps researchers plan and conduct the study while ensuring that data and results are reliable, valid, and objective."
+      }
+    ],
+    "context": "[4eaec56c4120f7eefc49c4cf167b4ead5474082f | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 41 | ch 2]\nThis type of researcher also learns as he or she proceeds and sometimes adjusts the research methods or processes midway to optimize findings as they evolve.\n\n2.2 Research Methods Sociologists examine the world, see a problem or interesting pattern, and set out to study it.\n\nThey use research methods to design a study—perhaps a detailed, systematic, scientific method for conducting research and obtaining data, or perhaps Chapter 2 | Sociological Research 33",
+    "context_ids": [
+      "4eaec56c4120f7eefc49c4cf167b4ead5474082f"
+    ],
+    "context_chars": 622,
+    "elapsed_ms": 6.402400002116337,
+    "hit1": false,
+    "hit3": true,
+    "reciprocal_rank": 0.5,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "type": "purpose",
+    "question": "What does the scientific method help ensure when studying a social problem?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 40,
+        "evidence": "The scientific method provides a systematic, organized series of steps that help ensure objectivity and consistency in exploring a social problem."
+      }
+    ],
+    "results": [
+      {
+        "id": "71c568257356917c2ac39c352db97740f32d955e",
+        "rank": 1,
+        "score": 0.6760399341583252,
+        "page": 40,
+        "chapter": "2",
+        "hit": true,
+        "text": "Sociologists can use the scientific method not only to collect but also to interpret and analyze the data.\n\nThey deliberately apply scientific logic and objectivity.\n\nThey are interested in—but not attached to—the results.\n\nThey work outside of their own political or social agendas.\n\nThis doesn’t mean researchers do not have their own personalities, complete with preferences and opinions.\n\nBut sociologists deliberately use the scientific method to maintain as much objectivity, focus, and consistency as possible in a particular study.\n\nWith its systematic approach, the scientific method has proven useful in shaping sociological studies.\n\nThe scientific method provides a systematic, organized series of steps that help ensure objectivity and consistency in exploring a social problem."
+      },
+      {
+        "id": "5b88fde32d5e9e9b21962c9a177a1f2fbab57121",
+        "rank": 2,
+        "score": 0.6636902689933777,
+        "page": 39,
+        "chapter": "2",
+        "hit": false,
+        "text": "It involves a series of prescribed steps that have been established over centuries of scholarship.\n\nFigure 2.2 The scientific method is an essential tool in research.\n\nBut just because sociological studies use scientific methods does not make the results less human.\n\nSociological topics are not reduced to right or wrong facts.\n\nIn this field, results of studies tend to provide people with access to knowledge they did not have before—knowledge of other cultures, knowledge of rituals and beliefs, or knowledge of trends and attitudes.\n\nNo matter what research approach they use, researchers want to maximize the study’s reliability, which refers to how likely research results are to be replicated if the study is reproduced."
+      },
+      {
+        "id": "f6bb4e84d5cf4834c2c64054664256d077467ceb",
+        "rank": 3,
+        "score": 0.6477419137954712,
+        "page": 40,
+        "chapter": "2",
+        "hit": false,
+        "text": "They provide the means for accuracy, reliability, and validity.\n\nIn the end, the scientific method provides a shared basis for discussion and analysis (Merton 1963).\n\nTypically, the scientific method starts with these steps—1) ask a question, 2) research existing sources, 3) formulate a hypothesis—described below.\n\nAsk a Question The first step of the scientific method is to ask a question, describe a problem, and identify the specific area of interest.\n\nThe topic should be narrow enough to study within a geography and time frame. “Are societies capable of sustained happiness?” would be too vague.\n\nThe question should also be broad enough to have universal merit. “What do personal hygiene habits reveal about the values of students at XYZ High School?” would be too narrow."
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 6.135800009360537,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "type": "method_tradeoff",
+    "question": "What can a survey reveal especially well, and what does it capture less well?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 43,
+        "evidence": "While surveys are not great at capturing the ways people really behave in social situations, they are a great method for discovering how people feel and think"
+      }
+    ],
+    "results": [
+      {
+        "id": "c446a65bd7dad8ab95b871f1f88041eb9b132541",
+        "rank": 1,
+        "score": 0.6367601156234741,
+        "page": 42,
+        "chapter": "2",
+        "hit": false,
+        "text": "The standard survey format allows individuals a level of anonymity in which they can express personal ideas.\n\nFigure 2.3 Questionnaires are a common research method; the U.S.\n\nCensus is a well-known example. (Photo courtesy of Kathryn Decker/flickr) At some point, most people in the United States respond to some type of survey.\n\nThe U.S.\n\nCensus is an excellent example of a large-scale survey intended to gather sociological data.\n\nNot all surveys are considered sociological research, however, and many surveys people commonly encounter focus on identifying marketing needs and strategies rather than testing a hypothesis or contributing to social science knowledge."
+      },
+      {
+        "id": "809c2a6d3488cac41210e3aaa77daa9c04c04099",
+        "rank": 2,
+        "score": 0.6124953031539917,
+        "page": 43,
+        "chapter": "2",
+        "hit": true,
+        "text": "Figure 2.4 American Idol uses a real-time survey system—with numbers—that allows members in the audience to vote on contestants. (Photo courtesy of Sam Howzit/flickr) Sociologists conduct surveys under controlled conditions for specific purposes.\n\nSurveys gather different types of information from people.\n\nWhile surveys are not great at capturing the ways people really behave in social situations, they are a great method for discovering how people feel and think—or at least how they say they feel and think.\n\nSurveys can track preferences for presidential candidates or reported individual behaviors (such as sleeping, driving, or texting habits) or factual information such as employment status, income, and education levels."
+      },
+      {
+        "id": "df2c0bc376f5927659aa9fc0e42ebee75a7f8e8d",
+        "rank": 3,
+        "score": 0.5811593532562256,
+        "page": 43,
+        "chapter": "2",
+        "hit": false,
+        "text": "For instance, a Gallup Poll, if conducted as a nationwide random sampling, should be able to provide an accurate estimate of public opinion whether it contacts 2,000 or 10,000 people.\n\nAfter selecting subjects, the researcher develops a specific plan to ask questions and record responses.\n\nIt is important to inform subjects of the nature and purpose of the study up front.\n\nIf they agree to participate, researchers thank subjects and offer them a chance to see the results of the study if they are interested.\n\nThe researcher presents the subjects with an instrument, which is a means of gathering the information.\n\nA common instrument is a questionnaire, in which subjects answer a series of questions."
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 6.957300007343292,
+    "hit1": false,
+    "hit3": true,
+    "reciprocal_rank": 0.5,
+    "context_hit": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "type": "definition",
+    "question": "What is a case study in sociological research?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 49,
+        "evidence": "A case study is an in-depth analysis of a single event, situation, or individual."
+      }
+    ],
+    "results": [
+      {
+        "id": "05738b9bcc64321c07d9865be8860d0050c9bfc7",
+        "rank": 1,
+        "score": 0.7636258602142334,
+        "page": 49,
+        "chapter": "2",
+        "hit": true,
+        "text": "the sociological methods and the use of scientific data to define ordinary people in the United States.\n\nThe book was proof that social data was important—and interesting—to the U.S. public.\n\nFigure 2.9 A classroom in Muncie, Indiana, in 1917, five years before John and Helen Lynd began researching this “typical” U.S. community. (Photo courtesy of Don O’Brien/flickr) Case Study Sometimes a researcher wants to study one specific person or event.\n\nA case study is an in-depth analysis of a single event, situation, or individual.\n\nTo conduct a case study, a researcher examines existing sources like documents and archival records, conducts interviews, engages in direct observation and even participant observation, if possible."
+      },
+      {
+        "id": "1fb72556111b77e6bfc88e2c58d76298d91b537f",
+        "rank": 2,
+        "score": 0.6982999444007874,
+        "page": 49,
+        "chapter": "2",
+        "hit": false,
+        "text": "Researchers might use this method to study a single case of, for example, a foster child, drug lord, cancer patient, criminal, or rape victim.\n\nHowever, a major criticism of the case study as a method is that a developed study of a single case, while offering depth on a topic, does not provide enough evidence to form a generalized conclusion.\n\nIn other words, it is difficult to make universal claims based on just one person, since one person does not verify a pattern.\n\nThis is why most sociologists do not use case studies as a primary research method.\n\nHowever, case studies are useful when the single case is unique.\n\nIn these instances, a single case study can add tremendous knowledge to a certain discipline."
+      },
+      {
+        "id": "fc85351067ff7d675c1d0602be265037da25ed2e",
+        "rank": 3,
+        "score": 0.6179494857788086,
+        "page": 49,
+        "chapter": "2",
+        "hit": false,
+        "text": "For example, a feral child, also called “wild child,” is one who grows up isolated from human beings.\n\nFeral children grow up without social contact and language, which are elements crucial to a “civilized” child’s development.\n\nThese children mimic the behaviors and movements of animals, and often invent their own language.\n\nThere are only about one hundred cases of “feral children” in the world.\n\nAs you may imagine, a feral child is a subject of great interest to researchers.\n\nFeral children provide unique information about child development because they have grown up outside of the parameters of “normal” child development.\n\nAnd since there are very few feral children, the case study is the most appropriate method for researchers to use in studying the subject."
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 6.167299987282604,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "type": "application",
+    "question": "What did the research by Kenneth and Mamie Clark show about school segregation, and how did the Court use that finding?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 27,
+        "evidence": "Their research showed that segregation was harmful to young black schoolchildren, and the Court found that harm to be unconstitutional."
+      }
+    ],
+    "results": [
+      {
+        "id": "da1d5746c11f9b9a84ee86709086f7b54287fb18",
+        "rank": 1,
+        "score": 0.7419100999832153,
+        "page": 27,
+        "chapter": "1",
+        "hit": true,
+        "text": "Supreme Court had overturned twenty-one state laws that allowed blacks and whites to be taught in separate school systems as long as the school systems were “equal.” One of the major factors influencing that decision was research conducted by the husband-and-wife team of sociologists, Kenneth and Mamie Clark.\n\nTheir research showed that segregation was harmful to young black schoolchildren, and the Court found that harm to be unconstitutional.\n\nSince it was first founded, many people interested in sociology have been driven by the scholarly desire to contribute knowledge to this field, while others have seen it as way not only to study society but also to improve it."
+      },
+      {
+        "id": "2e730fefade828387bb7e15079bec0ea95715d67",
+        "rank": 2,
+        "score": 0.7374763488769531,
+        "page": 27,
+        "chapter": "1",
+        "hit": false,
+        "text": "1.4 Why Study Sociology?\n\nFigure 1.9 The research of sociologists Kenneth and Mamie Clark helped the Supreme Court decide to end “separate but equal” racial segregation in schools in the United States. (Photo courtesy of public domain) When Elizabeth Eckford tried to enter Central High School in Little Rock, Arkansas, in September 1957, she was met by an angry crowd.\n\nBut she knew she had the law on her side.\n\nThree years earlier in the landmark Brown vs. the Board of Education case, the U.S."
+      },
+      {
+        "id": "cff973ec35e79a064da4f78e096b348e8e257d67",
+        "rank": 3,
+        "score": 0.512115478515625,
+        "page": 50,
+        "chapter": "2",
+        "hit": false,
+        "text": "This issue of racial profiling remains a hot-button topic today. (Photo courtesy of dwightsghost/flickr) A real-life example will help illustrate the experiment process.\n\nIn 1971, Frances Heussenstamm, a sociology professor at California State University at Los Angeles, had a theory about police prejudice.\n\nTo test her theory she conducted an experiment.\n\nShe chose fifteen students from three ethnic backgrounds: black, white, and Hispanic.\n\nShe chose students who routinely drove to and from campus along Los Angeles freeway routes, and who’d had perfect driving records for longer than a year.\n\nThose were her independent variables—students, good driving records, same commute route.\n\nNext, she placed a Black Panther bumper sticker on each car."
+      }
+    ],
+    "context": "[2e730fefade828387bb7e15079bec0ea95715d67 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 27 | ch 1]\n1.4 Why Study Sociology?\n\nFigure 1.9 The research of sociologists Kenneth and Mamie Clark helped the Supreme Court decide to end “separate but equal” racial segregation in schools in the United States. (Photo courtesy of public domain) When Elizabeth Eckford tried to enter Central High School in Little Rock, Arkansas, in September 1957, she was met by an angry crowd.\n\nBut she knew she had the law on her side.\n\nThree years earlier in the landmark Brown vs. the Board of Education case, the U.S.",
+    "context_ids": [
+      "2e730fefade828387bb7e15079bec0ea95715d67"
+    ],
+    "context_chars": 658,
+    "elapsed_ms": 7.30719999410212,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 2's affordable-housing example, which variable is independent and which is dependent?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 41,
+        "evidence": "Typically, the independent variable causes the dependent variable to change in some way.\n\nHypothesis IndependentVariable DependentVariable The greater the availability of affordable housing, the lower the homeless rate.\n\nAffordable Housing Homeless Rate"
+      }
+    ],
+    "results": [
+      {
+        "id": "a31d18cc641aacf8201809b32d8b5f49f79838ab",
+        "rank": 1,
+        "score": 0.6227981448173523,
+        "page": 41,
+        "chapter": "2",
+        "hit": true,
+        "text": "Table 2.1 Examples of Dependent and Independent Variables Typically, the independent variable causes the dependent variable to change in some way.\n\nHypothesis IndependentVariable DependentVariable The greater the availability of affordable housing, the lower the homeless rate.\n\nAffordable Housing Homeless Rate The greater the availability of math tutoring, the higher the math grades.\n\nMath Tutoring Math Grades The greater the police patrol presence, the safer the neighborhood.\n\nPolice Patrol Presence Safer Neighborhood The greater the factory lighting, the higher the productivity.\n\nFactory Lighting Productivity The greater the amount of observation, the higher the public awareness.\n\nObservation Public Awareness At this point, a researcher’s operational definitions help measure the variables."
+      },
+      {
+        "id": "89c26722cef0d6e29a86fdb762e33d8469520504",
+        "rank": 2,
+        "score": 0.4731004238128662,
+        "page": 40,
+        "chapter": "2",
+        "hit": false,
+        "text": "The dependent variable is the effect, or thing that is changed.\n\nFor example, in a basic study, the researcher would establish one form of human behavior as the independent variable and observe the influence it has on a dependent variable.\n\nHow does gender (the independent variable) affect rate of income (the dependent variable)?\n\nHow does one’s religion (the independent variable) affect family size (the dependent variable)?\n\nHow is social class (the dependent variable) affected by level of education (the independent variable)?\n\n32 Chapter 2 | Sociological Research This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      },
+      {
+        "id": "5dbc0ba0995299343f8b14e2d456528c06bd0153",
+        "rank": 3,
+        "score": 0.466278076171875,
+        "page": 41,
+        "chapter": "2",
+        "hit": false,
+        "text": "In a study asking how tutoring improves grades, for instance, one researcher might define a “good” grade as a C or better, while another uses a B+ as a starting point for “good.” Another operational definition might describe “tutoring” as “one-on-one assistance by an expert in the field, hired by an educational institution.” Those definitions set limits and establish cut-off points that ensure consistency and replicability in a study.\n\nAs the table shows, an independent variable is the one that causes a dependent variable to change.\n\nFor example, a researcher might hypothesize that teaching children proper hygiene (the independent variable) will boost their sense of self-esteem (the dependent variable)."
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 7.070499996189028,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "type": "condition",
+    "question": "In Chapter 2, what is the Hawthorne effect, and what causes it?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 42,
+        "evidence": "where people change their behavior because they know they are being watched as part of a study."
+      }
+    ],
+    "results": [
+      {
+        "id": "9b05e1acd11d4f416e9a56b415fd5f86c4c78d55",
+        "rank": 1,
+        "score": 0.3973010778427124,
+        "page": 42,
+        "chapter": "2",
+        "hit": true,
+        "text": "This is called the Hawthorne effect—where people change their behavior because they know they are being watched as part of a study.\n\nThe Hawthorne effect is unavoidable in some research.\n\nIn many cases, sociologists have to make the purpose of the study known.\n\nSubjects must be aware that they are being observed, and a certain amount of artificiality may result (Sonnenfeld 1985).\n\nMaking sociologists’ presence invisible is not always realistic for other reasons.\n\nThat option is not available to a researcher studying prison behaviors, early education, or the Ku Klux Klan.\n\nResearchers can’t just stroll into prisons, kindergarten classrooms, or Klan meetings and unobtrusively observe behaviors.\n\nIn situations like these, other methods are needed."
+      },
+      {
+        "id": "1c7b4b57135ff6b8fae8e95b741abd8e6e6c44c3",
+        "rank": 2,
+        "score": 0.27510321140289307,
+        "page": 23,
+        "chapter": "1",
+        "hit": false,
+        "text": "Social processes that have undesirable consequences for the operation of society are called dysfunctions.\n\nIn education, examples of dysfunction include getting bad grades, truancy, dropping out, not graduating, and not finding suitable employment.\n\nCriticism One criticism of the structural-functional theory is that it can’t adequately explain social change.\n\nAlso problematic is the somewhat circular nature of this theory; repetitive behavior patterns are assumed to have a function, yet we profess to know that they have a function only because they are repeated.\n\nFurthermore, dysfunctions may continue, even though they don’t serve a function, which seemingly contradicts the basic premise of the theory."
+      },
+      {
+        "id": "54139b55dc33866ba99c8eb43062f99adda69966",
+        "rank": 3,
+        "score": 0.2697921395301819,
+        "page": 21,
+        "chapter": "1",
+        "hit": false,
+        "text": "Making Connections: Social Policy & Debate In 1897, Durkheim attempted to demonstrate the effectiveness of his rules of social research when he published a work titled Suicide.\n\nDurkheim examined suicide statistics in different police districts to research differences between Catholic and Protestant communities.\n\nHe attributed the differences to socioreligious forces rather than to individual or psychological causes.\n\nGeorge Herbert Mead (1863–1931) George Herbert Mead was a philosopher and sociologist whose work focused on the ways in which the mind and the self were developed as a result of social processes (Cronk n.d.).\n\nHe argued that how an individual comes to view himself or herself is based to a very large extent on interactions with others."
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 6.239799986360595,
+    "hit1": true,
+    "hit3": true,
+    "reciprocal_rank": 1.0,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter 2, what distinguishes field research from a lab experiment or survey?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 44,
+        "evidence": "Field research refers to gathering primary data from a natural environment without doing a lab experiment or a survey."
+      }
+    ],
+    "results": [
+      {
+        "id": "f604db194f69089ab2b1a80109ffd69f5f019a9b",
+        "rank": 1,
+        "score": 0.6193438172340393,
+        "page": 52,
+        "chapter": "2",
+        "hit": false,
+        "text": "lab experiment or a survey when study subjects behave in a certain manner due to their awareness of being observed by a researcher a testable educated guess about predicted outcomes between two or more variables variables that cause changes in dependent variables a sociological research approach that seeks in-depth understanding of a topic or subject through observation or interaction; this approach is not based on hypothesis testing a one-on-one conversation between the researcher and the subject a scholarly research step that entails identifying and studying all existing studies on a topic to create a basis for new research a technique in which the results of virtually all previous studies on a specific subject are evaluated together 44 Chapter 2 | Sociological Research This OpenStax"
+      },
+      {
+        "id": "8c6f7260f756722e089927bc6328524af18691b9",
+        "rank": 2,
+        "score": 0.5838462114334106,
+        "page": 44,
+        "chapter": "2",
+        "hit": true,
+        "text": "not an interrogation.\n\nThe researcher will benefit from gaining a subject’s trust, from empathizing or commiserating with a subject, and from listening without judgment.\n\nField Research The work of sociology rarely happens in limited, confined spaces.\n\nSociologists seldom study subjects in their own offices or laboratories.\n\nRather, sociologists go out into the world.\n\nThey meet subjects where they live, work, and play.\n\nField research refers to gathering primary data from a natural environment without doing a lab experiment or a survey.\n\nIt is a research method suited to an interpretive framework rather than to the scientific method.\n\nTo conduct field research, the sociologist must be willing to step into new environments and observe, participate, or experience those worlds."
+      },
+      {
+        "id": "8482ca8782f32e00a05e8de8d32d8973f422768d",
+        "rank": 3,
+        "score": 0.5825623273849487,
+        "page": 44,
+        "chapter": "2",
+        "hit": false,
+        "text": "In field work, the sociologists, rather than the subjects, are the ones out of their element.\n\nThe researcher interacts with or observes a person or people and gathers data along the way.\n\nThe key point in field research is that it takes place in the subject’s natural environment, whether it’s a coffee shop or tribal village, a homeless shelter or the DMV , a hospital, airport, mall, or beach resort.\n\nFigure 2.5 Sociological researchers travel across countries and cultures to interact with and observe subjects in their natural environments. (Photo courtesy of IMLS Digital Collections and Content/flickr and Olympic National Park) While field research often begins in a specific setting, the study’s purpose is to observe specific behaviors in that setting."
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 6.891400000313297,
+    "hit1": false,
+    "hit3": true,
+    "reciprocal_rank": 0.5,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "split": "dev",
+    "type": "comparison",
+    "question": "In a controlled experiment, how does exposure to the independent variable differ between the experimental and control groups?",
+    "filter_used": null,
+    "config_id": "method3_dense",
+    "strategy": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 800,
+    "expand_neighbors": false,
+    "gold": [
+      {
+        "source_id": "openstax-introduction-to-sociology-2e",
+        "page": 50,
+        "evidence": "The experimental group is exposed to the independent variable(s) and the control group is not."
+      }
+    ],
+    "results": [
+      {
+        "id": "a821efe1aa6f158f30352b125d7efa62f178fc94",
+        "rank": 1,
+        "score": 0.49179309606552124,
+        "page": 49,
+        "chapter": "2",
+        "hit": false,
+        "text": "In a natural or fieldbased experiment, the generation of data cannot be controlled but the information might be considered more accurate since it was collected without interference or intervention by the researcher.\n\nChapter 2 | Sociological Research 41"
+      },
+      {
+        "id": "753298eb017d16acbcc4ed8a7d4fd1028166cfaa",
+        "rank": 2,
+        "score": 0.4657641649246216,
+        "page": 50,
+        "chapter": "2",
+        "hit": true,
+        "text": "Making Connections: Sociological Research As a research method, either type of sociological experiment is useful for testing if-then statements: if a particular thing happens, then another particular thing will result.\n\nTo set up a lab-based experiment, sociologists create artificial situations that allow them to manipulate variables.\n\nClassically, the sociologist selects a set of people with similar characteristics, such as age, class, race, or education.\n\nThose people are divided into two groups.\n\nOne is the experimental group and the other is the control group.\n\nThe experimental group is exposed to the independent variable(s) and the control group is not."
+      },
+      {
+        "id": "89c26722cef0d6e29a86fdb762e33d8469520504",
+        "rank": 3,
+        "score": 0.43069159984588623,
+        "page": 40,
+        "chapter": "2",
+        "hit": false,
+        "text": "The dependent variable is the effect, or thing that is changed.\n\nFor example, in a basic study, the researcher would establish one form of human behavior as the independent variable and observe the influence it has on a dependent variable.\n\nHow does gender (the independent variable) affect rate of income (the dependent variable)?\n\nHow does one’s religion (the independent variable) affect family size (the dependent variable)?\n\nHow is social class (the dependent variable) affected by level of education (the independent variable)?\n\n32 Chapter 2 | Sociological Research This OpenStax book is available for free at http://cnx.org/content/col11762/1.6"
+      }
+    ],
+    "context": "[a821efe1aa6f158f30352b125d7efa62f178fc94 | https://assets.openstax.org/oscms-prodcms/media/documents/IntroductionToSociology2e-OP_tbTLqMj.pdf | page 49 | ch 2]\nIn a natural or fieldbased experiment, the generation of data cannot be controlled but the information might be considered more accurate since it was collected without interference or intervention by the researcher.\n\nChapter 2 | Sociological Research 41",
+    "context_ids": [
+      "a821efe1aa6f158f30352b125d7efa62f178fc94"
+    ],
+    "context_chars": 414,
+    "elapsed_ms": 7.20799999544397,
+    "hit1": false,
+    "hit3": true,
+    "reciprocal_rank": 0.5,
+    "context_hit": false
+  }
+]
